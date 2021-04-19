@@ -1,0 +1,746 @@
+--------- beginning of main
+--------- beginning of system
+04-19 10:22:36.628 23794 23820 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+04-19 10:22:36.657 23794 23820 I Unity   : SystemInfo CPU = ARM64 FP ASIMD AES, Cores = 8, Memory = 3679mb
+04-19 10:22:36.657 23794 23820 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf0), 4 little (mask: 0xf)
+04-19 10:22:36.658 23794 23820 I Unity   : ApplicationInfo com.DefaultCompany.Linedraw version 0.1 build e37bee2b-b548-46ee-ae1d-7c7975fee193
+04-19 10:22:36.658 23794 23820 I Unity   : Built from '2019.4/release' branch, Version '2019.4.20f1 (6dd1c08eedfa)', Build type 'Release', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Enabled'
+04-19 10:22:36.872 23794 23820 D Unity   :  GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_texture_compression_astc_sliced_3d GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_
+04-19 10:22:36.872 23794 23820 D Unity   : to_texture GL_EXT_multisampled_render_to_texture2 GL_OES_surfaceless_context GL_OES_texture_stencil8 GL_EXT_shader_pixel_local_storage GL_ARM_shader_framebuffer_fetch GL_ARM_shader_framebuffer_fetch_depth_stencil GL_ARM_mali_program_binary GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_texture_sRGB_decode GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OES_texture_storage_multisample_2d_array GL_OES_shader_image_atomic GL_EXT_robustness GL_EXT_draw_buffers_indexed GL_OES_draw_buffers_indexed GL_EXT_texture_border_clamp GL_OES_texture_border_clamp GL_EXT_texture_cube_map_array GL_OES_texture_cube_map_array GL_OES_sample_variables GL_OES_sample_shading GL_OES_shader_multisample_interpolation GL_EXT_shader_io_blocks GL_OES_shader_io_blocks GL_EXT_tessellation_shader GL_OES_tessellation_shader GL_EXT_primitive_bounding_box GL_OES_primitive_bounding_box GL_EXT_geometry_shader GL_OES_geometry_shader GL_ANDROID_extension_pack_es31a GL_EXT_gpu_sh
+04-19 10:22:36.872 23794 23820 D Unity   : ader5 GL_OES_gpu_shader5 GL_EXT_texture_buffer GL_OES_texture_buffer GL_EXT_copy_image GL_OES_copy_image GL_EXT_shader_non_constant_global_initializers GL_EXT_color_buffer_half_float GL_EXT_color_buffer_float GL_EXT_YUV_target GL_OVR_multiview GL_OVR_multiview2 GL_OVR_multiview_multisampled_render_to_texture GL_KHR_robustness GL_KHR_robust_buffer_access_behavior GL_EXT_draw_elements_base_vertex GL_OES_draw_elements_base_vertex GL_EXT_protected_textures GL_EXT_buffer_storage GL_EXT_external_buffer GL_EXT_EGL_image_array
+04-19 10:22:36.987 23794 23820 I Unity   : XRGeneral Settings awakening...
+04-19 10:22:36.987 23794 23820 I Unity   : UnityEngine.XR.Management.XRGeneralSettings:Awake()
+04-19 10:22:36.987 23794 23820 I Unity   :  
+04-19 10:22:36.987 23794 23820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:22:36.987 23794 23820 I Unity   : 
+04-19 10:22:40.560 23794 23820 E Unity   : Unable to find _burst_generated
+04-19 10:37:44.556 25330 25367 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+04-19 10:37:44.589 25330 25367 I Unity   : SystemInfo CPU = ARM64 FP ASIMD AES, Cores = 8, Memory = 3679mb
+04-19 10:37:44.589 25330 25367 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf0), 4 little (mask: 0xf)
+04-19 10:37:44.590 25330 25367 I Unity   : ApplicationInfo com.DefaultCompany.Linedraw version 0.1 build cac73c80-428b-48d0-8dff-e739d2d34599
+04-19 10:37:44.590 25330 25367 I Unity   : Built from '2019.4/release' branch, Version '2019.4.20f1 (6dd1c08eedfa)', Build type 'Release', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Enabled'
+04-19 10:37:44.781 25330 25367 D Unity   :  GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_texture_compression_astc_sliced_3d GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_
+04-19 10:37:44.781 25330 25367 D Unity   : to_texture GL_EXT_multisampled_render_to_texture2 GL_OES_surfaceless_context GL_OES_texture_stencil8 GL_EXT_shader_pixel_local_storage GL_ARM_shader_framebuffer_fetch GL_ARM_shader_framebuffer_fetch_depth_stencil GL_ARM_mali_program_binary GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_texture_sRGB_decode GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OES_texture_storage_multisample_2d_array GL_OES_shader_image_atomic GL_EXT_robustness GL_EXT_draw_buffers_indexed GL_OES_draw_buffers_indexed GL_EXT_texture_border_clamp GL_OES_texture_border_clamp GL_EXT_texture_cube_map_array GL_OES_texture_cube_map_array GL_OES_sample_variables GL_OES_sample_shading GL_OES_shader_multisample_interpolation GL_EXT_shader_io_blocks GL_OES_shader_io_blocks GL_EXT_tessellation_shader GL_OES_tessellation_shader GL_EXT_primitive_bounding_box GL_OES_primitive_bounding_box GL_EXT_geometry_shader GL_OES_geometry_shader GL_ANDROID_extension_pack_es31a GL_EXT_gpu_sh
+04-19 10:37:44.781 25330 25367 D Unity   : ader5 GL_OES_gpu_shader5 GL_EXT_texture_buffer GL_OES_texture_buffer GL_EXT_copy_image GL_OES_copy_image GL_EXT_shader_non_constant_global_initializers GL_EXT_color_buffer_half_float GL_EXT_color_buffer_float GL_EXT_YUV_target GL_OVR_multiview GL_OVR_multiview2 GL_OVR_multiview_multisampled_render_to_texture GL_KHR_robustness GL_KHR_robust_buffer_access_behavior GL_EXT_draw_elements_base_vertex GL_OES_draw_elements_base_vertex GL_EXT_protected_textures GL_EXT_buffer_storage GL_EXT_external_buffer GL_EXT_EGL_image_array
+04-19 10:37:44.911 25330 25367 I Unity   : XRGeneral Settings awakening...
+04-19 10:37:44.911 25330 25367 I Unity   : UnityEngine.XR.Management.XRGeneralSettings:Awake()
+04-19 10:37:44.911 25330 25367 I Unity   :  
+04-19 10:37:44.911 25330 25367 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:37:44.911 25330 25367 I Unity   : 
+04-19 10:37:47.087 25330 25367 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-19 10:37:47.087 25330 25367 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:37:47.087 25330 25367 E Unity   :   at UnityEngine.Object.Internal_InstantiateSingle (UnityEngine.Object data, UnityEngine.Vector3 pos, UnityEngine.Quaternion rot) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:37:47.087 25330 25367 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:37:47.087 25330 25367 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:37:47.087 25330 25367 E Unity   :   at MakeCloudAnchor.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:37:47.087 25330 25367 E Unity   : UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+04-19 10:37:47.087 25330 25367 E Unity   : UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+04-19 10:37:47.087 25330 25367 E Unity   : UnityEngine.Object:Instantiate(T, Vector3, Quaternion)
+04-19 10:37:47.087 25330 25367 E Unity   : MakeCloudAnchor:A
+04-19 10:37:48.138 25330 25367 E Unity   : Unable to find _burst_generated
+04-19 10:59:24.682 28034 28053 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+04-19 10:59:24.700 28034 28053 I Unity   : SystemInfo CPU = ARM64 FP ASIMD AES, Cores = 8, Memory = 3679mb
+04-19 10:59:24.700 28034 28053 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf0), 4 little (mask: 0xf)
+04-19 10:59:24.700 28034 28053 I Unity   : ApplicationInfo com.DefaultCompany.Linedraw version 0.1 build 67a47410-978d-4c23-80c4-4057f2de09b8
+04-19 10:59:24.700 28034 28053 I Unity   : Built from '2019.4/release' branch, Version '2019.4.20f1 (6dd1c08eedfa)', Build type 'Release', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Enabled'
+04-19 10:59:24.864 28034 28053 D Unity   :  GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_texture_compression_astc_sliced_3d GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_
+04-19 10:59:24.864 28034 28053 D Unity   : to_texture GL_EXT_multisampled_render_to_texture2 GL_OES_surfaceless_context GL_OES_texture_stencil8 GL_EXT_shader_pixel_local_storage GL_ARM_shader_framebuffer_fetch GL_ARM_shader_framebuffer_fetch_depth_stencil GL_ARM_mali_program_binary GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_texture_sRGB_decode GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OES_texture_storage_multisample_2d_array GL_OES_shader_image_atomic GL_EXT_robustness GL_EXT_draw_buffers_indexed GL_OES_draw_buffers_indexed GL_EXT_texture_border_clamp GL_OES_texture_border_clamp GL_EXT_texture_cube_map_array GL_OES_texture_cube_map_array GL_OES_sample_variables GL_OES_sample_shading GL_OES_shader_multisample_interpolation GL_EXT_shader_io_blocks GL_OES_shader_io_blocks GL_EXT_tessellation_shader GL_OES_tessellation_shader GL_EXT_primitive_bounding_box GL_OES_primitive_bounding_box GL_EXT_geometry_shader GL_OES_geometry_shader GL_ANDROID_extension_pack_es31a GL_EXT_gpu_sh
+04-19 10:59:24.864 28034 28053 D Unity   : ader5 GL_OES_gpu_shader5 GL_EXT_texture_buffer GL_OES_texture_buffer GL_EXT_copy_image GL_OES_copy_image GL_EXT_shader_non_constant_global_initializers GL_EXT_color_buffer_half_float GL_EXT_color_buffer_float GL_EXT_YUV_target GL_OVR_multiview GL_OVR_multiview2 GL_OVR_multiview_multisampled_render_to_texture GL_KHR_robustness GL_KHR_robust_buffer_access_behavior GL_EXT_draw_elements_base_vertex GL_OES_draw_elements_base_vertex GL_EXT_protected_textures GL_EXT_buffer_storage GL_EXT_external_buffer GL_EXT_EGL_image_array
+04-19 10:59:24.980 28034 28053 I Unity   : XRGeneral Settings awakening...
+04-19 10:59:24.980 28034 28053 I Unity   : UnityEngine.XR.Management.XRGeneralSettings:Awake()
+04-19 10:59:24.980 28034 28053 I Unity   :  
+04-19 10:59:24.980 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:24.980 28034 28053 I Unity   : 
+04-19 10:59:27.129 28034 28053 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-19 10:59:27.129 28034 28053 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:27.129 28034 28053 E Unity   :   at UnityEngine.Object.Internal_InstantiateSingle (UnityEngine.Object data, UnityEngine.Vector3 pos, UnityEngine.Quaternion rot) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:27.129 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:27.129 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:27.129 28034 28053 E Unity   :   at MakeCloudAnchor.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:27.129 28034 28053 E Unity   : UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+04-19 10:59:27.129 28034 28053 E Unity   : UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+04-19 10:59:27.129 28034 28053 E Unity   : UnityEngine.Object:Instantiate(T, Vector3, Quaternion)
+04-19 10:59:27.129 28034 28053 E Unity   : MakeCloudAnchor:A
+04-19 10:59:28.084 28034 28053 E Unity   : Unable to find _burst_generated
+04-19 10:59:44.706 28034 28053 I Unity   : touch began
+04-19 10:59:44.706 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:44.706 28034 28053 I Unity   :  
+04-19 10:59:44.706 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:44.706 28034 28053 I Unity   : 
+04-19 10:59:44.707 28034 28053 I Unity   : before raycastcount :0
+04-19 10:59:44.707 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:44.707 28034 28053 I Unity   :  
+04-19 10:59:44.707 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:44.707 28034 28053 I Unity   : 
+04-19 10:59:44.718 28034 28053 I Unity   : after raycastcount :1
+04-19 10:59:44.718 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:44.718 28034 28053 I Unity   :  
+04-19 10:59:44.718 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:44.718 28034 28053 I Unity   : 
+04-19 10:59:44.764 28034 28053 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-19 10:59:44.764 28034 28053 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:44.764 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:44.764 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:44.764 28034 28053 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:44.764 28034 28053 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-19 10:59:44.764 28034 28053 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-19 10:59:44.764 28034 28053 E Unity   : MakeCloudAnchor:Update()
+04-19 10:59:44.764 28034 28053 E Unity   :  
+04-19 10:59:44.764 28034 28053 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-19 10:59:44.764 28034 28053 E Unity   : 
+04-19 10:59:44.767 28034 28053 I Unity   : make instance : Anchor(Clone)
+04-19 10:59:44.767 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:44.767 28034 28053 I Unity   :  
+04-19 10:59:44.767 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:44.767 28034 28053 I Unity   : 
+04-19 10:59:49.275 28034 28053 I Unity   : touch began
+04-19 10:59:49.275 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:49.275 28034 28053 I Unity   :  
+04-19 10:59:49.275 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:49.275 28034 28053 I Unity   : 
+04-19 10:59:49.276 28034 28053 I Unity   : before raycastcount :0
+04-19 10:59:49.276 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:49.276 28034 28053 I Unity   :  
+04-19 10:59:49.276 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:49.276 28034 28053 I Unity   : 
+04-19 10:59:49.277 28034 28053 I Unity   : after raycastcount :1
+04-19 10:59:49.277 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:49.277 28034 28053 I Unity   :  
+04-19 10:59:49.277 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:49.277 28034 28053 I Unity   : 
+04-19 10:59:49.286 28034 28053 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-19 10:59:49.286 28034 28053 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:49.286 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:49.286 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:49.286 28034 28053 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:49.286 28034 28053 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-19 10:59:49.286 28034 28053 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-19 10:59:49.286 28034 28053 E Unity   : MakeCloudAnchor:Update()
+04-19 10:59:49.286 28034 28053 E Unity   :  
+04-19 10:59:49.286 28034 28053 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-19 10:59:49.286 28034 28053 E Unity   : 
+04-19 10:59:49.287 28034 28053 I Unity   : make instance : Anchor(Clone)
+04-19 10:59:49.287 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:49.287 28034 28053 I Unity   :  
+04-19 10:59:49.287 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:49.287 28034 28053 I Unity   : 
+04-19 10:59:50.113 28034 28053 I Unity   : touch began
+04-19 10:59:50.113 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:50.113 28034 28053 I Unity   :  
+04-19 10:59:50.113 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:50.113 28034 28053 I Unity   : 
+04-19 10:59:50.114 28034 28053 I Unity   : before raycastcount :0
+04-19 10:59:50.114 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:50.114 28034 28053 I Unity   :  
+04-19 10:59:50.114 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:50.114 28034 28053 I Unity   : 
+04-19 10:59:50.115 28034 28053 I Unity   : after raycastcount :1
+04-19 10:59:50.115 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:50.115 28034 28053 I Unity   :  
+04-19 10:59:50.115 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:50.115 28034 28053 I Unity   : 
+04-19 10:59:50.124 28034 28053 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-19 10:59:50.124 28034 28053 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:50.124 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:50.124 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:50.124 28034 28053 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:50.124 28034 28053 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-19 10:59:50.124 28034 28053 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-19 10:59:50.124 28034 28053 E Unity   : MakeCloudAnchor:Update()
+04-19 10:59:50.124 28034 28053 E Unity   :  
+04-19 10:59:50.124 28034 28053 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-19 10:59:50.124 28034 28053 E Unity   : 
+04-19 10:59:50.125 28034 28053 I Unity   : make instance : Anchor(Clone)
+04-19 10:59:50.125 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:50.125 28034 28053 I Unity   :  
+04-19 10:59:50.125 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:50.125 28034 28053 I Unity   : 
+04-19 10:59:50.708 28034 28053 I Unity   : touch began
+04-19 10:59:50.708 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:50.708 28034 28053 I Unity   :  
+04-19 10:59:50.708 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:50.708 28034 28053 I Unity   : 
+04-19 10:59:50.709 28034 28053 I Unity   : before raycastcount :0
+04-19 10:59:50.709 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:50.709 28034 28053 I Unity   :  
+04-19 10:59:50.709 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:50.709 28034 28053 I Unity   : 
+04-19 10:59:50.710 28034 28053 I Unity   : after raycastcount :1
+04-19 10:59:50.710 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:50.710 28034 28053 I Unity   :  
+04-19 10:59:50.710 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:50.710 28034 28053 I Unity   : 
+04-19 10:59:50.718 28034 28053 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-19 10:59:50.718 28034 28053 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:50.718 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:50.718 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:50.718 28034 28053 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:50.718 28034 28053 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-19 10:59:50.718 28034 28053 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-19 10:59:50.718 28034 28053 E Unity   : MakeCloudAnchor:Update()
+04-19 10:59:50.718 28034 28053 E Unity   :  
+04-19 10:59:50.718 28034 28053 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-19 10:59:50.718 28034 28053 E Unity   : 
+04-19 10:59:50.719 28034 28053 I Unity   : make instance : Anchor(Clone)
+04-19 10:59:50.719 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:50.719 28034 28053 I Unity   :  
+04-19 10:59:50.719 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:50.719 28034 28053 I Unity   : 
+04-19 10:59:51.250 28034 28053 I Unity   : touch began
+04-19 10:59:51.250 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:51.250 28034 28053 I Unity   :  
+04-19 10:59:51.250 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:51.250 28034 28053 I Unity   : 
+04-19 10:59:51.251 28034 28053 I Unity   : before raycastcount :0
+04-19 10:59:51.251 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:51.251 28034 28053 I Unity   :  
+04-19 10:59:51.251 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:51.251 28034 28053 I Unity   : 
+04-19 10:59:51.252 28034 28053 I Unity   : after raycastcount :1
+04-19 10:59:51.252 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:51.252 28034 28053 I Unity   :  
+04-19 10:59:51.252 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:51.252 28034 28053 I Unity   : 
+04-19 10:59:51.260 28034 28053 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-19 10:59:51.260 28034 28053 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:51.260 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:51.260 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:51.260 28034 28053 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:51.260 28034 28053 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-19 10:59:51.260 28034 28053 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-19 10:59:51.260 28034 28053 E Unity   : MakeCloudAnchor:Update()
+04-19 10:59:51.260 28034 28053 E Unity   :  
+04-19 10:59:51.260 28034 28053 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-19 10:59:51.260 28034 28053 E Unity   : 
+04-19 10:59:51.261 28034 28053 I Unity   : make instance : Anchor(Clone)
+04-19 10:59:51.261 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:51.261 28034 28053 I Unity   :  
+04-19 10:59:51.261 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:51.261 28034 28053 I Unity   : 
+04-19 10:59:51.813 28034 28053 I Unity   : touch began
+04-19 10:59:51.813 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:51.813 28034 28053 I Unity   :  
+04-19 10:59:51.813 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:51.813 28034 28053 I Unity   : 
+04-19 10:59:51.814 28034 28053 I Unity   : before raycastcount :0
+04-19 10:59:51.814 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:51.814 28034 28053 I Unity   :  
+04-19 10:59:51.814 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:51.814 28034 28053 I Unity   : 
+04-19 10:59:51.815 28034 28053 I Unity   : after raycastcount :1
+04-19 10:59:51.815 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:51.815 28034 28053 I Unity   :  
+04-19 10:59:51.815 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:51.815 28034 28053 I Unity   : 
+04-19 10:59:51.826 28034 28053 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-19 10:59:51.826 28034 28053 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:51.826 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:51.826 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:51.826 28034 28053 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:51.826 28034 28053 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-19 10:59:51.826 28034 28053 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-19 10:59:51.826 28034 28053 E Unity   : MakeCloudAnchor:Update()
+04-19 10:59:51.826 28034 28053 E Unity   :  
+04-19 10:59:51.826 28034 28053 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-19 10:59:51.826 28034 28053 E Unity   : 
+04-19 10:59:51.826 28034 28053 I Unity   : make instance : Anchor(Clone)
+04-19 10:59:51.826 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:51.826 28034 28053 I Unity   :  
+04-19 10:59:51.826 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:51.826 28034 28053 I Unity   : 
+04-19 10:59:52.382 28034 28053 I Unity   : touch began
+04-19 10:59:52.382 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:52.382 28034 28053 I Unity   :  
+04-19 10:59:52.382 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:52.382 28034 28053 I Unity   : 
+04-19 10:59:52.386 28034 28053 I Unity   : before raycastcount :0
+04-19 10:59:52.386 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:52.386 28034 28053 I Unity   :  
+04-19 10:59:52.386 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:52.386 28034 28053 I Unity   : 
+04-19 10:59:52.388 28034 28053 I Unity   : after raycastcount :1
+04-19 10:59:52.388 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:52.388 28034 28053 I Unity   :  
+04-19 10:59:52.388 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:52.388 28034 28053 I Unity   : 
+04-19 10:59:52.394 28034 28053 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-19 10:59:52.394 28034 28053 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:52.394 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:52.394 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:52.394 28034 28053 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:52.394 28034 28053 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-19 10:59:52.394 28034 28053 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-19 10:59:52.394 28034 28053 E Unity   : MakeCloudAnchor:Update()
+04-19 10:59:52.394 28034 28053 E Unity   :  
+04-19 10:59:52.394 28034 28053 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-19 10:59:52.394 28034 28053 E Unity   : 
+04-19 10:59:52.395 28034 28053 I Unity   : make instance : Anchor(Clone)
+04-19 10:59:52.395 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:52.395 28034 28053 I Unity   :  
+04-19 10:59:52.395 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:52.395 28034 28053 I Unity   : 
+04-19 10:59:52.914 28034 28053 I Unity   : touch began
+04-19 10:59:52.914 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:52.914 28034 28053 I Unity   :  
+04-19 10:59:52.914 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:52.914 28034 28053 I Unity   : 
+04-19 10:59:52.915 28034 28053 I Unity   : before raycastcount :0
+04-19 10:59:52.915 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:52.915 28034 28053 I Unity   :  
+04-19 10:59:52.915 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:52.915 28034 28053 I Unity   : 
+04-19 10:59:52.916 28034 28053 I Unity   : after raycastcount :1
+04-19 10:59:52.916 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:52.916 28034 28053 I Unity   :  
+04-19 10:59:52.916 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:52.916 28034 28053 I Unity   : 
+04-19 10:59:52.928 28034 28053 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-19 10:59:52.928 28034 28053 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:52.928 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:52.928 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:52.928 28034 28053 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:52.928 28034 28053 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-19 10:59:52.928 28034 28053 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-19 10:59:52.928 28034 28053 E Unity   : MakeCloudAnchor:Update()
+04-19 10:59:52.928 28034 28053 E Unity   :  
+04-19 10:59:52.928 28034 28053 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-19 10:59:52.928 28034 28053 E Unity   : 
+04-19 10:59:52.930 28034 28053 I Unity   : make instance : Anchor(Clone)
+04-19 10:59:52.930 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:52.930 28034 28053 I Unity   :  
+04-19 10:59:52.930 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:52.930 28034 28053 I Unity   : 
+04-19 10:59:54.016 28034 28053 I Unity   : touch began
+04-19 10:59:54.016 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:54.016 28034 28053 I Unity   :  
+04-19 10:59:54.016 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:54.016 28034 28053 I Unity   : 
+04-19 10:59:54.017 28034 28053 I Unity   : before raycastcount :0
+04-19 10:59:54.017 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:54.017 28034 28053 I Unity   :  
+04-19 10:59:54.017 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:54.017 28034 28053 I Unity   : 
+04-19 10:59:54.019 28034 28053 I Unity   : after raycastcount :1
+04-19 10:59:54.019 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:54.019 28034 28053 I Unity   :  
+04-19 10:59:54.019 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:54.019 28034 28053 I Unity   : 
+04-19 10:59:54.026 28034 28053 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-19 10:59:54.026 28034 28053 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:54.026 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:54.026 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:54.026 28034 28053 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:54.026 28034 28053 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-19 10:59:54.026 28034 28053 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-19 10:59:54.026 28034 28053 E Unity   : MakeCloudAnchor:Update()
+04-19 10:59:54.026 28034 28053 E Unity   :  
+04-19 10:59:54.026 28034 28053 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-19 10:59:54.026 28034 28053 E Unity   : 
+04-19 10:59:54.027 28034 28053 I Unity   : make instance : Anchor(Clone)
+04-19 10:59:54.027 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:54.027 28034 28053 I Unity   :  
+04-19 10:59:54.027 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:54.027 28034 28053 I Unity   : 
+04-19 10:59:54.413 28034 28053 I Unity   : touch began
+04-19 10:59:54.413 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:54.413 28034 28053 I Unity   :  
+04-19 10:59:54.413 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:54.413 28034 28053 I Unity   : 
+04-19 10:59:54.413 28034 28053 I Unity   : before raycastcount :0
+04-19 10:59:54.413 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:54.413 28034 28053 I Unity   :  
+04-19 10:59:54.413 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:54.413 28034 28053 I Unity   : 
+04-19 10:59:54.415 28034 28053 I Unity   : after raycastcount :1
+04-19 10:59:54.415 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:54.415 28034 28053 I Unity   :  
+04-19 10:59:54.415 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:54.415 28034 28053 I Unity   : 
+04-19 10:59:54.430 28034 28053 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-19 10:59:54.430 28034 28053 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:54.430 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:54.430 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:54.430 28034 28053 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:54.430 28034 28053 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-19 10:59:54.430 28034 28053 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-19 10:59:54.430 28034 28053 E Unity   : MakeCloudAnchor:Update()
+04-19 10:59:54.430 28034 28053 E Unity   :  
+04-19 10:59:54.430 28034 28053 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-19 10:59:54.430 28034 28053 E Unity   : 
+04-19 10:59:54.431 28034 28053 I Unity   : make instance : Anchor(Clone)
+04-19 10:59:54.431 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:54.431 28034 28053 I Unity   :  
+04-19 10:59:54.431 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:54.431 28034 28053 I Unity   : 
+04-19 10:59:54.813 28034 28053 I Unity   : touch began
+04-19 10:59:54.813 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:54.813 28034 28053 I Unity   :  
+04-19 10:59:54.813 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:54.813 28034 28053 I Unity   : 
+04-19 10:59:54.813 28034 28053 I Unity   : before raycastcount :0
+04-19 10:59:54.813 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:54.813 28034 28053 I Unity   :  
+04-19 10:59:54.813 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:54.813 28034 28053 I Unity   : 
+04-19 10:59:54.815 28034 28053 I Unity   : after raycastcount :1
+04-19 10:59:54.815 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:54.815 28034 28053 I Unity   :  
+04-19 10:59:54.815 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:54.815 28034 28053 I Unity   : 
+04-19 10:59:54.821 28034 28053 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-19 10:59:54.821 28034 28053 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:54.821 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:54.821 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:54.821 28034 28053 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:54.821 28034 28053 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-19 10:59:54.821 28034 28053 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-19 10:59:54.821 28034 28053 E Unity   : MakeCloudAnchor:Update()
+04-19 10:59:54.821 28034 28053 E Unity   :  
+04-19 10:59:54.821 28034 28053 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-19 10:59:54.821 28034 28053 E Unity   : 
+04-19 10:59:54.822 28034 28053 I Unity   : make instance : Anchor(Clone)
+04-19 10:59:54.822 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:54.822 28034 28053 I Unity   :  
+04-19 10:59:54.822 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:54.822 28034 28053 I Unity   : 
+04-19 10:59:55.220 28034 28053 I Unity   : touch began
+04-19 10:59:55.220 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:55.220 28034 28053 I Unity   :  
+04-19 10:59:55.220 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:55.220 28034 28053 I Unity   : 
+04-19 10:59:55.221 28034 28053 I Unity   : before raycastcount :0
+04-19 10:59:55.221 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:55.221 28034 28053 I Unity   :  
+04-19 10:59:55.221 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:55.221 28034 28053 I Unity   : 
+04-19 10:59:55.223 28034 28053 I Unity   : after raycastcount :1
+04-19 10:59:55.223 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:55.223 28034 28053 I Unity   :  
+04-19 10:59:55.223 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:55.223 28034 28053 I Unity   : 
+04-19 10:59:55.231 28034 28053 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-19 10:59:55.231 28034 28053 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:55.231 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:55.231 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:55.231 28034 28053 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:55.231 28034 28053 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-19 10:59:55.231 28034 28053 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-19 10:59:55.231 28034 28053 E Unity   : MakeCloudAnchor:Update()
+04-19 10:59:55.231 28034 28053 E Unity   :  
+04-19 10:59:55.231 28034 28053 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-19 10:59:55.231 28034 28053 E Unity   : 
+04-19 10:59:55.232 28034 28053 I Unity   : make instance : Anchor(Clone)
+04-19 10:59:55.232 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:55.232 28034 28053 I Unity   :  
+04-19 10:59:55.232 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:55.232 28034 28053 I Unity   : 
+04-19 10:59:55.605 28034 28053 I Unity   : touch began
+04-19 10:59:55.605 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:55.605 28034 28053 I Unity   :  
+04-19 10:59:55.605 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:55.605 28034 28053 I Unity   : 
+04-19 10:59:55.611 28034 28053 I Unity   : before raycastcount :0
+04-19 10:59:55.611 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:55.611 28034 28053 I Unity   :  
+04-19 10:59:55.611 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:55.611 28034 28053 I Unity   : 
+04-19 10:59:55.612 28034 28053 I Unity   : after raycastcount :1
+04-19 10:59:55.612 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:55.612 28034 28053 I Unity   :  
+04-19 10:59:55.612 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:55.612 28034 28053 I Unity   : 
+04-19 10:59:55.624 28034 28053 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-19 10:59:55.624 28034 28053 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:55.624 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:55.624 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:55.624 28034 28053 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:55.624 28034 28053 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-19 10:59:55.624 28034 28053 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-19 10:59:55.624 28034 28053 E Unity   : MakeCloudAnchor:Update()
+04-19 10:59:55.624 28034 28053 E Unity   :  
+04-19 10:59:55.624 28034 28053 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-19 10:59:55.624 28034 28053 E Unity   : 
+04-19 10:59:55.625 28034 28053 I Unity   : make instance : Anchor(Clone)
+04-19 10:59:55.625 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:55.625 28034 28053 I Unity   :  
+04-19 10:59:55.625 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:55.625 28034 28053 I Unity   : 
+04-19 10:59:56.148 28034 28053 I Unity   : touch began
+04-19 10:59:56.148 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:56.148 28034 28053 I Unity   :  
+04-19 10:59:56.148 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:56.148 28034 28053 I Unity   : 
+04-19 10:59:56.149 28034 28053 I Unity   : before raycastcount :0
+04-19 10:59:56.149 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:56.149 28034 28053 I Unity   :  
+04-19 10:59:56.149 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:56.149 28034 28053 I Unity   : 
+04-19 10:59:56.150 28034 28053 I Unity   : after raycastcount :1
+04-19 10:59:56.150 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:56.150 28034 28053 I Unity   :  
+04-19 10:59:56.150 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:56.150 28034 28053 I Unity   : 
+04-19 10:59:56.165 28034 28053 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-19 10:59:56.165 28034 28053 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:56.165 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:56.165 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:56.165 28034 28053 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:56.165 28034 28053 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-19 10:59:56.165 28034 28053 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-19 10:59:56.165 28034 28053 E Unity   : MakeCloudAnchor:Update()
+04-19 10:59:56.165 28034 28053 E Unity   :  
+04-19 10:59:56.165 28034 28053 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-19 10:59:56.165 28034 28053 E Unity   : 
+04-19 10:59:56.166 28034 28053 I Unity   : make instance : Anchor(Clone)
+04-19 10:59:56.166 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:56.166 28034 28053 I Unity   :  
+04-19 10:59:56.166 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:56.166 28034 28053 I Unity   : 
+04-19 10:59:56.578 28034 28053 I Unity   : touch began
+04-19 10:59:56.578 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:56.578 28034 28053 I Unity   :  
+04-19 10:59:56.578 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:56.578 28034 28053 I Unity   : 
+04-19 10:59:56.578 28034 28053 I Unity   : before raycastcount :0
+04-19 10:59:56.578 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:56.578 28034 28053 I Unity   :  
+04-19 10:59:56.578 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:56.578 28034 28053 I Unity   : 
+04-19 10:59:56.579 28034 28053 I Unity   : after raycastcount :1
+04-19 10:59:56.579 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:56.579 28034 28053 I Unity   :  
+04-19 10:59:56.579 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:56.579 28034 28053 I Unity   : 
+04-19 10:59:56.585 28034 28053 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-19 10:59:56.585 28034 28053 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:56.585 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:56.585 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:56.585 28034 28053 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:56.585 28034 28053 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-19 10:59:56.585 28034 28053 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-19 10:59:56.585 28034 28053 E Unity   : MakeCloudAnchor:Update()
+04-19 10:59:56.585 28034 28053 E Unity   :  
+04-19 10:59:56.585 28034 28053 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-19 10:59:56.585 28034 28053 E Unity   : 
+04-19 10:59:56.586 28034 28053 I Unity   : make instance : Anchor(Clone)
+04-19 10:59:56.586 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:56.586 28034 28053 I Unity   :  
+04-19 10:59:56.586 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:56.586 28034 28053 I Unity   : 
+04-19 10:59:57.113 28034 28053 I Unity   : touch began
+04-19 10:59:57.113 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:57.113 28034 28053 I Unity   :  
+04-19 10:59:57.113 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:57.113 28034 28053 I Unity   : 
+04-19 10:59:57.114 28034 28053 I Unity   : before raycastcount :0
+04-19 10:59:57.114 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:57.114 28034 28053 I Unity   :  
+04-19 10:59:57.114 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:57.114 28034 28053 I Unity   : 
+04-19 10:59:57.115 28034 28053 I Unity   : after raycastcount :1
+04-19 10:59:57.115 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:57.115 28034 28053 I Unity   :  
+04-19 10:59:57.115 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:57.115 28034 28053 I Unity   : 
+04-19 10:59:57.123 28034 28053 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-19 10:59:57.123 28034 28053 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:57.123 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:57.123 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:57.123 28034 28053 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 10:59:57.123 28034 28053 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-19 10:59:57.123 28034 28053 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-19 10:59:57.123 28034 28053 E Unity   : MakeCloudAnchor:Update()
+04-19 10:59:57.123 28034 28053 E Unity   :  
+04-19 10:59:57.123 28034 28053 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-19 10:59:57.123 28034 28053 E Unity   : 
+04-19 10:59:57.124 28034 28053 I Unity   : make instance : Anchor(Clone)
+04-19 10:59:57.124 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 10:59:57.124 28034 28053 I Unity   :  
+04-19 10:59:57.124 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 10:59:57.124 28034 28053 I Unity   : 
+04-19 11:00:00.469 28034 28053 I Unity   : touch began
+04-19 11:00:00.469 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 11:00:00.469 28034 28053 I Unity   :  
+04-19 11:00:00.469 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 11:00:00.469 28034 28053 I Unity   : 
+04-19 11:00:00.469 28034 28053 I Unity   : before raycastcount :0
+04-19 11:00:00.469 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 11:00:00.469 28034 28053 I Unity   :  
+04-19 11:00:00.469 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 11:00:00.469 28034 28053 I Unity   : 
+04-19 11:00:00.470 28034 28053 I Unity   : after raycastcount :0
+04-19 11:00:00.470 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 11:00:00.470 28034 28053 I Unity   :  
+04-19 11:00:00.470 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 11:00:00.470 28034 28053 I Unity   : 
+04-19 11:00:00.477 28034 28053 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-19 11:00:00.477 28034 28053 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 11:00:00.477 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 11:00:00.477 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 11:00:00.477 28034 28053 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 11:00:00.477 28034 28053 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-19 11:00:00.477 28034 28053 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-19 11:00:00.477 28034 28053 E Unity   : MakeCloudAnchor:Update()
+04-19 11:00:00.477 28034 28053 E Unity   :  
+04-19 11:00:00.477 28034 28053 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-19 11:00:00.477 28034 28053 E Unity   : 
+04-19 11:00:00.478 28034 28053 I Unity   : make instance : Anchor(Clone)
+04-19 11:00:00.478 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 11:00:00.478 28034 28053 I Unity   :  
+04-19 11:00:00.478 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 11:00:00.478 28034 28053 I Unity   : 
+04-19 11:00:01.007 28034 28053 I Unity   : touch began
+04-19 11:00:01.007 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 11:00:01.007 28034 28053 I Unity   :  
+04-19 11:00:01.007 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 11:00:01.007 28034 28053 I Unity   : 
+04-19 11:00:01.008 28034 28053 I Unity   : before raycastcount :0
+04-19 11:00:01.008 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 11:00:01.008 28034 28053 I Unity   :  
+04-19 11:00:01.008 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 11:00:01.008 28034 28053 I Unity   : 
+04-19 11:00:01.009 28034 28053 I Unity   : after raycastcount :0
+04-19 11:00:01.009 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 11:00:01.009 28034 28053 I Unity   :  
+04-19 11:00:01.009 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 11:00:01.009 28034 28053 I Unity   : 
+04-19 11:00:01.019 28034 28053 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-19 11:00:01.019 28034 28053 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 11:00:01.019 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 11:00:01.019 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 11:00:01.019 28034 28053 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 11:00:01.019 28034 28053 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-19 11:00:01.019 28034 28053 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-19 11:00:01.019 28034 28053 E Unity   : MakeCloudAnchor:Update()
+04-19 11:00:01.019 28034 28053 E Unity   :  
+04-19 11:00:01.019 28034 28053 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-19 11:00:01.019 28034 28053 E Unity   : 
+04-19 11:00:01.020 28034 28053 I Unity   : make instance : Anchor(Clone)
+04-19 11:00:01.020 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 11:00:01.020 28034 28053 I Unity   :  
+04-19 11:00:01.020 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 11:00:01.020 28034 28053 I Unity   : 
+04-19 11:00:01.504 28034 28053 I Unity   : touch began
+04-19 11:00:01.504 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 11:00:01.504 28034 28053 I Unity   :  
+04-19 11:00:01.504 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 11:00:01.504 28034 28053 I Unity   : 
+04-19 11:00:01.505 28034 28053 I Unity   : before raycastcount :0
+04-19 11:00:01.505 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 11:00:01.505 28034 28053 I Unity   :  
+04-19 11:00:01.505 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 11:00:01.505 28034 28053 I Unity   : 
+04-19 11:00:01.506 28034 28053 I Unity   : after raycastcount :0
+04-19 11:00:01.506 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 11:00:01.506 28034 28053 I Unity   :  
+04-19 11:00:01.506 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 11:00:01.506 28034 28053 I Unity   : 
+04-19 11:00:01.515 28034 28053 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-19 11:00:01.515 28034 28053 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 11:00:01.515 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 11:00:01.515 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 11:00:01.515 28034 28053 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 11:00:01.515 28034 28053 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-19 11:00:01.515 28034 28053 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-19 11:00:01.515 28034 28053 E Unity   : MakeCloudAnchor:Update()
+04-19 11:00:01.515 28034 28053 E Unity   :  
+04-19 11:00:01.515 28034 28053 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-19 11:00:01.515 28034 28053 E Unity   : 
+04-19 11:00:01.516 28034 28053 I Unity   : make instance : Anchor(Clone)
+04-19 11:00:01.516 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 11:00:01.516 28034 28053 I Unity   :  
+04-19 11:00:01.516 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 11:00:01.516 28034 28053 I Unity   : 
+04-19 11:00:02.705 28034 28053 I Unity   : touch began
+04-19 11:00:02.705 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 11:00:02.705 28034 28053 I Unity   :  
+04-19 11:00:02.705 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 11:00:02.705 28034 28053 I Unity   : 
+04-19 11:00:02.706 28034 28053 I Unity   : before raycastcount :0
+04-19 11:00:02.706 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 11:00:02.706 28034 28053 I Unity   :  
+04-19 11:00:02.706 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 11:00:02.706 28034 28053 I Unity   : 
+04-19 11:00:02.707 28034 28053 I Unity   : after raycastcount :1
+04-19 11:00:02.707 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 11:00:02.707 28034 28053 I Unity   :  
+04-19 11:00:02.707 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 11:00:02.707 28034 28053 I Unity   : 
+04-19 11:00:02.716 28034 28053 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-19 11:00:02.716 28034 28053 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 11:00:02.716 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 11:00:02.716 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 11:00:02.716 28034 28053 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 11:00:02.716 28034 28053 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-19 11:00:02.716 28034 28053 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-19 11:00:02.716 28034 28053 E Unity   : MakeCloudAnchor:Update()
+04-19 11:00:02.716 28034 28053 E Unity   :  
+04-19 11:00:02.716 28034 28053 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-19 11:00:02.716 28034 28053 E Unity   : 
+04-19 11:00:02.717 28034 28053 I Unity   : make instance : Anchor(Clone)
+04-19 11:00:02.717 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 11:00:02.717 28034 28053 I Unity   :  
+04-19 11:00:02.717 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 11:00:02.717 28034 28053 I Unity   : 
+04-19 11:00:04.769 28034 28053 I Unity   : touch began
+04-19 11:00:04.769 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 11:00:04.769 28034 28053 I Unity   :  
+04-19 11:00:04.769 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 11:00:04.769 28034 28053 I Unity   : 
+04-19 11:00:04.770 28034 28053 I Unity   : before raycastcount :0
+04-19 11:00:04.770 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 11:00:04.770 28034 28053 I Unity   :  
+04-19 11:00:04.770 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 11:00:04.770 28034 28053 I Unity   : 
+04-19 11:00:04.771 28034 28053 I Unity   : after raycastcount :1
+04-19 11:00:04.771 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 11:00:04.771 28034 28053 I Unity   :  
+04-19 11:00:04.771 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 11:00:04.771 28034 28053 I Unity   : 
+04-19 11:00:04.777 28034 28053 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-19 11:00:04.777 28034 28053 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 11:00:04.777 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 11:00:04.777 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 11:00:04.777 28034 28053 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 11:00:04.777 28034 28053 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-19 11:00:04.777 28034 28053 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-19 11:00:04.777 28034 28053 E Unity   : MakeCloudAnchor:Update()
+04-19 11:00:04.777 28034 28053 E Unity   :  
+04-19 11:00:04.777 28034 28053 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-19 11:00:04.777 28034 28053 E Unity   : 
+04-19 11:00:04.778 28034 28053 I Unity   : make instance : Anchor(Clone)
+04-19 11:00:04.778 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 11:00:04.778 28034 28053 I Unity   :  
+04-19 11:00:04.778 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 11:00:04.778 28034 28053 I Unity   : 
+04-19 11:00:19.400 28034 28053 I Unity   : touch began
+04-19 11:00:19.400 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 11:00:19.400 28034 28053 I Unity   :  
+04-19 11:00:19.400 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 11:00:19.400 28034 28053 I Unity   : 
+04-19 11:00:19.401 28034 28053 I Unity   : before raycastcount :0
+04-19 11:00:19.401 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 11:00:19.401 28034 28053 I Unity   :  
+04-19 11:00:19.401 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 11:00:19.401 28034 28053 I Unity   : 
+04-19 11:00:19.403 28034 28053 I Unity   : after raycastcount :2
+04-19 11:00:19.403 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 11:00:19.403 28034 28053 I Unity   :  
+04-19 11:00:19.403 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 11:00:19.403 28034 28053 I Unity   : 
+04-19 11:00:19.421 28034 28053 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-19 11:00:19.421 28034 28053 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 11:00:19.421 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 11:00:19.421 28034 28053 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-19 11:00:19.421 28034 28053 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-19 11:00:19.421 28034 28053 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-19 11:00:19.421 28034 28053 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-19 11:00:19.421 28034 28053 E Unity   : MakeCloudAnchor:Update()
+04-19 11:00:19.421 28034 28053 E Unity   :  
+04-19 11:00:19.421 28034 28053 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-19 11:00:19.421 28034 28053 E Unity   : 
+04-19 11:00:19.422 28034 28053 I Unity   : make instance : Anchor(Clone)
+04-19 11:00:19.422 28034 28053 I Unity   : MakeCloudAnchor:Update()
+04-19 11:00:19.422 28034 28053 I Unity   :  
+04-19 11:00:19.422 28034 28053 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-19 11:00:19.422 28034 28053 I Unity   : 
