@@ -1,0 +1,611 @@
+--------- beginning of system
+--------- beginning of main
+04-21 10:44:45.869  3159  3202 I Unity   : SystemInfo CPU = ARM64 FP ASIMD AES, Cores = 8, Memory = 3679mb
+04-21 10:44:45.869  3159  3202 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf0), 4 little (mask: 0xf)
+04-21 10:44:45.869  3159  3202 I Unity   : ApplicationInfo com.dilmergames.ardraw version 1.0.0 build 0e6c3e68-567d-45a8-b510-d50c91c46fac
+04-21 10:44:45.869  3159  3202 I Unity   : Built from '2019.4/staging' branch, Version '2019.4.10f1 (5311b3af6f69)', Build type 'Release', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Enabled'
+04-21 10:44:45.983  3159  3202 D Unity   :  GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_texture_compression_astc_sliced_3d GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_
+04-21 10:44:45.983  3159  3202 D Unity   : to_texture GL_EXT_multisampled_render_to_texture2 GL_OES_surfaceless_context GL_OES_texture_stencil8 GL_EXT_shader_pixel_local_storage GL_ARM_shader_framebuffer_fetch GL_ARM_shader_framebuffer_fetch_depth_stencil GL_ARM_mali_program_binary GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_texture_sRGB_decode GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OES_texture_storage_multisample_2d_array GL_OES_shader_image_atomic GL_EXT_robustness GL_EXT_draw_buffers_indexed GL_OES_draw_buffers_indexed GL_EXT_texture_border_clamp GL_OES_texture_border_clamp GL_EXT_texture_cube_map_array GL_OES_texture_cube_map_array GL_OES_sample_variables GL_OES_sample_shading GL_OES_shader_multisample_interpolation GL_EXT_shader_io_blocks GL_OES_shader_io_blocks GL_EXT_tessellation_shader GL_OES_tessellation_shader GL_EXT_primitive_bounding_box GL_OES_primitive_bounding_box GL_EXT_geometry_shader GL_OES_geometry_shader GL_ANDROID_extension_pack_es31a GL_EXT_gpu_sh
+04-21 10:44:45.983  3159  3202 D Unity   : ader5 GL_OES_gpu_shader5 GL_EXT_texture_buffer GL_OES_texture_buffer GL_EXT_copy_image GL_OES_copy_image GL_EXT_shader_non_constant_global_initializers GL_EXT_color_buffer_half_float GL_EXT_color_buffer_float GL_EXT_YUV_target GL_OVR_multiview GL_OVR_multiview2 GL_OVR_multiview_multisampled_render_to_texture GL_KHR_robustness GL_KHR_robust_buffer_access_behavior GL_EXT_draw_elements_base_vertex GL_OES_draw_elements_base_vertex GL_EXT_protected_textures GL_EXT_buffer_storage GL_EXT_external_buffer GL_EXT_EGL_image_array
+04-21 10:44:46.209  3159  3202 I Unity   : XRGeneral Settings awakening...
+04-21 10:44:46.209  3159  3202 I Unity   : UnityEngine.XR.Management.XRGeneralSettings:Awake()
+04-21 10:44:46.209  3159  3202 I Unity   :  
+04-21 10:44:46.209  3159  3202 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:44:46.209  3159  3202 I Unity   : 
+04-21 10:44:49.569  3159  3202 E Unity   : Unable to find _burst_generated
+04-21 10:45:09.829  3159  3202 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:45:09.829  3159  3202 E Unity   :   at Google.XR.ARCoreExtensions.Internal.ARAnchorExtensions.AnchorHandle (UnityEngine.XR.ARFoundation.ARAnchor anchor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:45:09.829  3159  3202 E Unity   :   at Google.XR.ARCoreExtensions.ARAnchorManagerExtensions.HostCloudAnchor (UnityEngine.XR.ARFoundation.ARAnchorManager anchorManager, UnityEngine.XR.ARFoundation.ARAnchor anchor, System.Int32 ttlDays) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:45:09.829  3159  3202 E Unity   :   at ARCloudAnchorManager.HostAnchor () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:45:09.829  3159  3202 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:45:09.829  3159  3202 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:45:09.829  3159  3202 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:45:09.829  3159  3202 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T]
+04-21 10:52:55.226  6713  6764 I Unity   : SystemInfo CPU = ARM64 FP ASIMD AES, Cores = 8, Memory = 3679mb
+04-21 10:52:55.226  6713  6764 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf0), 4 little (mask: 0xf)
+04-21 10:52:55.227  6713  6764 I Unity   : ApplicationInfo com.dilmergames.ardraw version 1.0.0 build 5215e290-8297-4124-8b64-8fa321e04261
+04-21 10:52:55.227  6713  6764 I Unity   : Built from '2019.4/staging' branch, Version '2019.4.10f1 (5311b3af6f69)', Build type 'Release', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Enabled'
+04-21 10:52:55.410  6713  6764 D Unity   :  GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_texture_compression_astc_sliced_3d GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_
+04-21 10:52:55.410  6713  6764 D Unity   : to_texture GL_EXT_multisampled_render_to_texture2 GL_OES_surfaceless_context GL_OES_texture_stencil8 GL_EXT_shader_pixel_local_storage GL_ARM_shader_framebuffer_fetch GL_ARM_shader_framebuffer_fetch_depth_stencil GL_ARM_mali_program_binary GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_texture_sRGB_decode GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OES_texture_storage_multisample_2d_array GL_OES_shader_image_atomic GL_EXT_robustness GL_EXT_draw_buffers_indexed GL_OES_draw_buffers_indexed GL_EXT_texture_border_clamp GL_OES_texture_border_clamp GL_EXT_texture_cube_map_array GL_OES_texture_cube_map_array GL_OES_sample_variables GL_OES_sample_shading GL_OES_shader_multisample_interpolation GL_EXT_shader_io_blocks GL_OES_shader_io_blocks GL_EXT_tessellation_shader GL_OES_tessellation_shader GL_EXT_primitive_bounding_box GL_OES_primitive_bounding_box GL_EXT_geometry_shader GL_OES_geometry_shader GL_ANDROID_extension_pack_es31a GL_EXT_gpu_sh
+04-21 10:52:55.410  6713  6764 D Unity   : ader5 GL_OES_gpu_shader5 GL_EXT_texture_buffer GL_OES_texture_buffer GL_EXT_copy_image GL_OES_copy_image GL_EXT_shader_non_constant_global_initializers GL_EXT_color_buffer_half_float GL_EXT_color_buffer_float GL_EXT_YUV_target GL_OVR_multiview GL_OVR_multiview2 GL_OVR_multiview_multisampled_render_to_texture GL_KHR_robustness GL_KHR_robust_buffer_access_behavior GL_EXT_draw_elements_base_vertex GL_OES_draw_elements_base_vertex GL_EXT_protected_textures GL_EXT_buffer_storage GL_EXT_external_buffer GL_EXT_EGL_image_array
+04-21 10:52:55.632  6713  6764 I Unity   : XRGeneral Settings awakening...
+04-21 10:52:55.632  6713  6764 I Unity   : UnityEngine.XR.Management.XRGeneralSettings:Awake()
+04-21 10:52:55.632  6713  6764 I Unity   :  
+04-21 10:52:55.632  6713  6764 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:52:55.632  6713  6764 I Unity   : 
+04-21 10:53:00.215  6713  6764 E Unity   : Unable to find _burst_generated
+04-21 10:53:32.149  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:53:32.149  6713  6764 E Unity   :   at Google.XR.ARCoreExtensions.Internal.ARAnchorExtensions.AnchorHandle (UnityEngine.XR.ARFoundation.ARAnchor anchor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:53:32.149  6713  6764 E Unity   :   at Google.XR.ARCoreExtensions.ARAnchorManagerExtensions.HostCloudAnchor (UnityEngine.XR.ARFoundation.ARAnchorManager anchorManager, UnityEngine.XR.ARFoundation.ARAnchor anchor, System.Int32 ttlDays) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:53:32.149  6713  6764 E Unity   :   at ARCloudAnchorManager.HostAnchor () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:53:32.149  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:53:32.149  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:53:32.149  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:53:32.149  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T]
+04-21 10:53:40.949  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:53:40.949  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:53:40.949  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:53:40.949  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:53:40.949  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:53:40.949  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:53:40.949  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:53:40.949  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:53:40.949  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:53:40.949  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:53:40.949  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:53:40.949  6713  6764 E Unity   :  
+04-21 10:53:40.949  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:53:40.949  6713  6764 E Unity   : 
+04-21 10:53:40.954  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:53:40.954  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:53:40.954  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:53:40.954  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:53:40.954  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:53:40.954  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:53:40.954  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:54:21.068  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:54:21.068  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:54:21.068  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:54:21.068  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:54:21.068  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:54:21.068  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:54:21.068  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:54:21.068  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:54:21.068  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:54:21.068  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:54:21.068  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:54:21.068  6713  6764 E Unity   :  
+04-21 10:54:21.068  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:54:21.068  6713  6764 E Unity   : 
+04-21 10:54:21.078  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:54:21.078  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:21.078  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:21.078  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:21.078  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:21.078  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:21.078  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:54:21.469  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:54:21.469  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:54:21.469  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:54:21.469  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:54:21.469  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:54:21.469  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:54:21.469  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:54:21.469  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:54:21.469  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:54:21.469  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:54:21.469  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:54:21.469  6713  6764 E Unity   :  
+04-21 10:54:21.469  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:54:21.469  6713  6764 E Unity   : 
+04-21 10:54:21.475  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:54:21.475  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:21.475  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:21.475  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:21.475  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:21.475  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:21.475  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:54:21.664  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:54:21.664  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:54:21.664  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:54:21.664  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:54:21.664  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:54:21.664  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:54:21.664  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:54:21.664  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:54:21.664  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:54:21.664  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:54:21.664  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:54:21.664  6713  6764 E Unity   :  
+04-21 10:54:21.664  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:54:21.664  6713  6764 E Unity   : 
+04-21 10:54:21.669  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:54:21.669  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:21.669  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:21.669  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:21.669  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:21.669  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:21.669  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:54:21.835  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:54:21.835  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:54:21.835  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:54:21.835  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:54:21.835  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:54:21.835  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:54:21.835  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:54:21.835  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:54:21.835  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:54:21.835  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:54:21.835  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:54:21.835  6713  6764 E Unity   :  
+04-21 10:54:21.835  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:54:21.835  6713  6764 E Unity   : 
+04-21 10:54:21.844  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:54:21.844  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:21.844  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:21.844  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:21.844  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:21.844  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:21.844  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:54:21.999  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:54:21.999  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:54:21.999  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:54:21.999  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:54:21.999  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:54:21.999  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:54:21.999  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:54:21.999  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:54:21.999  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:54:21.999  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:54:21.999  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:54:21.999  6713  6764 E Unity   :  
+04-21 10:54:21.999  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:54:21.999  6713  6764 E Unity   : 
+04-21 10:54:22.005  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:54:22.005  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.005  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.005  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.005  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.005  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.005  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:54:22.131  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:54:22.131  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:54:22.131  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:54:22.131  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:54:22.131  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:54:22.131  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:54:22.131  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:54:22.131  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:54:22.131  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:54:22.131  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:54:22.131  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:54:22.131  6713  6764 E Unity   :  
+04-21 10:54:22.131  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:54:22.131  6713  6764 E Unity   : 
+04-21 10:54:22.137  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:54:22.137  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.137  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.137  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.137  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.137  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.137  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:54:22.297  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:54:22.297  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:54:22.297  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:54:22.297  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:54:22.297  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:54:22.297  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:54:22.297  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:54:22.297  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:54:22.297  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:54:22.297  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:54:22.297  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:54:22.297  6713  6764 E Unity   :  
+04-21 10:54:22.297  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:54:22.297  6713  6764 E Unity   : 
+04-21 10:54:22.304  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:54:22.304  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.304  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.304  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.304  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.304  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.304  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:54:22.464  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:54:22.464  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:54:22.464  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:54:22.464  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:54:22.464  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:54:22.464  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:54:22.464  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:54:22.464  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:54:22.464  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:54:22.464  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:54:22.464  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:54:22.464  6713  6764 E Unity   :  
+04-21 10:54:22.464  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:54:22.464  6713  6764 E Unity   : 
+04-21 10:54:22.469  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:54:22.469  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.469  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.469  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.469  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.469  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.469  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:54:22.597  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:54:22.597  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:54:22.597  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:54:22.597  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:54:22.597  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:54:22.597  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:54:22.597  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:54:22.597  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:54:22.597  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:54:22.597  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:54:22.597  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:54:22.597  6713  6764 E Unity   :  
+04-21 10:54:22.597  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:54:22.597  6713  6764 E Unity   : 
+04-21 10:54:22.602  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:54:22.602  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.602  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.602  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.602  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.602  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.602  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:54:22.764  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:54:22.764  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:54:22.764  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:54:22.764  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:54:22.764  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:54:22.764  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:54:22.764  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:54:22.764  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:54:22.764  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:54:22.764  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:54:22.764  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:54:22.764  6713  6764 E Unity   :  
+04-21 10:54:22.764  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:54:22.764  6713  6764 E Unity   : 
+04-21 10:54:22.771  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:54:22.771  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.771  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.771  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.771  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.771  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.771  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:54:22.931  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:54:22.931  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:54:22.931  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:54:22.931  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:54:22.931  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:54:22.931  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:54:22.931  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:54:22.931  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:54:22.931  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:54:22.931  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:54:22.931  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:54:22.931  6713  6764 E Unity   :  
+04-21 10:54:22.931  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:54:22.931  6713  6764 E Unity   : 
+04-21 10:54:22.937  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:54:22.937  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.937  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.937  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.937  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.937  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:22.937  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:54:23.097  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:54:23.097  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:54:23.097  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:54:23.097  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:54:23.097  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:54:23.097  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:54:23.097  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:54:23.097  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:54:23.097  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:54:23.097  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:54:23.097  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:54:23.097  6713  6764 E Unity   :  
+04-21 10:54:23.097  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:54:23.097  6713  6764 E Unity   : 
+04-21 10:54:23.104  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:54:23.104  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.104  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.104  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.104  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.104  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.104  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:54:23.264  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:54:23.264  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:54:23.264  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:54:23.264  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:54:23.264  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:54:23.264  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:54:23.264  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:54:23.264  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:54:23.264  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:54:23.264  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:54:23.264  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:54:23.264  6713  6764 E Unity   :  
+04-21 10:54:23.264  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:54:23.264  6713  6764 E Unity   : 
+04-21 10:54:23.269  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:54:23.269  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.269  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.269  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.269  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.269  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.269  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:54:23.434  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:54:23.434  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:54:23.434  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:54:23.434  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:54:23.434  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:54:23.434  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:54:23.434  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:54:23.434  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:54:23.434  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:54:23.434  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:54:23.434  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:54:23.434  6713  6764 E Unity   :  
+04-21 10:54:23.434  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:54:23.434  6713  6764 E Unity   : 
+04-21 10:54:23.444  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:54:23.444  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.444  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.444  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.444  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.444  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.444  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:54:23.564  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:54:23.564  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:54:23.564  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:54:23.564  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:54:23.564  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:54:23.564  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:54:23.564  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:54:23.564  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:54:23.564  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:54:23.564  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:54:23.564  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:54:23.564  6713  6764 E Unity   :  
+04-21 10:54:23.564  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:54:23.564  6713  6764 E Unity   : 
+04-21 10:54:23.569  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:54:23.569  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.569  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.569  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.569  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.569  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.569  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:54:23.734  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:54:23.734  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:54:23.734  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:54:23.734  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:54:23.734  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:54:23.734  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:54:23.734  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:54:23.734  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:54:23.734  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:54:23.734  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:54:23.734  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:54:23.734  6713  6764 E Unity   :  
+04-21 10:54:23.734  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:54:23.734  6713  6764 E Unity   : 
+04-21 10:54:23.739  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:54:23.739  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.739  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.739  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.739  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.739  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.739  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:54:23.899  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:54:23.899  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:54:23.899  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:54:23.899  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:54:23.899  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:54:23.899  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:54:23.899  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:54:23.899  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:54:23.899  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:54:23.899  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:54:23.899  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:54:23.899  6713  6764 E Unity   :  
+04-21 10:54:23.899  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:54:23.899  6713  6764 E Unity   : 
+04-21 10:54:23.905  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:54:23.905  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.905  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.905  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.905  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.905  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:23.905  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:54:24.067  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:54:24.067  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:54:24.067  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:54:24.067  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:54:24.067  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:54:24.067  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:54:24.067  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:54:24.067  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:54:24.067  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:54:24.067  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:54:24.067  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:54:24.067  6713  6764 E Unity   :  
+04-21 10:54:24.067  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:54:24.067  6713  6764 E Unity   : 
+04-21 10:54:24.072  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:54:24.072  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:24.072  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:24.072  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:24.072  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:24.072  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:24.072  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:54:24.265  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:54:24.265  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:54:24.265  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:54:24.265  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:54:24.265  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:54:24.265  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:54:24.265  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:54:24.265  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:54:24.265  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:54:24.265  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:54:24.265  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:54:24.265  6713  6764 E Unity   :  
+04-21 10:54:24.265  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:54:24.265  6713  6764 E Unity   : 
+04-21 10:54:24.269  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:54:24.269  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:24.269  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:24.269  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:24.269  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:24.269  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:54:24.269  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:56:22.292  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:56:22.292  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:56:22.292  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:56:22.292  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:56:22.292  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:56:22.292  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:56:22.292  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:56:22.292  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:56:22.292  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:56:22.292  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:56:22.292  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:56:22.292  6713  6764 E Unity   :  
+04-21 10:56:22.292  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:56:22.292  6713  6764 E Unity   : 
+04-21 10:56:22.298  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:56:22.298  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.298  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.298  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.298  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.298  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.298  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:56:22.422  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:56:22.422  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:56:22.422  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:56:22.422  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:56:22.422  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:56:22.422  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:56:22.422  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:56:22.422  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:56:22.422  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:56:22.422  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:56:22.422  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:56:22.422  6713  6764 E Unity   :  
+04-21 10:56:22.422  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:56:22.422  6713  6764 E Unity   : 
+04-21 10:56:22.426  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:56:22.426  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.426  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.426  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.426  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.426  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.426  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:56:22.589  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:56:22.589  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:56:22.589  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:56:22.589  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:56:22.589  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:56:22.589  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:56:22.589  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:56:22.589  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:56:22.589  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:56:22.589  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:56:22.589  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:56:22.589  6713  6764 E Unity   :  
+04-21 10:56:22.589  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:56:22.589  6713  6764 E Unity   : 
+04-21 10:56:22.594  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:56:22.594  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.594  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.594  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.594  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.594  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.594  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:56:22.756  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:56:22.756  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:56:22.756  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:56:22.756  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:56:22.756  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:56:22.756  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:56:22.756  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:56:22.756  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:56:22.756  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:56:22.756  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:56:22.756  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:56:22.756  6713  6764 E Unity   :  
+04-21 10:56:22.756  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:56:22.756  6713  6764 E Unity   : 
+04-21 10:56:22.761  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:56:22.761  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.761  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.761  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.761  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.761  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.761  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:56:22.926  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:56:22.926  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:56:22.926  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:56:22.926  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:56:22.926  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:56:22.926  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:56:22.926  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:56:22.926  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:56:22.926  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:56:22.926  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:56:22.926  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:56:22.926  6713  6764 E Unity   :  
+04-21 10:56:22.926  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:56:22.926  6713  6764 E Unity   : 
+04-21 10:56:22.932  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:56:22.932  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.932  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.932  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.932  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.932  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:22.932  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:56:23.095  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:56:23.095  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:56:23.095  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:56:23.095  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:56:23.095  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:56:23.095  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:56:23.095  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:56:23.095  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:56:23.095  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:56:23.095  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:56:23.095  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:56:23.095  6713  6764 E Unity   :  
+04-21 10:56:23.095  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:56:23.095  6713  6764 E Unity   : 
+04-21 10:56:23.107  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:56:23.107  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:23.107  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:23.107  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:23.107  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:23.107  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:23.107  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>
+04-21 10:56:23.194  6713  6764 E Unity   : Failed to resolve a new Cloud Anchor, status 'ErrorInvalidArgument'
+04-21 10:56:23.194  6713  6764 E Unity   : Google.XR.ARCoreExtensions.Internal.SessionApi:ResolveCloudAnchor(IntPtr, String)
+04-21 10:56:23.194  6713  6764 E Unity   : Google.XR.ARCoreExtensions.ARAnchorManagerExtensions:ResolveCloudAnchorId(ARAnchorManager, String)
+04-21 10:56:23.194  6713  6764 E Unity   : ARCloudAnchorManager:Resolve()
+04-21 10:56:23.194  6713  6764 E Unity   : UnityEngine.Events.UnityAction:Invoke()
+04-21 10:56:23.194  6713  6764 E Unity   : UnityEngine.Events.UnityEvent:Invoke()
+04-21 10:56:23.194  6713  6764 E Unity   : UnityEngine.EventSystems.EventFunction`1:Invoke(T1, BaseEventData)
+04-21 10:56:23.194  6713  6764 E Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+04-21 10:56:23.194  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchPress(PointerEventData, Boolean, Boolean)
+04-21 10:56:23.194  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:ProcessTouchEvents()
+04-21 10:56:23.194  6713  6764 E Unity   : UnityEngine.EventSystems.StandaloneInputModule:Process()
+04-21 10:56:23.194  6713  6764 E Unity   :  
+04-21 10:56:23.194  6713  6764 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-21 10:56:23.194  6713  6764 E Unity   : 
+04-21 10:56:23.200  6713  6764 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-21 10:56:23.200  6713  6764 E Unity   :   at ARCloudAnchorManager.Resolve () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:23.200  6713  6764 E Unity   :   at UnityEngine.Events.UnityAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:23.200  6713  6764 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:23.200  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1].Invoke (T1 handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:23.200  6713  6764 E Unity   :   at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+04-21 10:56:23.200  6713  6764 E Unity   :   at UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) [0x00000] in <00000000000000000000000000000000>

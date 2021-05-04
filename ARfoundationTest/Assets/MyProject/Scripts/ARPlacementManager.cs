@@ -36,7 +36,7 @@ public class ARPlacementManager : Singleton<ARPlacementManager>
             {
                 touchPosition = touch.position;
 
-
+              
 
                 //bool isOverUI = touchPosition.IsPointOverUIObject();
 

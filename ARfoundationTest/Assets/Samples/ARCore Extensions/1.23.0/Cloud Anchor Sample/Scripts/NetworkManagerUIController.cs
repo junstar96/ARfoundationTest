@@ -130,7 +130,6 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
         /// </summary>
         public void OnCreateRoomClicked()
         {
-            Debug.Log("OnCreateRoomClicked");
             _manager.matchMaker.CreateMatch(
                 _manager.matchName, _manager.matchSize, true, string.Empty, string.Empty,
                 string.Empty, 0, 0, OnMatchCreate);

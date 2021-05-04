@@ -5,122 +5,197 @@ using UnityEngine.EventSystems;
 using Google.XR.ARCoreExtensions;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
+using Google.XR.ARCoreExtensions.Samples.PersistentCloudAnchors;
 
-
-[RequireComponent(typeof(ARRaycastManager))]
-[RequireComponent(typeof(ARPlaneManager))]
-[RequireComponent(typeof(ARPointCloudManager))]
-[RequireComponent(typeof(ARAnchorManager))]
-
-public class MakeCloudAnchor : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
+public class MakeCloudAnchor : MonoBehaviour
 {
 
+    public enum MakeState
+    {
+        Host,
+        Resolve,
+        none
+    }
 
-    //어떤 게 표시되도록 할 것인가
-    public GameObject cloudanchorPrefeb;
+    [Header("ARfoundation")]
+    public ARSessionOrigin sessionOrigin;
+    public ARRaycastManager raycastManager;
+    public ARAnchorManager anchorManager;
+    public string cloudid = "ua-4b1baaa4cf2e631af4471299bb5bd1b6";
 
-    //어디에 만들어질 것인가.
-    public Transform _anchorcontainer;
+    [Space(4)]
+    [Header("Prefeb")]
+    public GameObject anchorprefeb;
+    public GameObject Mapindicatorprefeb;
+    public UnityEngine.UI.Text checktext;
 
-    private ARRaycastManager raycastManager;
-
-    private ARPlaneManager planemanager;
-
-    private ARPointCloudManager pointcloudmanager;
-
-    private ARAnchorManager anchormanager;
 
     private ARAnchor anchor;
+    private List<ARCloudAnchor> pendingcloudanchor = new List<ARCloudAnchor>();
+    private bool check = false;
+    public int count = 0;
+    public MakeState checkstate = MakeState.none;
 
-    private List<ARAnchor> anchorlist = new List<ARAnchor>();
-
-    private static List<RaycastHit> raycasthits = new List<RaycastHit>();
+    private ARCloudAnchor cloudanchor = null;
 
     // Start is called before the first frame update
-    private void Awake()
+
+    private void Update()
     {
-        raycastManager = GetComponent<ARRaycastManager>();
-
-        planemanager = GetComponent<ARPlaneManager>();
-
-        pointcloudmanager = GetComponent<ARPointCloudManager>();
-
-        anchormanager = GetComponent<ARAnchorManager>();
-
-        var testinstnat = Instantiate(cloudanchorPrefeb, new Vector3(0, 0, 0), Quaternion.identity);
-
-        testinstnat.transform.parent = _anchorcontainer;
-        
-    }
-
-    public void OnPointerDown(PointerEventData eventData)
-    {
-        
-
-
-    }
-
-    public void OnPointerUp(PointerEventData eventData)
-    {
-     
-    }
-
-
-    
-    // Update is called once per frame
-    void Update()
-    {
-
-        if (Input.touchCount <= 0)
+        if (!sessionOrigin.gameObject.activeSelf)
         {
             return;
         }
 
-        
-        Touch touch = Input.GetTouch(0);
 
-        if (touch.phase != TouchPhase.Began)
+        if (ARSession.state != ARSessionState.SessionTracking)
+        {
+            return;
+        }
+
+       
+
+
+
+        if (check)
+        {
+            return;
+        }
+
+        if (pendingcloudanchor.Count == 0 && !check)
+        {
+            switch(checkstate)
+            {
+                case MakeState.Host:
+                    if (anchor == null)
+                    {
+                        // If the player has not touched the screen then the update is complete.
+                        Touch touch;
+                        if (Input.touchCount < 1 ||
+                            (touch = Input.GetTouch(0)).phase != TouchPhase.Began)
+                        {
+                            return;
+                        }
+
+                        // Ignore the touch if it's pointing on UI objects.
+                        if (EventSystem.current.IsPointerOverGameObject(touch.fingerId))
+                        {
+                            return;
+                        }
+
+                        List<ARRaycastHit> hits = new List<ARRaycastHit>();
+
+                        raycastManager.Raycast(touch.position, hits, TrackableType.PlaneWithinPolygon);
+
+
+                        var hitpose = hits[0].pose;
+
+                        anchor = anchorManager.AddAnchor(hitpose);
+
+
+                    }
+                    StartCoroutine(ParasiteCloud());
+                    break;
+                case MakeState.Resolve:
+                    StartCoroutine(ResolveAnchor());
+                    break;
+                case MakeState.none:
+                    break;
+
+            }
+            
+            
+           
+        }
+
+    }
+
+    public IEnumerator ResolveAnchor()
+    {
+        
+        check = true;
+        cloudanchor = anchorManager.ResolveCloudAnchorId(cloudid);
+       
+        
+        if (cloudanchor != null)
         {
             
-            return;
-        }
-
-        Debug.Log("touch began");
-
-        List<ARRaycastHit> raycasthits = new List<ARRaycastHit>();
-        Debug.Log("before raycastcount :" + raycasthits.Count);
-        raycastManager.Raycast(touch.position, raycasthits, TrackableType.PlaneWithinPolygon);
-        Debug.Log("after raycastcount :" + raycasthits.Count);
-
-        var planeType = PlaneAlignment.HorizontalUp;
-        if (raycasthits.Count > 0)
-        {
-            ARPlane plane = planemanager.GetPlane(raycasthits[0].trackableId);
-            if (plane == null)
+            pendingcloudanchor.Add(cloudanchor);
+            while(true)
             {
-                Debug.LogWarningFormat("Failed to find the ARPlane with TrackableId {0}",
-                    raycasthits[0].trackableId);
-                return;
+                
+                if(cloudanchor.cloudAnchorState == CloudAnchorState.Success)
+                {
+                    checktext.text = "success";
+                    Instantiate(anchorprefeb, cloudanchor.transform);
+                    
+                    break;
+                }
+                checktext.text = cloudanchor.cloudAnchorState.ToString();
+                yield return null;
             }
 
-            planeType = plane.alignment;
-            var hitPose = raycasthits[0].pose;
-
-            //anchor = anchormanager.GetAnchor();
-            
-            
-            anchor = anchormanager.AddAnchor(hitPose);
         }
-
-
-        if(anchor != null)
+        else
         {
-            var hello_anchor = Instantiate(cloudanchorPrefeb, anchor.transform);
-            Debug.Log("make instance : " + hello_anchor.name);
-            //hello_anchor.transform.parent = _anchorcontainer;
+            yield return new WaitForSeconds(1.0f);
+            check = false;
+            count++;
+            checktext.text = "fail" + count;
         }
-
     }
 
+    public IEnumerator ParasiteCloud()
+    {
+        check = true;
+       
+        yield return new WaitForSeconds(5);
+        cloudanchor = anchorManager.HostCloudAnchor(anchor);
 
+
+        if (cloudanchor != null)
+        {
+            Instantiate(anchorprefeb, cloudanchor.transform);
+            StartCoroutine(CloudState());
+            pendingcloudanchor.Add(cloudanchor);
+        }
+        else
+        {
+            checktext.text = "실패 : " + count;
+        }
+
+
+        
+        check = false;
+    }
+
+    
+    public IEnumerator CloudState()
+    {
+        while(true)
+        {
+            checktext.text = cloudanchor.cloudAnchorState.ToString();
+            count++;
+            if(cloudanchor.cloudAnchorState == CloudAnchorState.Success)
+            {
+                
+                checktext.text = "cloud id : " + cloudanchor.cloudAnchorId + " \n" + "count : " + count;
+                Debug.Log("cloud id : " + cloudanchor.cloudAnchorId);
+                break;
+            }
+            yield return null;
+        }
+
+        
+    }
+
+    public void HostButtonClick()
+    {
+        checkstate = MakeState.Host;
+    }
+
+    public void ResolveButtonClick()
+    {
+        checkstate = MakeState.Resolve;
+    }
 }

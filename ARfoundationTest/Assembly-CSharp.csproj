@@ -67,8 +67,15 @@
     <Compile Include="Assets\MyProject\Scripts\ARDrawing.cs" />
     <Compile Include="Assets\MyProject\Scripts\ARPlacementManager.cs" />
     <Compile Include="Assets\MyProject\Scripts\ARcloudanchorManager.cs" />
+    <Compile Include="Assets\MyProject\Scripts\CloudDelaytime.cs" />
+    <Compile Include="Assets\MyProject\Scripts\ControllerTest1.cs" />
+    <Compile Include="Assets\MyProject\Scripts\DelayCutscene.cs" />
     <Compile Include="Assets\MyProject\Scripts\MakeCloudAnchor.cs" />
+    <Compile Include="Assets\MyProject\Scripts\NetUITest.cs" />
+    <Compile Include="Assets\MyProject\Scripts\NetworkTest.cs" />
+    <Compile Include="Assets\MyProject\Scripts\OauthTest.cs" />
     <Compile Include="Assets\MyProject\Scripts\Onpress.cs" />
+    <Compile Include="Assets\MyProject\Scripts\PersonalNetSetting.cs" />
     <Compile Include="Assets\MyProject\Scripts\Singleton.cs" />
     <Compile Include="Assets\Samples\ARCore Extensions\1.23.0\Cloud Anchor Sample\Scripts\AnchorController.cs" />
     <Compile Include="Assets\Samples\ARCore Extensions\1.23.0\Cloud Anchor Sample\Scripts\CloudAnchorsExampleController.cs" />

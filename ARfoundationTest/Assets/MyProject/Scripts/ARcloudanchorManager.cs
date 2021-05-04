@@ -5,7 +5,7 @@ using UnityEngine.Events;
 using Google.XR.ARCoreExtensions;
 using UnityEngine.XR.ARFoundation;
 using DilmerGames.Core.Singletons;
-
+using UnityEngine.UI;
 public class createAnchorEvents : UnityEvent<Transform>
 { 
 }
@@ -19,10 +19,6 @@ public class ARcloudanchorManager : Singleton<ARcloudanchorManager>
     private float resolveAnchorPassTimeout = 10.0f;
 
     private ARAnchorManager anchormanager = null;
-
-    private ARPlaneManager planemanager = null;
-
-    private ARRaycastManager raycastmanager = null;
 
     private ARAnchor pendingHostAnchor = null;
 
@@ -38,9 +34,16 @@ public class ARcloudanchorManager : Singleton<ARcloudanchorManager>
 
     private createAnchorEvents createAnchorEvents = null;
 
+    public Text statustext;
 
+    public Text debugtext;
+
+    
     private void Awake()
     {
+        anchormanager = GetComponent<ARAnchorManager>();
+
+
         createAnchorEvents = new createAnchorEvents();
         createAnchorEvents.AddListener((t) => ARPlacementManager.Instance.ReCreatePlacement(t));
     }
@@ -66,14 +69,16 @@ public class ARcloudanchorManager : Singleton<ARcloudanchorManager>
 
     public void HostAnchor()
     {
-        //
+        debugtext.text = "HostAnchor executing";
+
+
         FeatureMapQuality quality = anchormanager.EstimateFeatureMapQualityForHosting(GetCameraPose());
 
         cloudanchor = anchormanager.HostCloudAnchor(pendingHostAnchor, 1);
         
         if(cloudanchor == null)
         {
-            Debug.Log("not connect");
+            debugtext.text = "Unable to host cloud anchor";
         }
         else
         {
@@ -83,12 +88,14 @@ public class ARcloudanchorManager : Singleton<ARcloudanchorManager>
 
     public void Resolve()
     {
+        debugtext.text = "Resolve executing";
+
         cloudanchor = anchormanager.ResolveCloudAnchorId(anchorToResolve);
 
         if (cloudanchor == null)
         {
-            Debug.Log("not connect");
-        }
+            debugtext.text = "Failed to resolve cloud achor id " + cloudanchor.cloudAnchorId;
+    }
         else
         {
             anchorHostInProgress = true;
@@ -110,7 +117,7 @@ public class ARcloudanchorManager : Singleton<ARcloudanchorManager>
         else if(cloudanchorstate != CloudAnchorState.TaskInProgress)
         {
             anchorHostInProgress = false;
-            Debug.Log("state : CloudAnchorState.TaskInProgress");
+            debugtext.text = "state : CloudAnchorState.TaskInProgress";
         }
     }
 
@@ -119,6 +126,7 @@ public class ARcloudanchorManager : Singleton<ARcloudanchorManager>
         CloudAnchorState cloudAnchorState = cloudanchor.cloudAnchorState;
         if (cloudAnchorState == CloudAnchorState.Success)
         {
+            debugtext.text = "Anchor successfully hosted";
             anchorHostInProgress = false;
 
             anchorToResolve = cloudanchor.cloudAnchorId;
@@ -126,7 +134,8 @@ public class ARcloudanchorManager : Singleton<ARcloudanchorManager>
         else if (cloudAnchorState != CloudAnchorState.TaskInProgress)
         {
             anchorHostInProgress = false;
-            Debug.Log("state : CloudAnchorState.TaskInProgress");
+            debugtext.text = "Fail to host anchor with state";
+           
         }
     }
 
@@ -134,11 +143,11 @@ public class ARcloudanchorManager : Singleton<ARcloudanchorManager>
     // Update is called once per frame
     void Update()
     {
-        
+
 
 
         //checking for host result
-        if(anchorHostInProgress)
+        if (anchorHostInProgress)
         {
             CheckHostingProgress();
             return;
@@ -162,5 +171,7 @@ public class ARcloudanchorManager : Singleton<ARcloudanchorManager>
         {
             safeToResolvePassed -= Time.deltaTime * 1.0f;
         }
+
+       
     }
 }

@@ -1,0 +1,2101 @@
+--------- beginning of main
+--------- beginning of system
+04-20 10:43:48.537 10195 10233 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+04-20 10:43:48.599 10195 10233 I Unity   : SystemInfo CPU = ARM64 FP ASIMD AES, Cores = 8, Memory = 3679mb
+04-20 10:43:48.599 10195 10233 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf0), 4 little (mask: 0xf)
+04-20 10:43:48.600 10195 10233 I Unity   : ApplicationInfo com.DefaultCompany.Linedraw version 0.1 build 9ff3d69a-0d15-4191-b6e9-d01d4a16f155
+04-20 10:43:48.600 10195 10233 I Unity   : Built from '2019.4/release' branch, Version '2019.4.20f1 (6dd1c08eedfa)', Build type 'Release', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Enabled'
+04-20 10:43:48.823 10195 10233 D Unity   :  GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_texture_compression_astc_sliced_3d GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_
+04-20 10:43:48.823 10195 10233 D Unity   : to_texture GL_EXT_multisampled_render_to_texture2 GL_OES_surfaceless_context GL_OES_texture_stencil8 GL_EXT_shader_pixel_local_storage GL_ARM_shader_framebuffer_fetch GL_ARM_shader_framebuffer_fetch_depth_stencil GL_ARM_mali_program_binary GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_texture_sRGB_decode GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OES_texture_storage_multisample_2d_array GL_OES_shader_image_atomic GL_EXT_robustness GL_EXT_draw_buffers_indexed GL_OES_draw_buffers_indexed GL_EXT_texture_border_clamp GL_OES_texture_border_clamp GL_EXT_texture_cube_map_array GL_OES_texture_cube_map_array GL_OES_sample_variables GL_OES_sample_shading GL_OES_shader_multisample_interpolation GL_EXT_shader_io_blocks GL_OES_shader_io_blocks GL_EXT_tessellation_shader GL_OES_tessellation_shader GL_EXT_primitive_bounding_box GL_OES_primitive_bounding_box GL_EXT_geometry_shader GL_OES_geometry_shader GL_ANDROID_extension_pack_es31a GL_EXT_gpu_sh
+04-20 10:43:48.823 10195 10233 D Unity   : ader5 GL_OES_gpu_shader5 GL_EXT_texture_buffer GL_OES_texture_buffer GL_EXT_copy_image GL_OES_copy_image GL_EXT_shader_non_constant_global_initializers GL_EXT_color_buffer_half_float GL_EXT_color_buffer_float GL_EXT_YUV_target GL_OVR_multiview GL_OVR_multiview2 GL_OVR_multiview_multisampled_render_to_texture GL_KHR_robustness GL_KHR_robust_buffer_access_behavior GL_EXT_draw_elements_base_vertex GL_OES_draw_elements_base_vertex GL_EXT_protected_textures GL_EXT_buffer_storage GL_EXT_external_buffer GL_EXT_EGL_image_array
+04-20 10:43:48.978 10195 10233 I Unity   : XRGeneral Settings awakening...
+04-20 10:43:48.978 10195 10233 I Unity   : UnityEngine.XR.Management.XRGeneralSettings:Awake()
+04-20 10:43:48.978 10195 10233 I Unity   :  
+04-20 10:43:48.978 10195 10233 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 10:43:48.978 10195 10233 I Unity   : 
+04-20 10:43:51.288 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:51.288 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:51.288 10195 10233 E Unity   :  
+04-20 10:43:51.288 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:51.288 10195 10233 E Unity   : 
+04-20 10:43:51.293 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:51.293 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:51.293 10195 10233 E Unity   :  
+04-20 10:43:51.293 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:51.293 10195 10233 E Unity   : 
+04-20 10:43:52.245 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:52.245 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:52.245 10195 10233 E Unity   :  
+04-20 10:43:52.245 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:52.245 10195 10233 E Unity   : 
+04-20 10:43:52.248 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:52.248 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:52.248 10195 10233 E Unity   :  
+04-20 10:43:52.248 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:52.248 10195 10233 E Unity   : 
+04-20 10:43:52.254 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:52.254 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:52.254 10195 10233 E Unity   :  
+04-20 10:43:52.254 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:52.254 10195 10233 E Unity   : 
+04-20 10:43:52.257 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:52.257 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:52.257 10195 10233 E Unity   :  
+04-20 10:43:52.257 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:52.257 10195 10233 E Unity   : 
+04-20 10:43:55.205 10195 10233 E Unity   : Unable to find _burst_generated
+04-20 10:43:55.221 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:55.221 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:55.221 10195 10233 E Unity   :  
+04-20 10:43:55.221 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:55.221 10195 10233 E Unity   : 
+04-20 10:43:55.226 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:55.226 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:55.226 10195 10233 E Unity   :  
+04-20 10:43:55.226 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:55.226 10195 10233 E Unity   : 
+04-20 10:43:57.149 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:57.149 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:57.149 10195 10233 E Unity   :  
+04-20 10:43:57.149 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:57.149 10195 10233 E Unity   : 
+04-20 10:43:57.159 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:57.159 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:57.159 10195 10233 E Unity   :  
+04-20 10:43:57.159 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:57.159 10195 10233 E Unity   : 
+04-20 10:43:57.276 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:57.276 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:57.276 10195 10233 E Unity   :  
+04-20 10:43:57.276 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:57.276 10195 10233 E Unity   : 
+04-20 10:43:57.284 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:57.284 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:57.284 10195 10233 E Unity   :  
+04-20 10:43:57.284 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:57.284 10195 10233 E Unity   : 
+04-20 10:43:57.380 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:57.380 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:57.380 10195 10233 E Unity   :  
+04-20 10:43:57.380 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:57.380 10195 10233 E Unity   : 
+04-20 10:43:57.387 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:57.387 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:57.387 10195 10233 E Unity   :  
+04-20 10:43:57.387 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:57.387 10195 10233 E Unity   : 
+04-20 10:43:57.467 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:57.467 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:57.467 10195 10233 E Unity   :  
+04-20 10:43:57.467 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:57.467 10195 10233 E Unity   : 
+04-20 10:43:57.482 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:57.482 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:57.482 10195 10233 E Unity   :  
+04-20 10:43:57.482 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:57.482 10195 10233 E Unity   : 
+04-20 10:43:57.568 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:57.568 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:57.568 10195 10233 E Unity   :  
+04-20 10:43:57.568 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:57.568 10195 10233 E Unity   : 
+04-20 10:43:57.575 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:57.575 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:57.575 10195 10233 E Unity   :  
+04-20 10:43:57.575 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:57.575 10195 10233 E Unity   : 
+04-20 10:43:57.658 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:57.658 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:57.658 10195 10233 E Unity   :  
+04-20 10:43:57.658 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:57.658 10195 10233 E Unity   : 
+04-20 10:43:57.666 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:57.666 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:57.666 10195 10233 E Unity   :  
+04-20 10:43:57.666 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:57.666 10195 10233 E Unity   : 
+04-20 10:43:57.745 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:57.745 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:57.745 10195 10233 E Unity   :  
+04-20 10:43:57.745 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:57.745 10195 10233 E Unity   : 
+04-20 10:43:57.753 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:57.753 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:57.753 10195 10233 E Unity   :  
+04-20 10:43:57.753 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:57.753 10195 10233 E Unity   : 
+04-20 10:43:57.833 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:57.833 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:57.833 10195 10233 E Unity   :  
+04-20 10:43:57.833 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:57.833 10195 10233 E Unity   : 
+04-20 10:43:57.846 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:57.846 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:57.846 10195 10233 E Unity   :  
+04-20 10:43:57.846 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:57.846 10195 10233 E Unity   : 
+04-20 10:43:57.898 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:57.898 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:57.898 10195 10233 E Unity   :  
+04-20 10:43:57.898 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:57.898 10195 10233 E Unity   : 
+04-20 10:43:57.904 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:57.904 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:57.904 10195 10233 E Unity   :  
+04-20 10:43:57.904 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:57.904 10195 10233 E Unity   : 
+04-20 10:43:58.037 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:58.037 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:58.037 10195 10233 E Unity   :  
+04-20 10:43:58.037 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:58.037 10195 10233 E Unity   : 
+04-20 10:43:58.041 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:58.041 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:58.041 10195 10233 E Unity   :  
+04-20 10:43:58.041 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:58.041 10195 10233 E Unity   : 
+04-20 10:43:58.070 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:58.070 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:58.070 10195 10233 E Unity   :  
+04-20 10:43:58.070 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:58.070 10195 10233 E Unity   : 
+04-20 10:43:58.079 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:58.079 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:58.079 10195 10233 E Unity   :  
+04-20 10:43:58.079 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:58.079 10195 10233 E Unity   : 
+04-20 10:43:58.100 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:58.100 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:58.100 10195 10233 E Unity   :  
+04-20 10:43:58.100 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:58.100 10195 10233 E Unity   : 
+04-20 10:43:58.105 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:58.105 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:58.105 10195 10233 E Unity   :  
+04-20 10:43:58.105 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:58.105 10195 10233 E Unity   : 
+04-20 10:43:58.169 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:58.169 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:58.169 10195 10233 E Unity   :  
+04-20 10:43:58.169 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:58.169 10195 10233 E Unity   : 
+04-20 10:43:58.195 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:58.195 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:58.195 10195 10233 E Unity   :  
+04-20 10:43:58.195 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:58.195 10195 10233 E Unity   : 
+04-20 10:43:58.198 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:58.198 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:58.198 10195 10233 E Unity   :  
+04-20 10:43:58.198 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:58.198 10195 10233 E Unity   : 
+04-20 10:43:58.333 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:58.333 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:58.333 10195 10233 E Unity   :  
+04-20 10:43:58.333 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:58.333 10195 10233 E Unity   : 
+04-20 10:43:58.364 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:58.364 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:58.364 10195 10233 E Unity   :  
+04-20 10:43:58.364 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:58.364 10195 10233 E Unity   : 
+04-20 10:43:58.400 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:58.400 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:58.400 10195 10233 E Unity   :  
+04-20 10:43:58.400 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:58.400 10195 10233 E Unity   : 
+04-20 10:43:58.430 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:58.430 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:58.430 10195 10233 E Unity   :  
+04-20 10:43:58.430 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:58.430 10195 10233 E Unity   : 
+04-20 10:43:58.434 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:58.434 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:58.434 10195 10233 E Unity   :  
+04-20 10:43:58.434 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:58.434 10195 10233 E Unity   : 
+04-20 10:43:58.469 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:58.469 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:58.469 10195 10233 E Unity   :  
+04-20 10:43:58.469 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:58.469 10195 10233 E Unity   : 
+04-20 10:43:58.474 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:58.474 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:58.474 10195 10233 E Unity   :  
+04-20 10:43:58.474 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:58.474 10195 10233 E Unity   : 
+04-20 10:43:58.501 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:58.501 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:58.501 10195 10233 E Unity   :  
+04-20 10:43:58.501 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:58.501 10195 10233 E Unity   : 
+04-20 10:43:58.530 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:58.530 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:58.530 10195 10233 E Unity   :  
+04-20 10:43:58.530 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:58.530 10195 10233 E Unity   : 
+04-20 10:43:58.536 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:58.536 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:58.536 10195 10233 E Unity   :  
+04-20 10:43:58.536 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:58.536 10195 10233 E Unity   : 
+04-20 10:43:58.576 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:58.576 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:58.576 10195 10233 E Unity   :  
+04-20 10:43:58.576 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:58.576 10195 10233 E Unity   : 
+04-20 10:43:58.674 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:58.674 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:58.674 10195 10233 E Unity   :  
+04-20 10:43:58.674 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:58.674 10195 10233 E Unity   : 
+04-20 10:43:58.696 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:58.696 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:58.696 10195 10233 E Unity   :  
+04-20 10:43:58.696 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:58.696 10195 10233 E Unity   : 
+04-20 10:43:59.138 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.138 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.138 10195 10233 E Unity   :  
+04-20 10:43:59.138 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.138 10195 10233 E Unity   : 
+04-20 10:43:59.173 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.173 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.173 10195 10233 E Unity   :  
+04-20 10:43:59.173 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.173 10195 10233 E Unity   : 
+04-20 10:43:59.306 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.306 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.306 10195 10233 E Unity   :  
+04-20 10:43:59.306 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.306 10195 10233 E Unity   : 
+04-20 10:43:59.330 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.330 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.330 10195 10233 E Unity   :  
+04-20 10:43:59.330 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.330 10195 10233 E Unity   : 
+04-20 10:43:59.653 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.653 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.653 10195 10233 E Unity   :  
+04-20 10:43:59.653 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.653 10195 10233 E Unity   : 
+04-20 10:43:59.697 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.697 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.697 10195 10233 E Unity   :  
+04-20 10:43:59.697 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.697 10195 10233 E Unity   : 
+04-20 10:43:59.705 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.705 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.705 10195 10233 E Unity   :  
+04-20 10:43:59.705 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.705 10195 10233 E Unity   : 
+04-20 10:43:59.715 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.715 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.715 10195 10233 E Unity   :  
+04-20 10:43:59.715 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.715 10195 10233 E Unity   : 
+04-20 10:43:59.719 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.719 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.719 10195 10233 E Unity   :  
+04-20 10:43:59.719 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.719 10195 10233 E Unity   : 
+04-20 10:43:59.752 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.752 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.752 10195 10233 E Unity   :  
+04-20 10:43:59.752 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.752 10195 10233 E Unity   : 
+04-20 10:43:59.763 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.763 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.763 10195 10233 E Unity   :  
+04-20 10:43:59.763 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.763 10195 10233 E Unity   : 
+04-20 10:43:59.781 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.781 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.781 10195 10233 E Unity   :  
+04-20 10:43:59.781 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.781 10195 10233 E Unity   : 
+04-20 10:43:59.785 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.785 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.785 10195 10233 E Unity   :  
+04-20 10:43:59.785 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.785 10195 10233 E Unity   : 
+04-20 10:43:59.815 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.815 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.815 10195 10233 E Unity   :  
+04-20 10:43:59.815 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.815 10195 10233 E Unity   : 
+04-20 10:43:59.820 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.820 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.820 10195 10233 E Unity   :  
+04-20 10:43:59.820 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.820 10195 10233 E Unity   : 
+04-20 10:43:59.852 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.852 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.852 10195 10233 E Unity   :  
+04-20 10:43:59.852 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.852 10195 10233 E Unity   : 
+04-20 10:43:59.860 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.860 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.860 10195 10233 E Unity   :  
+04-20 10:43:59.860 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.860 10195 10233 E Unity   : 
+04-20 10:43:59.883 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.883 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.883 10195 10233 E Unity   :  
+04-20 10:43:59.883 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.883 10195 10233 E Unity   : 
+04-20 10:43:59.886 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.886 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.886 10195 10233 E Unity   :  
+04-20 10:43:59.886 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.886 10195 10233 E Unity   : 
+04-20 10:43:59.917 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.917 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.917 10195 10233 E Unity   :  
+04-20 10:43:59.917 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.917 10195 10233 E Unity   : 
+04-20 10:43:59.933 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.933 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.933 10195 10233 E Unity   :  
+04-20 10:43:59.933 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.933 10195 10233 E Unity   : 
+04-20 10:43:59.954 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.954 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.954 10195 10233 E Unity   :  
+04-20 10:43:59.954 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.954 10195 10233 E Unity   : 
+04-20 10:43:59.961 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.961 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.961 10195 10233 E Unity   :  
+04-20 10:43:59.961 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.961 10195 10233 E Unity   : 
+04-20 10:43:59.983 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.983 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.983 10195 10233 E Unity   :  
+04-20 10:43:59.983 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.983 10195 10233 E Unity   : 
+04-20 10:43:59.992 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:43:59.992 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:43:59.992 10195 10233 E Unity   :  
+04-20 10:43:59.992 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:43:59.992 10195 10233 E Unity   : 
+04-20 10:44:00.036 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.036 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.036 10195 10233 E Unity   :  
+04-20 10:44:00.036 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.036 10195 10233 E Unity   : 
+04-20 10:44:00.043 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.043 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.043 10195 10233 E Unity   :  
+04-20 10:44:00.043 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.043 10195 10233 E Unity   : 
+04-20 10:44:00.070 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.070 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.070 10195 10233 E Unity   :  
+04-20 10:44:00.070 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.070 10195 10233 E Unity   : 
+04-20 10:44:00.083 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.083 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.083 10195 10233 E Unity   :  
+04-20 10:44:00.083 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.083 10195 10233 E Unity   : 
+04-20 10:44:00.110 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.110 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.110 10195 10233 E Unity   :  
+04-20 10:44:00.110 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.110 10195 10233 E Unity   : 
+04-20 10:44:00.117 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.117 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.117 10195 10233 E Unity   :  
+04-20 10:44:00.117 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.117 10195 10233 E Unity   : 
+04-20 10:44:00.161 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.161 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.161 10195 10233 E Unity   :  
+04-20 10:44:00.161 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.161 10195 10233 E Unity   : 
+04-20 10:44:00.178 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.178 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.178 10195 10233 E Unity   :  
+04-20 10:44:00.178 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.178 10195 10233 E Unity   : 
+04-20 10:44:00.230 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.230 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.230 10195 10233 E Unity   :  
+04-20 10:44:00.230 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.230 10195 10233 E Unity   : 
+04-20 10:44:00.239 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.239 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.239 10195 10233 E Unity   :  
+04-20 10:44:00.239 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.239 10195 10233 E Unity   : 
+04-20 10:44:00.263 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.263 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.263 10195 10233 E Unity   :  
+04-20 10:44:00.263 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.263 10195 10233 E Unity   : 
+04-20 10:44:00.268 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.268 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.268 10195 10233 E Unity   :  
+04-20 10:44:00.268 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.268 10195 10233 E Unity   : 
+04-20 10:44:00.287 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.287 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.287 10195 10233 E Unity   :  
+04-20 10:44:00.287 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.287 10195 10233 E Unity   : 
+04-20 10:44:00.301 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.301 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.301 10195 10233 E Unity   :  
+04-20 10:44:00.301 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.301 10195 10233 E Unity   : 
+04-20 10:44:00.329 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.329 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.329 10195 10233 E Unity   :  
+04-20 10:44:00.329 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.329 10195 10233 E Unity   : 
+04-20 10:44:00.342 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.342 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.342 10195 10233 E Unity   :  
+04-20 10:44:00.342 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.342 10195 10233 E Unity   : 
+04-20 10:44:00.371 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.371 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.371 10195 10233 E Unity   :  
+04-20 10:44:00.371 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.371 10195 10233 E Unity   : 
+04-20 10:44:00.441 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.441 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.441 10195 10233 E Unity   :  
+04-20 10:44:00.441 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.441 10195 10233 E Unity   : 
+04-20 10:44:00.452 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.452 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.452 10195 10233 E Unity   :  
+04-20 10:44:00.452 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.452 10195 10233 E Unity   : 
+04-20 10:44:00.502 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.502 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.502 10195 10233 E Unity   :  
+04-20 10:44:00.502 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.502 10195 10233 E Unity   : 
+04-20 10:44:00.510 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.510 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.510 10195 10233 E Unity   :  
+04-20 10:44:00.510 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.510 10195 10233 E Unity   : 
+04-20 10:44:00.535 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.535 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.535 10195 10233 E Unity   :  
+04-20 10:44:00.535 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.535 10195 10233 E Unity   : 
+04-20 10:44:00.540 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.540 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.540 10195 10233 E Unity   :  
+04-20 10:44:00.540 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.540 10195 10233 E Unity   : 
+04-20 10:44:00.565 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.565 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.565 10195 10233 E Unity   :  
+04-20 10:44:00.565 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.565 10195 10233 E Unity   : 
+04-20 10:44:00.573 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.573 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.573 10195 10233 E Unity   :  
+04-20 10:44:00.573 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.573 10195 10233 E Unity   : 
+04-20 10:44:00.601 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.601 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.601 10195 10233 E Unity   :  
+04-20 10:44:00.601 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.601 10195 10233 E Unity   : 
+04-20 10:44:00.607 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.607 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.607 10195 10233 E Unity   :  
+04-20 10:44:00.607 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.607 10195 10233 E Unity   : 
+04-20 10:44:00.636 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.636 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.636 10195 10233 E Unity   :  
+04-20 10:44:00.636 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.636 10195 10233 E Unity   : 
+04-20 10:44:00.641 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.641 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.641 10195 10233 E Unity   :  
+04-20 10:44:00.641 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.641 10195 10233 E Unity   : 
+04-20 10:44:00.676 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.676 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.676 10195 10233 E Unity   :  
+04-20 10:44:00.676 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.676 10195 10233 E Unity   : 
+04-20 10:44:00.683 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.683 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.683 10195 10233 E Unity   :  
+04-20 10:44:00.683 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.683 10195 10233 E Unity   : 
+04-20 10:44:00.698 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.698 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.698 10195 10233 E Unity   :  
+04-20 10:44:00.698 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.698 10195 10233 E Unity   : 
+04-20 10:44:00.702 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.702 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.702 10195 10233 E Unity   :  
+04-20 10:44:00.702 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.702 10195 10233 E Unity   : 
+04-20 10:44:00.741 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.741 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.741 10195 10233 E Unity   :  
+04-20 10:44:00.741 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.741 10195 10233 E Unity   : 
+04-20 10:44:00.750 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.750 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.750 10195 10233 E Unity   :  
+04-20 10:44:00.750 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.750 10195 10233 E Unity   : 
+04-20 10:44:00.777 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.777 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.777 10195 10233 E Unity   :  
+04-20 10:44:00.777 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.777 10195 10233 E Unity   : 
+04-20 10:44:00.782 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.782 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.782 10195 10233 E Unity   :  
+04-20 10:44:00.782 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.782 10195 10233 E Unity   : 
+04-20 10:44:00.803 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.803 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.803 10195 10233 E Unity   :  
+04-20 10:44:00.803 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.803 10195 10233 E Unity   : 
+04-20 10:44:00.814 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.814 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.814 10195 10233 E Unity   :  
+04-20 10:44:00.814 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.814 10195 10233 E Unity   : 
+04-20 10:44:00.844 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.844 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.844 10195 10233 E Unity   :  
+04-20 10:44:00.844 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.844 10195 10233 E Unity   : 
+04-20 10:44:00.850 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.850 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.850 10195 10233 E Unity   :  
+04-20 10:44:00.850 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.850 10195 10233 E Unity   : 
+04-20 10:44:00.867 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.867 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.867 10195 10233 E Unity   :  
+04-20 10:44:00.867 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.867 10195 10233 E Unity   : 
+04-20 10:44:00.872 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.872 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.872 10195 10233 E Unity   :  
+04-20 10:44:00.872 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.872 10195 10233 E Unity   : 
+04-20 10:44:00.890 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.890 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.890 10195 10233 E Unity   :  
+04-20 10:44:00.890 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.890 10195 10233 E Unity   : 
+04-20 10:44:00.895 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.895 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.895 10195 10233 E Unity   :  
+04-20 10:44:00.895 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.895 10195 10233 E Unity   : 
+04-20 10:44:00.931 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.931 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.931 10195 10233 E Unity   :  
+04-20 10:44:00.931 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.931 10195 10233 E Unity   : 
+04-20 10:44:00.935 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.935 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.935 10195 10233 E Unity   :  
+04-20 10:44:00.935 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.935 10195 10233 E Unity   : 
+04-20 10:44:00.968 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.968 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.968 10195 10233 E Unity   :  
+04-20 10:44:00.968 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.968 10195 10233 E Unity   : 
+04-20 10:44:00.971 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.971 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.971 10195 10233 E Unity   :  
+04-20 10:44:00.971 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.971 10195 10233 E Unity   : 
+04-20 10:44:00.993 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.993 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.993 10195 10233 E Unity   :  
+04-20 10:44:00.993 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.993 10195 10233 E Unity   : 
+04-20 10:44:00.997 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:00.997 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:00.997 10195 10233 E Unity   :  
+04-20 10:44:00.997 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:00.997 10195 10233 E Unity   : 
+04-20 10:44:01.021 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.021 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.021 10195 10233 E Unity   :  
+04-20 10:44:01.021 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.021 10195 10233 E Unity   : 
+04-20 10:44:01.027 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.027 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.027 10195 10233 E Unity   :  
+04-20 10:44:01.027 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.027 10195 10233 E Unity   : 
+04-20 10:44:01.061 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.061 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.061 10195 10233 E Unity   :  
+04-20 10:44:01.061 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.061 10195 10233 E Unity   : 
+04-20 10:44:01.066 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.066 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.066 10195 10233 E Unity   :  
+04-20 10:44:01.066 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.066 10195 10233 E Unity   : 
+04-20 10:44:01.094 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.094 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.094 10195 10233 E Unity   :  
+04-20 10:44:01.094 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.094 10195 10233 E Unity   : 
+04-20 10:44:01.098 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.098 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.098 10195 10233 E Unity   :  
+04-20 10:44:01.098 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.098 10195 10233 E Unity   : 
+04-20 10:44:01.127 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.127 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.127 10195 10233 E Unity   :  
+04-20 10:44:01.127 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.127 10195 10233 E Unity   : 
+04-20 10:44:01.133 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.133 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.133 10195 10233 E Unity   :  
+04-20 10:44:01.133 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.133 10195 10233 E Unity   : 
+04-20 10:44:01.166 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.166 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.166 10195 10233 E Unity   :  
+04-20 10:44:01.166 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.166 10195 10233 E Unity   : 
+04-20 10:44:01.187 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.187 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.187 10195 10233 E Unity   :  
+04-20 10:44:01.187 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.187 10195 10233 E Unity   : 
+04-20 10:44:01.196 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.196 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.196 10195 10233 E Unity   :  
+04-20 10:44:01.196 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.196 10195 10233 E Unity   : 
+04-20 10:44:01.227 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.227 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.227 10195 10233 E Unity   :  
+04-20 10:44:01.227 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.227 10195 10233 E Unity   : 
+04-20 10:44:01.234 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.234 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.234 10195 10233 E Unity   :  
+04-20 10:44:01.234 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.234 10195 10233 E Unity   : 
+04-20 10:44:01.254 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.254 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.254 10195 10233 E Unity   :  
+04-20 10:44:01.254 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.254 10195 10233 E Unity   : 
+04-20 10:44:01.262 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.262 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.262 10195 10233 E Unity   :  
+04-20 10:44:01.262 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.262 10195 10233 E Unity   : 
+04-20 10:44:01.287 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.287 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.287 10195 10233 E Unity   :  
+04-20 10:44:01.287 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.287 10195 10233 E Unity   : 
+04-20 10:44:01.326 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.326 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.326 10195 10233 E Unity   :  
+04-20 10:44:01.326 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.326 10195 10233 E Unity   : 
+04-20 10:44:01.356 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.356 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.356 10195 10233 E Unity   :  
+04-20 10:44:01.356 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.356 10195 10233 E Unity   : 
+04-20 10:44:01.364 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.364 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.364 10195 10233 E Unity   :  
+04-20 10:44:01.364 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.364 10195 10233 E Unity   : 
+04-20 10:44:01.387 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.387 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.387 10195 10233 E Unity   :  
+04-20 10:44:01.387 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.387 10195 10233 E Unity   : 
+04-20 10:44:01.393 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.393 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.393 10195 10233 E Unity   :  
+04-20 10:44:01.393 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.393 10195 10233 E Unity   : 
+04-20 10:44:01.420 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.420 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.420 10195 10233 E Unity   :  
+04-20 10:44:01.420 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.420 10195 10233 E Unity   : 
+04-20 10:44:01.427 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.427 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.427 10195 10233 E Unity   :  
+04-20 10:44:01.427 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.427 10195 10233 E Unity   : 
+04-20 10:44:01.454 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.454 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.454 10195 10233 E Unity   :  
+04-20 10:44:01.454 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.454 10195 10233 E Unity   : 
+04-20 10:44:01.460 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.460 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.460 10195 10233 E Unity   :  
+04-20 10:44:01.460 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.460 10195 10233 E Unity   : 
+04-20 10:44:01.485 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.485 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.485 10195 10233 E Unity   :  
+04-20 10:44:01.485 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.485 10195 10233 E Unity   : 
+04-20 10:44:01.491 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.491 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.491 10195 10233 E Unity   :  
+04-20 10:44:01.491 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.491 10195 10233 E Unity   : 
+04-20 10:44:01.522 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.522 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.522 10195 10233 E Unity   :  
+04-20 10:44:01.522 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.522 10195 10233 E Unity   : 
+04-20 10:44:01.527 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.527 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.527 10195 10233 E Unity   :  
+04-20 10:44:01.527 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.527 10195 10233 E Unity   : 
+04-20 10:44:01.561 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.561 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.561 10195 10233 E Unity   :  
+04-20 10:44:01.561 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.561 10195 10233 E Unity   : 
+04-20 10:44:01.566 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.566 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.566 10195 10233 E Unity   :  
+04-20 10:44:01.566 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.566 10195 10233 E Unity   : 
+04-20 10:44:01.592 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.592 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.592 10195 10233 E Unity   :  
+04-20 10:44:01.592 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.592 10195 10233 E Unity   : 
+04-20 10:44:01.598 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.598 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.598 10195 10233 E Unity   :  
+04-20 10:44:01.598 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.598 10195 10233 E Unity   : 
+04-20 10:44:01.620 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.620 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.620 10195 10233 E Unity   :  
+04-20 10:44:01.620 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.620 10195 10233 E Unity   : 
+04-20 10:44:01.624 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.624 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.624 10195 10233 E Unity   :  
+04-20 10:44:01.624 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.624 10195 10233 E Unity   : 
+04-20 10:44:01.655 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.655 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.655 10195 10233 E Unity   :  
+04-20 10:44:01.655 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.655 10195 10233 E Unity   : 
+04-20 10:44:01.663 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.663 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.663 10195 10233 E Unity   :  
+04-20 10:44:01.663 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.663 10195 10233 E Unity   : 
+04-20 10:44:01.695 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.695 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.695 10195 10233 E Unity   :  
+04-20 10:44:01.695 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.695 10195 10233 E Unity   : 
+04-20 10:44:01.770 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.770 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.770 10195 10233 E Unity   :  
+04-20 10:44:01.770 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.770 10195 10233 E Unity   : 
+04-20 10:44:01.795 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.795 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.795 10195 10233 E Unity   :  
+04-20 10:44:01.795 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.795 10195 10233 E Unity   : 
+04-20 10:44:01.804 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.804 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.804 10195 10233 E Unity   :  
+04-20 10:44:01.804 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.804 10195 10233 E Unity   : 
+04-20 10:44:01.872 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.872 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.872 10195 10233 E Unity   :  
+04-20 10:44:01.872 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.872 10195 10233 E Unity   : 
+04-20 10:44:01.907 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.907 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.907 10195 10233 E Unity   :  
+04-20 10:44:01.907 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.907 10195 10233 E Unity   : 
+04-20 10:44:01.914 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.914 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.914 10195 10233 E Unity   :  
+04-20 10:44:01.914 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.914 10195 10233 E Unity   : 
+04-20 10:44:01.932 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.932 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.932 10195 10233 E Unity   :  
+04-20 10:44:01.932 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.932 10195 10233 E Unity   : 
+04-20 10:44:01.937 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.937 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.937 10195 10233 E Unity   :  
+04-20 10:44:01.937 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.937 10195 10233 E Unity   : 
+04-20 10:44:01.964 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.964 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.964 10195 10233 E Unity   :  
+04-20 10:44:01.964 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.964 10195 10233 E Unity   : 
+04-20 10:44:01.971 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.971 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.971 10195 10233 E Unity   :  
+04-20 10:44:01.971 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.971 10195 10233 E Unity   : 
+04-20 10:44:01.997 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:01.997 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:01.997 10195 10233 E Unity   :  
+04-20 10:44:01.997 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:01.997 10195 10233 E Unity   : 
+04-20 10:44:02.010 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.010 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.010 10195 10233 E Unity   :  
+04-20 10:44:02.010 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.010 10195 10233 E Unity   : 
+04-20 10:44:02.026 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.026 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.026 10195 10233 E Unity   :  
+04-20 10:44:02.026 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.026 10195 10233 E Unity   : 
+04-20 10:44:02.039 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.039 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.039 10195 10233 E Unity   :  
+04-20 10:44:02.039 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.039 10195 10233 E Unity   : 
+04-20 10:44:02.063 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.063 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.063 10195 10233 E Unity   :  
+04-20 10:44:02.063 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.063 10195 10233 E Unity   : 
+04-20 10:44:02.068 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.068 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.068 10195 10233 E Unity   :  
+04-20 10:44:02.068 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.068 10195 10233 E Unity   : 
+04-20 10:44:02.097 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.097 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.097 10195 10233 E Unity   :  
+04-20 10:44:02.097 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.097 10195 10233 E Unity   : 
+04-20 10:44:02.105 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.105 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.105 10195 10233 E Unity   :  
+04-20 10:44:02.105 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.105 10195 10233 E Unity   : 
+04-20 10:44:02.131 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.131 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.131 10195 10233 E Unity   :  
+04-20 10:44:02.131 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.131 10195 10233 E Unity   : 
+04-20 10:44:02.135 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.135 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.135 10195 10233 E Unity   :  
+04-20 10:44:02.135 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.135 10195 10233 E Unity   : 
+04-20 10:44:02.172 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.172 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.172 10195 10233 E Unity   :  
+04-20 10:44:02.172 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.172 10195 10233 E Unity   : 
+04-20 10:44:02.178 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.178 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.178 10195 10233 E Unity   :  
+04-20 10:44:02.178 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.178 10195 10233 E Unity   : 
+04-20 10:44:02.198 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.198 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.198 10195 10233 E Unity   :  
+04-20 10:44:02.198 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.198 10195 10233 E Unity   : 
+04-20 10:44:02.203 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.203 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.203 10195 10233 E Unity   :  
+04-20 10:44:02.203 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.203 10195 10233 E Unity   : 
+04-20 10:44:02.226 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.226 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.226 10195 10233 E Unity   :  
+04-20 10:44:02.226 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.226 10195 10233 E Unity   : 
+04-20 10:44:02.230 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.230 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.230 10195 10233 E Unity   :  
+04-20 10:44:02.230 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.230 10195 10233 E Unity   : 
+04-20 10:44:02.257 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.257 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.257 10195 10233 E Unity   :  
+04-20 10:44:02.257 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.257 10195 10233 E Unity   : 
+04-20 10:44:02.262 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.262 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.262 10195 10233 E Unity   :  
+04-20 10:44:02.262 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.262 10195 10233 E Unity   : 
+04-20 10:44:02.293 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.293 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.293 10195 10233 E Unity   :  
+04-20 10:44:02.293 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.293 10195 10233 E Unity   : 
+04-20 10:44:02.330 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.330 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.330 10195 10233 E Unity   :  
+04-20 10:44:02.330 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.330 10195 10233 E Unity   : 
+04-20 10:44:02.335 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.335 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.335 10195 10233 E Unity   :  
+04-20 10:44:02.335 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.335 10195 10233 E Unity   : 
+04-20 10:44:02.361 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.361 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.361 10195 10233 E Unity   :  
+04-20 10:44:02.361 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.361 10195 10233 E Unity   : 
+04-20 10:44:02.368 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.368 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.368 10195 10233 E Unity   :  
+04-20 10:44:02.368 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.368 10195 10233 E Unity   : 
+04-20 10:44:02.395 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.395 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.395 10195 10233 E Unity   :  
+04-20 10:44:02.395 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.395 10195 10233 E Unity   : 
+04-20 10:44:02.468 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.468 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.468 10195 10233 E Unity   :  
+04-20 10:44:02.468 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.468 10195 10233 E Unity   : 
+04-20 10:44:02.488 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.488 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.488 10195 10233 E Unity   :  
+04-20 10:44:02.488 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.488 10195 10233 E Unity   : 
+04-20 10:44:02.860 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.860 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.860 10195 10233 E Unity   :  
+04-20 10:44:02.860 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.860 10195 10233 E Unity   : 
+04-20 10:44:02.893 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.893 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.893 10195 10233 E Unity   :  
+04-20 10:44:02.893 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.893 10195 10233 E Unity   : 
+04-20 10:44:02.898 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.898 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.898 10195 10233 E Unity   :  
+04-20 10:44:02.898 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.898 10195 10233 E Unity   : 
+04-20 10:44:02.921 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.921 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.921 10195 10233 E Unity   :  
+04-20 10:44:02.921 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.921 10195 10233 E Unity   : 
+04-20 10:44:02.927 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.927 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.927 10195 10233 E Unity   :  
+04-20 10:44:02.927 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.927 10195 10233 E Unity   : 
+04-20 10:44:02.961 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:02.961 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:02.961 10195 10233 E Unity   :  
+04-20 10:44:02.961 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:02.961 10195 10233 E Unity   : 
+04-20 10:44:03.003 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:03.003 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:03.003 10195 10233 E Unity   :  
+04-20 10:44:03.003 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:03.003 10195 10233 E Unity   : 
+04-20 10:44:03.031 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:03.031 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:03.031 10195 10233 E Unity   :  
+04-20 10:44:03.031 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:03.031 10195 10233 E Unity   : 
+04-20 10:44:03.036 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:03.036 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:03.036 10195 10233 E Unity   :  
+04-20 10:44:03.036 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:03.036 10195 10233 E Unity   : 
+04-20 10:44:03.066 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:03.066 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:03.066 10195 10233 E Unity   :  
+04-20 10:44:03.066 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:03.066 10195 10233 E Unity   : 
+04-20 10:44:03.071 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:03.071 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:03.071 10195 10233 E Unity   :  
+04-20 10:44:03.071 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:03.071 10195 10233 E Unity   : 
+04-20 10:44:03.079 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:03.079 10195 10233 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:03.079 10195 10233 E Unity   :   at UnityEngine.Object.Internal_InstantiateSingle (UnityEngine.Object data, UnityEngine.Vector3 pos, UnityEngine.Quaternion rot) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:03.079 10195 10233 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:03.079 10195 10233 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:03.079 10195 10233 E Unity   :   at ARPlacementManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:03.079 10195 10233 E Unity   : UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+04-20 10:44:03.079 10195 10233 E Unity   : UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+04-20 10:44:03.079 10195 10233 E Unity   : UnityEngine.Object:Instantiate(T, Vector3, Quaternion)
+04-20 10:44:03.079 10195 10233 E Unity   : ARPlacementMa
+04-20 10:44:03.090 10195 10233 E Unity   : There is more than one ARcloudanchorManager in the scene.
+04-20 10:44:03.090 10195 10233 E Unity   : DilmerGames.Core.Singletons.Singleton`1:get_Instance()
+04-20 10:44:03.090 10195 10233 E Unity   : ARPlacementManager:Update()
+04-20 10:44:03.090 10195 10233 E Unity   :  
+04-20 10:44:03.090 10195 10233 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 10:44:03.090 10195 10233 E Unity   : 
+04-20 10:44:03.196 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:03.196 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:03.196 10195 10233 E Unity   :  
+04-20 10:44:03.196 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:03.196 10195 10233 E Unity   : 
+04-20 10:44:03.201 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:03.201 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:03.201 10195 10233 E Unity   :  
+04-20 10:44:03.201 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:03.201 10195 10233 E Unity   : 
+04-20 10:44:03.228 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:03.228 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:03.228 10195 10233 E Unity   :  
+04-20 10:44:03.228 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:03.228 10195 10233 E Unity   : 
+04-20 10:44:03.232 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:03.232 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:03.232 10195 10233 E Unity   :  
+04-20 10:44:03.232 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:03.232 10195 10233 E Unity   : 
+04-20 10:44:03.253 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:03.253 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:03.253 10195 10233 E Unity   :  
+04-20 10:44:03.253 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:03.253 10195 10233 E Unity   : 
+04-20 10:44:03.259 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:03.259 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:03.259 10195 10233 E Unity   :  
+04-20 10:44:03.259 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:03.259 10195 10233 E Unity   : 
+04-20 10:44:03.287 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:03.287 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:03.287 10195 10233 E Unity   :  
+04-20 10:44:03.287 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:03.287 10195 10233 E Unity   : 
+04-20 10:44:03.292 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:03.292 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:03.292 10195 10233 E Unity   :  
+04-20 10:44:03.292 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:03.292 10195 10233 E Unity   : 
+04-20 10:44:03.318 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:03.318 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:03.318 10195 10233 E Unity   :  
+04-20 10:44:03.318 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:03.318 10195 10233 E Unity   : 
+04-20 10:44:03.323 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:03.323 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:03.323 10195 10233 E Unity   :  
+04-20 10:44:03.323 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:03.323 10195 10233 E Unity   : 
+04-20 10:44:03.368 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:03.368 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:03.368 10195 10233 E Unity   :  
+04-20 10:44:03.368 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:03.368 10195 10233 E Unity   : 
+04-20 10:44:03.459 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:03.459 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:03.459 10195 10233 E Unity   :  
+04-20 10:44:03.459 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:03.459 10195 10233 E Unity   : 
+04-20 10:44:03.487 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:03.487 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:03.487 10195 10233 E Unity   :  
+04-20 10:44:03.487 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:03.487 10195 10233 E Unity   : 
+04-20 10:44:04.494 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:04.494 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:04.494 10195 10233 E Unity   :  
+04-20 10:44:04.494 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:04.494 10195 10233 E Unity   : 
+04-20 10:44:04.522 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:04.522 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:04.522 10195 10233 E Unity   :  
+04-20 10:44:04.522 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:04.522 10195 10233 E Unity   : 
+04-20 10:44:04.590 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:04.590 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:04.590 10195 10233 E Unity   :  
+04-20 10:44:04.590 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:04.590 10195 10233 E Unity   : 
+04-20 10:44:04.628 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:04.628 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:04.628 10195 10233 E Unity   :  
+04-20 10:44:04.628 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:04.628 10195 10233 E Unity   : 
+04-20 10:44:04.693 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:04.693 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:04.693 10195 10233 E Unity   :  
+04-20 10:44:04.693 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:04.693 10195 10233 E Unity   : 
+04-20 10:44:04.724 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:04.724 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:04.724 10195 10233 E Unity   :  
+04-20 10:44:04.724 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:04.724 10195 10233 E Unity   : 
+04-20 10:44:04.761 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:04.761 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:04.761 10195 10233 E Unity   :  
+04-20 10:44:04.761 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:04.761 10195 10233 E Unity   : 
+04-20 10:44:04.794 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:04.794 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:04.794 10195 10233 E Unity   :  
+04-20 10:44:04.794 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:04.794 10195 10233 E Unity   : 
+04-20 10:44:04.834 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:04.834 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:04.834 10195 10233 E Unity   :  
+04-20 10:44:04.834 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:04.834 10195 10233 E Unity   : 
+04-20 10:44:04.860 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:04.860 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:04.860 10195 10233 E Unity   :  
+04-20 10:44:04.860 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:04.860 10195 10233 E Unity   : 
+04-20 10:44:04.864 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:04.864 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:04.864 10195 10233 E Unity   :  
+04-20 10:44:04.864 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:04.864 10195 10233 E Unity   : 
+04-20 10:44:04.890 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:04.890 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:04.890 10195 10233 E Unity   :  
+04-20 10:44:04.890 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:04.890 10195 10233 E Unity   : 
+04-20 10:44:04.894 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:04.894 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:04.894 10195 10233 E Unity   :  
+04-20 10:44:04.894 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:04.894 10195 10233 E Unity   : 
+04-20 10:44:04.926 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:04.926 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:04.926 10195 10233 E Unity   :  
+04-20 10:44:04.926 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:04.926 10195 10233 E Unity   : 
+04-20 10:44:04.965 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:04.965 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:04.965 10195 10233 E Unity   :  
+04-20 10:44:04.965 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:04.965 10195 10233 E Unity   : 
+04-20 10:44:05.027 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:05.027 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:05.027 10195 10233 E Unity   :  
+04-20 10:44:05.027 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:05.027 10195 10233 E Unity   : 
+04-20 10:44:05.057 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:05.057 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:05.057 10195 10233 E Unity   :  
+04-20 10:44:05.057 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:05.057 10195 10233 E Unity   : 
+04-20 10:44:05.199 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:05.199 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:05.199 10195 10233 E Unity   :  
+04-20 10:44:05.199 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:05.199 10195 10233 E Unity   : 
+04-20 10:44:05.226 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:05.226 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:05.226 10195 10233 E Unity   :  
+04-20 10:44:05.226 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:05.226 10195 10233 E Unity   : 
+04-20 10:44:05.329 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:05.329 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:05.329 10195 10233 E Unity   :  
+04-20 10:44:05.329 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:05.329 10195 10233 E Unity   : 
+04-20 10:44:05.371 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:05.371 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:05.371 10195 10233 E Unity   :  
+04-20 10:44:05.371 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:05.371 10195 10233 E Unity   : 
+04-20 10:44:05.378 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:05.378 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:05.378 10195 10233 E Unity   :  
+04-20 10:44:05.378 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:05.378 10195 10233 E Unity   : 
+04-20 10:44:05.390 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:05.390 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:05.390 10195 10233 E Unity   :  
+04-20 10:44:05.390 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:05.390 10195 10233 E Unity   : 
+04-20 10:44:06.203 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:06.203 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:06.203 10195 10233 E Unity   :  
+04-20 10:44:06.203 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:06.203 10195 10233 E Unity   : 
+04-20 10:44:06.243 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:06.243 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:06.243 10195 10233 E Unity   :  
+04-20 10:44:06.243 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:06.243 10195 10233 E Unity   : 
+04-20 10:44:06.296 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:06.296 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:06.296 10195 10233 E Unity   :  
+04-20 10:44:06.296 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:06.296 10195 10233 E Unity   : 
+04-20 10:44:06.324 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:06.324 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:06.324 10195 10233 E Unity   :  
+04-20 10:44:06.324 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:06.324 10195 10233 E Unity   : 
+04-20 10:44:06.765 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:06.765 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:06.765 10195 10233 E Unity   :  
+04-20 10:44:06.765 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:06.765 10195 10233 E Unity   : 
+04-20 10:44:06.796 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:06.796 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:06.796 10195 10233 E Unity   :  
+04-20 10:44:06.796 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:06.796 10195 10233 E Unity   : 
+04-20 10:44:07.064 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:07.064 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:07.064 10195 10233 E Unity   :  
+04-20 10:44:07.064 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:07.064 10195 10233 E Unity   : 
+04-20 10:44:07.097 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:07.097 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:07.097 10195 10233 E Unity   :  
+04-20 10:44:07.097 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:07.097 10195 10233 E Unity   : 
+04-20 10:44:07.102 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:07.102 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:07.102 10195 10233 E Unity   :  
+04-20 10:44:07.102 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:07.102 10195 10233 E Unity   : 
+04-20 10:44:07.124 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:07.124 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:07.124 10195 10233 E Unity   :  
+04-20 10:44:07.124 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:07.124 10195 10233 E Unity   : 
+04-20 10:44:07.128 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:07.128 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:07.128 10195 10233 E Unity   :  
+04-20 10:44:07.128 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:07.128 10195 10233 E Unity   : 
+04-20 10:44:07.160 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:07.160 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:07.160 10195 10233 E Unity   :  
+04-20 10:44:07.160 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:07.160 10195 10233 E Unity   : 
+04-20 10:44:07.167 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:07.167 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:07.167 10195 10233 E Unity   :  
+04-20 10:44:07.167 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:07.167 10195 10233 E Unity   : 
+04-20 10:44:07.232 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:07.232 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:07.232 10195 10233 E Unity   :  
+04-20 10:44:07.232 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:07.232 10195 10233 E Unity   : 
+04-20 10:44:07.258 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:07.258 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:07.258 10195 10233 E Unity   :  
+04-20 10:44:07.258 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:07.258 10195 10233 E Unity   : 
+04-20 10:44:07.600 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:07.600 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:07.600 10195 10233 E Unity   :  
+04-20 10:44:07.600 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:07.600 10195 10233 E Unity   : 
+04-20 10:44:07.623 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:07.623 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:07.623 10195 10233 E Unity   :  
+04-20 10:44:07.623 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:07.623 10195 10233 E Unity   : 
+04-20 10:44:07.828 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:07.828 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:07.828 10195 10233 E Unity   :  
+04-20 10:44:07.828 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:07.828 10195 10233 E Unity   : 
+04-20 10:44:07.859 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:07.859 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:07.859 10195 10233 E Unity   :  
+04-20 10:44:07.859 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:07.859 10195 10233 E Unity   : 
+04-20 10:44:07.998 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:07.998 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:07.998 10195 10233 E Unity   :  
+04-20 10:44:07.998 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:07.998 10195 10233 E Unity   : 
+04-20 10:44:08.029 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:08.029 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:08.029 10195 10233 E Unity   :  
+04-20 10:44:08.029 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:08.029 10195 10233 E Unity   : 
+04-20 10:44:08.375 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:08.375 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:08.375 10195 10233 E Unity   :  
+04-20 10:44:08.375 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:08.375 10195 10233 E Unity   : 
+04-20 10:44:08.394 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:08.394 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:08.394 10195 10233 E Unity   :  
+04-20 10:44:08.394 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:08.394 10195 10233 E Unity   : 
+04-20 10:44:08.399 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:08.399 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:08.399 10195 10233 E Unity   :  
+04-20 10:44:08.399 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:08.399 10195 10233 E Unity   : 
+04-20 10:44:08.425 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:08.425 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:08.425 10195 10233 E Unity   :  
+04-20 10:44:08.425 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:08.425 10195 10233 E Unity   : 
+04-20 10:44:08.433 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:08.433 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:08.433 10195 10233 E Unity   :  
+04-20 10:44:08.433 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:08.433 10195 10233 E Unity   : 
+04-20 10:44:08.996 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:08.996 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:08.996 10195 10233 E Unity   :  
+04-20 10:44:08.996 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:08.996 10195 10233 E Unity   : 
+04-20 10:44:09.040 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:09.040 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:09.040 10195 10233 E Unity   :  
+04-20 10:44:09.040 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:09.040 10195 10233 E Unity   : 
+04-20 10:44:09.048 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:09.048 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:09.048 10195 10233 E Unity   :  
+04-20 10:44:09.048 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:09.048 10195 10233 E Unity   : 
+04-20 10:44:09.070 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:09.070 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:09.070 10195 10233 E Unity   :  
+04-20 10:44:09.070 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:09.070 10195 10233 E Unity   : 
+04-20 10:44:09.104 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:09.104 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:09.104 10195 10233 E Unity   :  
+04-20 10:44:09.104 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:09.104 10195 10233 E Unity   : 
+04-20 10:44:09.127 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:09.127 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:09.127 10195 10233 E Unity   :  
+04-20 10:44:09.127 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:09.127 10195 10233 E Unity   : 
+04-20 10:44:09.295 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:09.295 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:09.295 10195 10233 E Unity   :  
+04-20 10:44:09.295 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:09.295 10195 10233 E Unity   : 
+04-20 10:44:09.325 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:09.325 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:09.325 10195 10233 E Unity   :  
+04-20 10:44:09.325 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:09.325 10195 10233 E Unity   : 
+04-20 10:44:10.030 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:10.030 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:10.030 10195 10233 E Unity   :  
+04-20 10:44:10.030 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:10.030 10195 10233 E Unity   : 
+04-20 10:44:10.064 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:10.064 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:10.064 10195 10233 E Unity   :  
+04-20 10:44:10.064 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:10.064 10195 10233 E Unity   : 
+04-20 10:44:10.068 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:10.068 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:10.068 10195 10233 E Unity   :  
+04-20 10:44:10.068 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:10.068 10195 10233 E Unity   : 
+04-20 10:44:10.091 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:10.091 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:10.091 10195 10233 E Unity   :  
+04-20 10:44:10.091 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:10.091 10195 10233 E Unity   : 
+04-20 10:44:10.095 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:10.095 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:10.095 10195 10233 E Unity   :  
+04-20 10:44:10.095 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:10.095 10195 10233 E Unity   : 
+04-20 10:44:10.136 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:10.136 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:10.136 10195 10233 E Unity   :  
+04-20 10:44:10.136 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:10.136 10195 10233 E Unity   : 
+04-20 10:44:10.142 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:10.142 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:10.142 10195 10233 E Unity   :  
+04-20 10:44:10.142 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:10.142 10195 10233 E Unity   : 
+04-20 10:44:10.166 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:10.166 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:10.166 10195 10233 E Unity   :  
+04-20 10:44:10.166 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:10.166 10195 10233 E Unity   : 
+04-20 10:44:10.240 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:10.240 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:10.240 10195 10233 E Unity   :  
+04-20 10:44:10.240 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:10.240 10195 10233 E Unity   : 
+04-20 10:44:10.265 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:10.265 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:10.265 10195 10233 E Unity   :  
+04-20 10:44:10.265 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:10.265 10195 10233 E Unity   : 
+04-20 10:44:10.273 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:10.273 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:10.273 10195 10233 E Unity   :  
+04-20 10:44:10.273 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:10.273 10195 10233 E Unity   : 
+04-20 10:44:10.593 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:10.593 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:10.593 10195 10233 E Unity   :  
+04-20 10:44:10.593 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:10.593 10195 10233 E Unity   : 
+04-20 10:44:10.627 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:10.627 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:10.627 10195 10233 E Unity   :  
+04-20 10:44:10.627 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:10.627 10195 10233 E Unity   : 
+04-20 10:44:10.632 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:10.632 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:10.632 10195 10233 E Unity   :  
+04-20 10:44:10.632 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:10.632 10195 10233 E Unity   : 
+04-20 10:44:10.675 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:10.675 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:10.675 10195 10233 E Unity   :  
+04-20 10:44:10.675 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:10.675 10195 10233 E Unity   : 
+04-20 10:44:10.682 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:10.682 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:10.682 10195 10233 E Unity   :  
+04-20 10:44:10.682 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:10.682 10195 10233 E Unity   : 
+04-20 10:44:10.698 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:10.698 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:10.698 10195 10233 E Unity   :  
+04-20 10:44:10.698 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:10.698 10195 10233 E Unity   : 
+04-20 10:44:10.703 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:10.703 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:10.703 10195 10233 E Unity   :  
+04-20 10:44:10.703 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:10.703 10195 10233 E Unity   : 
+04-20 10:44:10.727 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:10.727 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:10.727 10195 10233 E Unity   :  
+04-20 10:44:10.727 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:10.727 10195 10233 E Unity   : 
+04-20 10:44:10.731 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:10.731 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:10.731 10195 10233 E Unity   :  
+04-20 10:44:10.731 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:10.731 10195 10233 E Unity   : 
+04-20 10:44:10.769 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:10.769 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:10.769 10195 10233 E Unity   :  
+04-20 10:44:10.769 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:10.769 10195 10233 E Unity   : 
+04-20 10:44:10.965 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:10.965 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:10.965 10195 10233 E Unity   :  
+04-20 10:44:10.965 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:10.965 10195 10233 E Unity   : 
+04-20 10:44:10.991 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:10.991 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:10.991 10195 10233 E Unity   :  
+04-20 10:44:10.991 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:10.991 10195 10233 E Unity   : 
+04-20 10:44:10.994 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:10.994 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:10.994 10195 10233 E Unity   :  
+04-20 10:44:10.994 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:10.994 10195 10233 E Unity   : 
+04-20 10:44:11.025 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:11.025 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:11.025 10195 10233 E Unity   :  
+04-20 10:44:11.025 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:11.025 10195 10233 E Unity   : 
+04-20 10:44:11.029 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:11.029 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:11.029 10195 10233 E Unity   :  
+04-20 10:44:11.029 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:11.029 10195 10233 E Unity   : 
+04-20 10:44:11.062 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:11.062 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:11.062 10195 10233 E Unity   :  
+04-20 10:44:11.062 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:11.062 10195 10233 E Unity   : 
+04-20 10:44:11.065 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:11.065 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:11.065 10195 10233 E Unity   :  
+04-20 10:44:11.065 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:11.065 10195 10233 E Unity   : 
+04-20 10:44:11.090 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:11.090 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:11.090 10195 10233 E Unity   :  
+04-20 10:44:11.090 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:11.090 10195 10233 E Unity   : 
+04-20 10:44:11.094 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:11.094 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:11.094 10195 10233 E Unity   :  
+04-20 10:44:11.094 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:11.094 10195 10233 E Unity   : 
+04-20 10:44:11.130 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:11.130 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:11.130 10195 10233 E Unity   :  
+04-20 10:44:11.130 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:11.130 10195 10233 E Unity   : 
+04-20 10:44:11.137 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:11.137 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:11.137 10195 10233 E Unity   :  
+04-20 10:44:11.137 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:11.137 10195 10233 E Unity   : 
+04-20 10:44:11.164 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:11.164 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:11.164 10195 10233 E Unity   :  
+04-20 10:44:11.164 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:11.164 10195 10233 E Unity   : 
+04-20 10:44:11.169 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:11.169 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:11.169 10195 10233 E Unity   :  
+04-20 10:44:11.169 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:11.169 10195 10233 E Unity   : 
+04-20 10:44:11.193 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:11.193 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:11.193 10195 10233 E Unity   :  
+04-20 10:44:11.193 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:11.193 10195 10233 E Unity   : 
+04-20 10:44:11.196 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:11.196 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:11.196 10195 10233 E Unity   :  
+04-20 10:44:11.196 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:11.196 10195 10233 E Unity   : 
+04-20 10:44:11.225 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:11.225 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:11.225 10195 10233 E Unity   :  
+04-20 10:44:11.225 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:11.225 10195 10233 E Unity   : 
+04-20 10:44:11.230 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:11.230 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:11.230 10195 10233 E Unity   :  
+04-20 10:44:11.230 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:11.230 10195 10233 E Unity   : 
+04-20 10:44:11.262 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:11.262 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:11.262 10195 10233 E Unity   :  
+04-20 10:44:11.262 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:11.262 10195 10233 E Unity   : 
+04-20 10:44:11.265 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:11.265 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:11.265 10195 10233 E Unity   :  
+04-20 10:44:11.265 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:11.265 10195 10233 E Unity   : 
+04-20 10:44:11.295 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:11.295 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:11.295 10195 10233 E Unity   :  
+04-20 10:44:11.295 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:11.295 10195 10233 E Unity   : 
+04-20 10:44:11.299 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:11.299 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:11.299 10195 10233 E Unity   :  
+04-20 10:44:11.299 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:11.299 10195 10233 E Unity   : 
+04-20 10:44:11.328 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:11.328 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:11.328 10195 10233 E Unity   :  
+04-20 10:44:11.328 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:11.328 10195 10233 E Unity   : 
+04-20 10:44:11.333 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:11.333 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:11.333 10195 10233 E Unity   :  
+04-20 10:44:11.333 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:11.333 10195 10233 E Unity   : 
+04-20 10:44:11.367 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:11.367 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:11.367 10195 10233 E Unity   :  
+04-20 10:44:11.367 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:11.367 10195 10233 E Unity   : 
+04-20 10:44:11.372 10195 10233 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:44:11.372 10195 10233 E Unity   :   at ARcloudanchorManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:44:11.372 10195 10233 E Unity   :  
+04-20 10:44:11.372 10195 10233 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 10:44:11.372 10195 10233 E Unity   : 
+04-20 10:59:30.811 11798 11835 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+04-20 10:59:30.837 11798 11835 I Unity   : SystemInfo CPU = ARM64 FP ASIMD AES, Cores = 8, Memory = 3679mb
+04-20 10:59:30.837 11798 11835 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf0), 4 little (mask: 0xf)
+04-20 10:59:30.838 11798 11835 I Unity   : ApplicationInfo com.DefaultCompany.Linedraw version 0.1 build 799ea1d6-0d0d-4d78-96ae-b35f3c0272ac
+04-20 10:59:30.838 11798 11835 I Unity   : Built from '2019.4/release' branch, Version '2019.4.20f1 (6dd1c08eedfa)', Build type 'Release', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Enabled'
+04-20 10:59:31.039 11798 11835 D Unity   :  GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_texture_compression_astc_sliced_3d GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_
+04-20 10:59:31.039 11798 11835 D Unity   : to_texture GL_EXT_multisampled_render_to_texture2 GL_OES_surfaceless_context GL_OES_texture_stencil8 GL_EXT_shader_pixel_local_storage GL_ARM_shader_framebuffer_fetch GL_ARM_shader_framebuffer_fetch_depth_stencil GL_ARM_mali_program_binary GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_texture_sRGB_decode GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OES_texture_storage_multisample_2d_array GL_OES_shader_image_atomic GL_EXT_robustness GL_EXT_draw_buffers_indexed GL_OES_draw_buffers_indexed GL_EXT_texture_border_clamp GL_OES_texture_border_clamp GL_EXT_texture_cube_map_array GL_OES_texture_cube_map_array GL_OES_sample_variables GL_OES_sample_shading GL_OES_shader_multisample_interpolation GL_EXT_shader_io_blocks GL_OES_shader_io_blocks GL_EXT_tessellation_shader GL_OES_tessellation_shader GL_EXT_primitive_bounding_box GL_OES_primitive_bounding_box GL_EXT_geometry_shader GL_OES_geometry_shader GL_ANDROID_extension_pack_es31a GL_EXT_gpu_sh
+04-20 10:59:31.039 11798 11835 D Unity   : ader5 GL_OES_gpu_shader5 GL_EXT_texture_buffer GL_OES_texture_buffer GL_EXT_copy_image GL_OES_copy_image GL_EXT_shader_non_constant_global_initializers GL_EXT_color_buffer_half_float GL_EXT_color_buffer_float GL_EXT_YUV_target GL_OVR_multiview GL_OVR_multiview2 GL_OVR_multiview_multisampled_render_to_texture GL_KHR_robustness GL_KHR_robust_buffer_access_behavior GL_EXT_draw_elements_base_vertex GL_OES_draw_elements_base_vertex GL_EXT_protected_textures GL_EXT_buffer_storage GL_EXT_external_buffer GL_EXT_EGL_image_array
+04-20 10:59:31.159 11798 11835 I Unity   : XRGeneral Settings awakening...
+04-20 10:59:31.159 11798 11835 I Unity   : UnityEngine.XR.Management.XRGeneralSettings:Awake()
+04-20 10:59:31.159 11798 11835 I Unity   :  
+04-20 10:59:31.159 11798 11835 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 10:59:31.159 11798 11835 I Unity   : 
+04-20 10:59:34.269 11798 11835 E Unity   : Unable to find _burst_generated
+04-20 10:59:44.837 11798 11835 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 10:59:44.837 11798 11835 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:59:44.837 11798 11835 E Unity   :   at UnityEngine.Object.Internal_InstantiateSingle (UnityEngine.Object data, UnityEngine.Vector3 pos, UnityEngine.Quaternion rot) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:59:44.837 11798 11835 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:59:44.837 11798 11835 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:59:44.837 11798 11835 E Unity   :   at ARPlacementManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 10:59:44.837 11798 11835 E Unity   : UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+04-20 10:59:44.837 11798 11835 E Unity   : UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+04-20 10:59:44.837 11798 11835 E Unity   : UnityEngine.Object:Instantiate(T, Vector3, Quaternion)
+04-20 10:59:44.837 11798 11835 E Unity   : ARPlacementMa
+04-20 10:59:44.844 11798 11835 E Unity   : There is more than one ARcloudanchorManager in the scene.
+04-20 10:59:44.844 11798 11835 E Unity   : DilmerGames.Core.Singletons.Singleton`1:get_Instance()
+04-20 10:59:44.844 11798 11835 E Unity   : ARPlacementManager:Update()
+04-20 10:59:44.844 11798 11835 E Unity   :  
+04-20 10:59:44.844 11798 11835 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 10:59:44.844 11798 11835 E Unity   : 
+04-20 11:11:52.732 13437 13473 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+04-20 11:11:52.756 13437 13473 I Unity   : SystemInfo CPU = ARM64 FP ASIMD AES, Cores = 8, Memory = 3679mb
+04-20 11:11:52.756 13437 13473 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf0), 4 little (mask: 0xf)
+04-20 11:11:52.757 13437 13473 I Unity   : ApplicationInfo com.DefaultCompany.Linedraw version 0.1 build 7161f070-556c-4643-8356-82c240bc9c7c
+04-20 11:11:52.757 13437 13473 I Unity   : Built from '2019.4/release' branch, Version '2019.4.20f1 (6dd1c08eedfa)', Build type 'Release', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Enabled'
+04-20 11:11:52.955 13437 13473 D Unity   :  GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_texture_compression_astc_sliced_3d GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_
+04-20 11:11:52.955 13437 13473 D Unity   : to_texture GL_EXT_multisampled_render_to_texture2 GL_OES_surfaceless_context GL_OES_texture_stencil8 GL_EXT_shader_pixel_local_storage GL_ARM_shader_framebuffer_fetch GL_ARM_shader_framebuffer_fetch_depth_stencil GL_ARM_mali_program_binary GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_texture_sRGB_decode GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OES_texture_storage_multisample_2d_array GL_OES_shader_image_atomic GL_EXT_robustness GL_EXT_draw_buffers_indexed GL_OES_draw_buffers_indexed GL_EXT_texture_border_clamp GL_OES_texture_border_clamp GL_EXT_texture_cube_map_array GL_OES_texture_cube_map_array GL_OES_sample_variables GL_OES_sample_shading GL_OES_shader_multisample_interpolation GL_EXT_shader_io_blocks GL_OES_shader_io_blocks GL_EXT_tessellation_shader GL_OES_tessellation_shader GL_EXT_primitive_bounding_box GL_OES_primitive_bounding_box GL_EXT_geometry_shader GL_OES_geometry_shader GL_ANDROID_extension_pack_es31a GL_EXT_gpu_sh
+04-20 11:11:52.955 13437 13473 D Unity   : ader5 GL_OES_gpu_shader5 GL_EXT_texture_buffer GL_OES_texture_buffer GL_EXT_copy_image GL_OES_copy_image GL_EXT_shader_non_constant_global_initializers GL_EXT_color_buffer_half_float GL_EXT_color_buffer_float GL_EXT_YUV_target GL_OVR_multiview GL_OVR_multiview2 GL_OVR_multiview_multisampled_render_to_texture GL_KHR_robustness GL_KHR_robust_buffer_access_behavior GL_EXT_draw_elements_base_vertex GL_OES_draw_elements_base_vertex GL_EXT_protected_textures GL_EXT_buffer_storage GL_EXT_external_buffer GL_EXT_EGL_image_array
+04-20 11:11:53.090 13437 13473 I Unity   : XRGeneral Settings awakening...
+04-20 11:11:53.090 13437 13473 I Unity   : UnityEngine.XR.Management.XRGeneralSettings:Awake()
+04-20 11:11:53.090 13437 13473 I Unity   :  
+04-20 11:11:53.090 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:11:53.090 13437 13473 I Unity   : 
+04-20 11:11:55.265 13437 13473 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 11:11:55.265 13437 13473 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:11:55.265 13437 13473 E Unity   :   at UnityEngine.Object.Internal_InstantiateSingle (UnityEngine.Object data, UnityEngine.Vector3 pos, UnityEngine.Quaternion rot) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:11:55.265 13437 13473 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:11:55.265 13437 13473 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:11:55.265 13437 13473 E Unity   :   at MakeCloudAnchor.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:11:55.265 13437 13473 E Unity   : UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+04-20 11:11:55.265 13437 13473 E Unity   : UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+04-20 11:11:55.265 13437 13473 E Unity   : UnityEngine.Object:Instantiate(T, Vector3, Quaternion)
+04-20 11:11:55.265 13437 13473 E Unity   : MakeCloudAnchor:A
+04-20 11:11:56.534 13437 13473 E Unity   : Unable to find _burst_generated
+04-20 11:12:07.637 13437 13473 I Unity   : touch began
+04-20 11:12:07.637 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:07.637 13437 13473 I Unity   :  
+04-20 11:12:07.637 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:07.637 13437 13473 I Unity   : 
+04-20 11:12:07.638 13437 13473 I Unity   : before raycastcount :0
+04-20 11:12:07.638 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:07.638 13437 13473 I Unity   :  
+04-20 11:12:07.638 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:07.638 13437 13473 I Unity   : 
+04-20 11:12:07.645 13437 13473 I Unity   : after raycastcount :0
+04-20 11:12:07.645 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:07.645 13437 13473 I Unity   :  
+04-20 11:12:07.645 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:07.645 13437 13473 I Unity   : 
+04-20 11:12:09.176 13437 13473 I Unity   : touch began
+04-20 11:12:09.176 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:09.176 13437 13473 I Unity   :  
+04-20 11:12:09.176 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:09.176 13437 13473 I Unity   : 
+04-20 11:12:09.177 13437 13473 I Unity   : before raycastcount :0
+04-20 11:12:09.177 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:09.177 13437 13473 I Unity   :  
+04-20 11:12:09.177 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:09.177 13437 13473 I Unity   : 
+04-20 11:12:09.179 13437 13473 I Unity   : after raycastcount :0
+04-20 11:12:09.179 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:09.179 13437 13473 I Unity   :  
+04-20 11:12:09.179 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:09.179 13437 13473 I Unity   : 
+04-20 11:12:13.641 13437 13473 I Unity   : touch began
+04-20 11:12:13.641 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:13.641 13437 13473 I Unity   :  
+04-20 11:12:13.641 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:13.641 13437 13473 I Unity   : 
+04-20 11:12:13.642 13437 13473 I Unity   : before raycastcount :0
+04-20 11:12:13.642 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:13.642 13437 13473 I Unity   :  
+04-20 11:12:13.642 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:13.642 13437 13473 I Unity   : 
+04-20 11:12:13.643 13437 13473 I Unity   : after raycastcount :1
+04-20 11:12:13.643 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:13.643 13437 13473 I Unity   :  
+04-20 11:12:13.643 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:13.643 13437 13473 I Unity   : 
+04-20 11:12:13.659 13437 13473 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 11:12:13.659 13437 13473 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:13.659 13437 13473 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:13.659 13437 13473 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:13.659 13437 13473 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:13.659 13437 13473 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-20 11:12:13.659 13437 13473 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-20 11:12:13.659 13437 13473 E Unity   : MakeCloudAnchor:Update()
+04-20 11:12:13.659 13437 13473 E Unity   :  
+04-20 11:12:13.659 13437 13473 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 11:12:13.659 13437 13473 E Unity   : 
+04-20 11:12:13.663 13437 13473 I Unity   : make instance : Anchor(Clone)
+04-20 11:12:13.663 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:13.663 13437 13473 I Unity   :  
+04-20 11:12:13.663 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:13.663 13437 13473 I Unity   : 
+04-20 11:12:13.669 13437 13473 I Unity   : cloudanchor failed
+04-20 11:12:13.669 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:13.669 13437 13473 I Unity   :  
+04-20 11:12:13.669 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:13.669 13437 13473 I Unity   : 
+04-20 11:12:16.484 13437 13473 I Unity   : touch began
+04-20 11:12:16.484 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:16.484 13437 13473 I Unity   :  
+04-20 11:12:16.484 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:16.484 13437 13473 I Unity   : 
+04-20 11:12:16.485 13437 13473 I Unity   : before raycastcount :0
+04-20 11:12:16.485 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:16.485 13437 13473 I Unity   :  
+04-20 11:12:16.485 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:16.485 13437 13473 I Unity   : 
+04-20 11:12:16.486 13437 13473 I Unity   : after raycastcount :1
+04-20 11:12:16.486 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:16.486 13437 13473 I Unity   :  
+04-20 11:12:16.486 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:16.486 13437 13473 I Unity   : 
+04-20 11:12:16.495 13437 13473 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 11:12:16.495 13437 13473 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:16.495 13437 13473 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:16.495 13437 13473 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:16.495 13437 13473 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:16.495 13437 13473 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-20 11:12:16.495 13437 13473 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-20 11:12:16.495 13437 13473 E Unity   : MakeCloudAnchor:Update()
+04-20 11:12:16.495 13437 13473 E Unity   :  
+04-20 11:12:16.495 13437 13473 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 11:12:16.495 13437 13473 E Unity   : 
+04-20 11:12:16.496 13437 13473 I Unity   : make instance : Anchor(Clone)
+04-20 11:12:16.496 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:16.496 13437 13473 I Unity   :  
+04-20 11:12:16.496 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:16.496 13437 13473 I Unity   : 
+04-20 11:12:16.497 13437 13473 I Unity   : cloudanchor failed
+04-20 11:12:16.497 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:16.497 13437 13473 I Unity   :  
+04-20 11:12:16.497 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:16.497 13437 13473 I Unity   : 
+04-20 11:12:17.931 13437 13473 I Unity   : touch began
+04-20 11:12:17.931 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:17.931 13437 13473 I Unity   :  
+04-20 11:12:17.931 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:17.931 13437 13473 I Unity   : 
+04-20 11:12:17.932 13437 13473 I Unity   : before raycastcount :0
+04-20 11:12:17.932 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:17.932 13437 13473 I Unity   :  
+04-20 11:12:17.932 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:17.932 13437 13473 I Unity   : 
+04-20 11:12:17.933 13437 13473 I Unity   : after raycastcount :1
+04-20 11:12:17.933 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:17.933 13437 13473 I Unity   :  
+04-20 11:12:17.933 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:17.933 13437 13473 I Unity   : 
+04-20 11:12:17.947 13437 13473 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 11:12:17.947 13437 13473 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:17.947 13437 13473 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:17.947 13437 13473 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:17.947 13437 13473 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:17.947 13437 13473 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-20 11:12:17.947 13437 13473 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-20 11:12:17.947 13437 13473 E Unity   : MakeCloudAnchor:Update()
+04-20 11:12:17.947 13437 13473 E Unity   :  
+04-20 11:12:17.947 13437 13473 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 11:12:17.947 13437 13473 E Unity   : 
+04-20 11:12:17.948 13437 13473 I Unity   : make instance : Anchor(Clone)
+04-20 11:12:17.948 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:17.948 13437 13473 I Unity   :  
+04-20 11:12:17.948 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:17.948 13437 13473 I Unity   : 
+04-20 11:12:17.950 13437 13473 I Unity   : cloudanchor failed
+04-20 11:12:17.950 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:17.950 13437 13473 I Unity   :  
+04-20 11:12:17.950 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:17.950 13437 13473 I Unity   : 
+04-20 11:12:19.387 13437 13473 I Unity   : touch began
+04-20 11:12:19.387 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:19.387 13437 13473 I Unity   :  
+04-20 11:12:19.387 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:19.387 13437 13473 I Unity   : 
+04-20 11:12:19.389 13437 13473 I Unity   : before raycastcount :0
+04-20 11:12:19.389 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:19.389 13437 13473 I Unity   :  
+04-20 11:12:19.389 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:19.389 13437 13473 I Unity   : 
+04-20 11:12:19.390 13437 13473 I Unity   : after raycastcount :1
+04-20 11:12:19.390 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:19.390 13437 13473 I Unity   :  
+04-20 11:12:19.390 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:19.390 13437 13473 I Unity   : 
+04-20 11:12:19.398 13437 13473 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 11:12:19.398 13437 13473 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:19.398 13437 13473 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:19.398 13437 13473 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:19.398 13437 13473 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:19.398 13437 13473 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-20 11:12:19.398 13437 13473 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-20 11:12:19.398 13437 13473 E Unity   : MakeCloudAnchor:Update()
+04-20 11:12:19.398 13437 13473 E Unity   :  
+04-20 11:12:19.398 13437 13473 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 11:12:19.398 13437 13473 E Unity   : 
+04-20 11:12:19.399 13437 13473 I Unity   : make instance : Anchor(Clone)
+04-20 11:12:19.399 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:19.399 13437 13473 I Unity   :  
+04-20 11:12:19.399 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:19.399 13437 13473 I Unity   : 
+04-20 11:12:19.400 13437 13473 I Unity   : cloudanchor failed
+04-20 11:12:19.400 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:19.400 13437 13473 I Unity   :  
+04-20 11:12:19.400 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:19.400 13437 13473 I Unity   : 
+04-20 11:12:20.415 13437 13473 I Unity   : touch began
+04-20 11:12:20.415 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:20.415 13437 13473 I Unity   :  
+04-20 11:12:20.415 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:20.415 13437 13473 I Unity   : 
+04-20 11:12:20.416 13437 13473 I Unity   : before raycastcount :0
+04-20 11:12:20.416 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:20.416 13437 13473 I Unity   :  
+04-20 11:12:20.416 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:20.416 13437 13473 I Unity   : 
+04-20 11:12:20.418 13437 13473 I Unity   : after raycastcount :1
+04-20 11:12:20.418 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:20.418 13437 13473 I Unity   :  
+04-20 11:12:20.418 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:20.418 13437 13473 I Unity   : 
+04-20 11:12:20.428 13437 13473 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 11:12:20.428 13437 13473 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:20.428 13437 13473 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:20.428 13437 13473 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:20.428 13437 13473 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:20.428 13437 13473 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-20 11:12:20.428 13437 13473 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-20 11:12:20.428 13437 13473 E Unity   : MakeCloudAnchor:Update()
+04-20 11:12:20.428 13437 13473 E Unity   :  
+04-20 11:12:20.428 13437 13473 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 11:12:20.428 13437 13473 E Unity   : 
+04-20 11:12:20.429 13437 13473 I Unity   : make instance : Anchor(Clone)
+04-20 11:12:20.429 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:20.429 13437 13473 I Unity   :  
+04-20 11:12:20.429 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:20.429 13437 13473 I Unity   : 
+04-20 11:12:20.431 13437 13473 I Unity   : cloudanchor failed
+04-20 11:12:20.431 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:20.431 13437 13473 I Unity   :  
+04-20 11:12:20.431 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:20.431 13437 13473 I Unity   : 
+04-20 11:12:22.923 13437 13473 I Unity   : touch began
+04-20 11:12:22.923 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:22.923 13437 13473 I Unity   :  
+04-20 11:12:22.923 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:22.923 13437 13473 I Unity   : 
+04-20 11:12:22.924 13437 13473 I Unity   : before raycastcount :0
+04-20 11:12:22.924 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:22.924 13437 13473 I Unity   :  
+04-20 11:12:22.924 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:22.924 13437 13473 I Unity   : 
+04-20 11:12:22.927 13437 13473 I Unity   : after raycastcount :1
+04-20 11:12:22.927 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:22.927 13437 13473 I Unity   :  
+04-20 11:12:22.927 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:22.927 13437 13473 I Unity   : 
+04-20 11:12:22.941 13437 13473 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 11:12:22.941 13437 13473 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:22.941 13437 13473 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:22.941 13437 13473 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:22.941 13437 13473 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:22.941 13437 13473 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-20 11:12:22.941 13437 13473 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-20 11:12:22.941 13437 13473 E Unity   : MakeCloudAnchor:Update()
+04-20 11:12:22.941 13437 13473 E Unity   :  
+04-20 11:12:22.941 13437 13473 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 11:12:22.941 13437 13473 E Unity   : 
+04-20 11:12:22.946 13437 13473 I Unity   : make instance : Anchor(Clone)
+04-20 11:12:22.946 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:22.946 13437 13473 I Unity   :  
+04-20 11:12:22.946 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:22.946 13437 13473 I Unity   : 
+04-20 11:12:22.948 13437 13473 I Unity   : cloudanchor failed
+04-20 11:12:22.948 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:22.948 13437 13473 I Unity   :  
+04-20 11:12:22.948 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:22.948 13437 13473 I Unity   : 
+04-20 11:12:46.634 13437 13473 I Unity   : touch began
+04-20 11:12:46.634 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:46.634 13437 13473 I Unity   :  
+04-20 11:12:46.634 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:46.634 13437 13473 I Unity   : 
+04-20 11:12:46.635 13437 13473 I Unity   : before raycastcount :0
+04-20 11:12:46.635 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:46.635 13437 13473 I Unity   :  
+04-20 11:12:46.635 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:46.635 13437 13473 I Unity   : 
+04-20 11:12:46.637 13437 13473 I Unity   : after raycastcount :1
+04-20 11:12:46.637 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:46.637 13437 13473 I Unity   :  
+04-20 11:12:46.637 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:46.637 13437 13473 I Unity   : 
+04-20 11:12:46.649 13437 13473 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 11:12:46.649 13437 13473 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:46.649 13437 13473 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:46.649 13437 13473 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:46.649 13437 13473 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:46.649 13437 13473 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-20 11:12:46.649 13437 13473 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-20 11:12:46.649 13437 13473 E Unity   : MakeCloudAnchor:Update()
+04-20 11:12:46.649 13437 13473 E Unity   :  
+04-20 11:12:46.649 13437 13473 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 11:12:46.649 13437 13473 E Unity   : 
+04-20 11:12:46.656 13437 13473 I Unity   : make instance : Anchor(Clone)
+04-20 11:12:46.656 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:46.656 13437 13473 I Unity   :  
+04-20 11:12:46.656 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:46.656 13437 13473 I Unity   : 
+04-20 11:12:46.658 13437 13473 I Unity   : cloudanchor failed
+04-20 11:12:46.658 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:46.658 13437 13473 I Unity   :  
+04-20 11:12:46.658 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:46.658 13437 13473 I Unity   : 
+04-20 11:12:46.802 13437 13473 I Unity   : touch began
+04-20 11:12:46.802 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:46.802 13437 13473 I Unity   :  
+04-20 11:12:46.802 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:46.802 13437 13473 I Unity   : 
+04-20 11:12:46.803 13437 13473 I Unity   : before raycastcount :0
+04-20 11:12:46.803 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:46.803 13437 13473 I Unity   :  
+04-20 11:12:46.803 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:46.803 13437 13473 I Unity   : 
+04-20 11:12:46.805 13437 13473 I Unity   : after raycastcount :1
+04-20 11:12:46.805 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:46.805 13437 13473 I Unity   :  
+04-20 11:12:46.805 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:46.805 13437 13473 I Unity   : 
+04-20 11:12:46.814 13437 13473 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 11:12:46.814 13437 13473 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:46.814 13437 13473 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:46.814 13437 13473 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:46.814 13437 13473 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:46.814 13437 13473 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-20 11:12:46.814 13437 13473 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-20 11:12:46.814 13437 13473 E Unity   : MakeCloudAnchor:Update()
+04-20 11:12:46.814 13437 13473 E Unity   :  
+04-20 11:12:46.814 13437 13473 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 11:12:46.814 13437 13473 E Unity   : 
+04-20 11:12:46.815 13437 13473 I Unity   : make instance : Anchor(Clone)
+04-20 11:12:46.815 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:46.815 13437 13473 I Unity   :  
+04-20 11:12:46.815 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:46.815 13437 13473 I Unity   : 
+04-20 11:12:46.817 13437 13473 I Unity   : cloudanchor failed
+04-20 11:12:46.817 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:46.817 13437 13473 I Unity   :  
+04-20 11:12:46.817 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:46.817 13437 13473 I Unity   : 
+04-20 11:12:46.964 13437 13473 I Unity   : touch began
+04-20 11:12:46.964 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:46.964 13437 13473 I Unity   :  
+04-20 11:12:46.964 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:46.964 13437 13473 I Unity   : 
+04-20 11:12:46.965 13437 13473 I Unity   : before raycastcount :0
+04-20 11:12:46.965 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:46.965 13437 13473 I Unity   :  
+04-20 11:12:46.965 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:46.965 13437 13473 I Unity   : 
+04-20 11:12:46.967 13437 13473 I Unity   : after raycastcount :1
+04-20 11:12:46.967 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:46.967 13437 13473 I Unity   :  
+04-20 11:12:46.967 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:46.967 13437 13473 I Unity   : 
+04-20 11:12:46.974 13437 13473 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 11:12:46.974 13437 13473 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:46.974 13437 13473 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:46.974 13437 13473 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:46.974 13437 13473 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:46.974 13437 13473 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-20 11:12:46.974 13437 13473 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-20 11:12:46.974 13437 13473 E Unity   : MakeCloudAnchor:Update()
+04-20 11:12:46.974 13437 13473 E Unity   :  
+04-20 11:12:46.974 13437 13473 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 11:12:46.974 13437 13473 E Unity   : 
+04-20 11:12:46.975 13437 13473 I Unity   : make instance : Anchor(Clone)
+04-20 11:12:46.975 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:46.975 13437 13473 I Unity   :  
+04-20 11:12:46.975 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:46.975 13437 13473 I Unity   : 
+04-20 11:12:46.980 13437 13473 I Unity   : cloudanchor failed
+04-20 11:12:46.980 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:46.980 13437 13473 I Unity   :  
+04-20 11:12:46.980 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:46.980 13437 13473 I Unity   : 
+04-20 11:12:51.869 13437 13473 I Unity   : touch began
+04-20 11:12:51.869 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:51.869 13437 13473 I Unity   :  
+04-20 11:12:51.869 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:51.869 13437 13473 I Unity   : 
+04-20 11:12:51.871 13437 13473 I Unity   : before raycastcount :0
+04-20 11:12:51.871 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:51.871 13437 13473 I Unity   :  
+04-20 11:12:51.871 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:51.871 13437 13473 I Unity   : 
+04-20 11:12:51.872 13437 13473 I Unity   : after raycastcount :0
+04-20 11:12:51.872 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:51.872 13437 13473 I Unity   :  
+04-20 11:12:51.872 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:51.872 13437 13473 I Unity   : 
+04-20 11:12:51.893 13437 13473 E Unity   : NullReferenceException: Object reference not set to an instance of an object.
+04-20 11:12:51.893 13437 13473 E Unity   :   at Google.XR.ARCoreExtensions.Samples.CloudAnchors.AnchorController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:51.893 13437 13473 E Unity   :   at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:51.893 13437 13473 E Unity   :   at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:51.893 13437 13473 E Unity   :   at MakeCloudAnchor.Update () [0x00000] in <00000000000000000000000000000000>:0 
+04-20 11:12:51.893 13437 13473 E Unity   : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+04-20 11:12:51.893 13437 13473 E Unity   : UnityEngine.Object:Instantiate(T, Transform, Boolean)
+04-20 11:12:51.893 13437 13473 E Unity   : MakeCloudAnchor:Update()
+04-20 11:12:51.893 13437 13473 E Unity   :  
+04-20 11:12:51.893 13437 13473 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+04-20 11:12:51.893 13437 13473 E Unity   : 
+04-20 11:12:51.894 13437 13473 I Unity   : make instance : Anchor(Clone)
+04-20 11:12:51.894 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:51.894 13437 13473 I Unity   :  
+04-20 11:12:51.894 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:51.894 13437 13473 I Unity   : 
+04-20 11:12:51.897 13437 13473 I Unity   : cloudanchor failed
+04-20 11:12:51.897 13437 13473 I Unity   : MakeCloudAnchor:Update()
+04-20 11:12:51.897 13437 13473 I Unity   :  
+04-20 11:12:51.897 13437 13473 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-20 11:12:51.897 13437 13473 I Unity   : 

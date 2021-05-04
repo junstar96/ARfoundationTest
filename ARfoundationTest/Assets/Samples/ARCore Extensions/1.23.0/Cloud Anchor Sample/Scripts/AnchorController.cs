@@ -242,9 +242,10 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
             CloudAnchorState cloudAnchorState = _cloudAnchor.cloudAnchorState;
             if (cloudAnchorState == CloudAnchorState.Success)
             {
+                Debug.Log("cloud id : " + _clouAnchorId);
                 CmdSetCloudAnchorId(_cloudAnchor.cloudAnchorId);
                 _cloudAnchorsExampleController.OnAnchorHosted(
-                    true, "Successfully hosted Cloud Anchor.");
+                    true, $"Successfully hosted Cloud Anchor. cloud id : {_clouAnchorId}");
                 _shouldUpdatePoint = false;
             }
             else if (cloudAnchorState != CloudAnchorState.TaskInProgress)

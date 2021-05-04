@@ -382,7 +382,6 @@ namespace Google.XR.ARCoreExtensions.Samples.PersistentCloudAnchors
                             new Vector3(0.0f, Controller.MainCamera.transform.eulerAngles.y, 0.0f);
                 }
 
-               
                 _anchor = Controller.AnchorManager.AddAnchor(hitPose);
             }
 

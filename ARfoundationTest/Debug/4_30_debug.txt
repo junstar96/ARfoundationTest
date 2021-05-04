@@ -1,0 +1,1670 @@
+--------- beginning of crash
+--------- beginning of system
+--------- beginning of main
+04-30 14:40:36.861 21943 21998 I Unity   : MatchMakingClient Create :https://mm.unet.unity3d.com/json/reply/CreateMatchRequest 
+04-30 14:40:36.861 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:36.861 21943 21998 I Unity   : 
+04-30 14:40:37.077 21943 21998 I Unity   : NetworkManager OnMatchCreate Success:True, ExtendedInfo:, matchInfo:900719925505122708 @ 13.250.120.5:9999 [4478,True] 
+04-30 14:40:37.077 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.077 21943 21998 I Unity   : 
+04-30 14:40:37.103 21943 21998 I Unity   : NetworkServer Created version Current 
+04-30 14:40:37.103 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.103 21943 21998 I Unity   : 
+04-30 14:40:37.175 21943 21998 I Unity   : NetworkServerSimple initialize. 
+04-30 14:40:37.175 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.175 21943 21998 I Unity   : 
+04-30 14:40:37.212 21943 21998 I Unity   : Server Host Slot Id: 0 
+04-30 14:40:37.212 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.212 21943 21998 I Unity   : 
+04-30 14:40:37.221 21943 21998 I Unity   : Relay Slot Id: 0 
+04-30 14:40:37.221 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.221 21943 21998 I Unity   : 
+04-30 14:40:37.229 21943 21998 I Unity   : RegisterHandlerSafe id:35 handler:OnClientReadyMessage 
+04-30 14:40:37.229 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.229 21943 21998 I Unity   : 
+04-30 14:40:37.237 21943 21998 I Unity   : RegisterHandlerSafe id:5 handler:OnCommandMessage 
+04-30 14:40:37.237 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.237 21943 21998 I Unity   : 
+04-30 14:40:37.237 21943 21998 I Unity   : RegisterHandlerSafe id:6 handler:HandleTransform 
+04-30 14:40:37.237 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.237 21943 21998 I Unity   : 
+04-30 14:40:37.238 21943 21998 I Unity   : RegisterHandlerSafe id:16 handler:HandleChildTransform 
+04-30 14:40:37.238 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.238 21943 21998 I Unity   : 
+04-30 14:40:37.240 21943 21998 I Unity   : RegisterHandlerSafe id:38 handler:OnRemovePlayerMessage 
+04-30 14:40:37.240 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.240 21943 21998 I Unity   : 
+04-30 14:40:37.240 21943 21998 I Unity   : RegisterHandlerSafe id:40 handler:OnAnimationServerMessage 
+04-30 14:40:37.240 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.240 21943 21998 I Unity   : 
+04-30 14:40:37.240 21943 21998 I Unity   : RegisterHandlerSafe id:41 handler:OnAnimationParametersServerMessage 
+04-30 14:40:37.240 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.240 21943 21998 I Unity   : 
+04-30 14:40:37.241 21943 21998 I Unity   : RegisterHandlerSafe id:42 handler:OnAnimationTriggerServerMessage 
+04-30 14:40:37.241 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.241 21943 21998 I Unity   : 
+04-30 14:40:37.241 21943 21998 I Unity   : RegisterHandlerSafe id:17 handler:OnFragment 
+04-30 14:40:37.241 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.241 21943 21998 I Unity   : 
+04-30 14:40:37.246 21943 21998 I Unity   : RegisterHandler id:32 handler:OnServerConnectInternal 
+04-30 14:40:37.246 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.246 21943 21998 I Unity   : 
+04-30 14:40:37.246 21943 21998 I Unity   : RegisterHandler id:33 handler:OnServerDisconnectInternal 
+04-30 14:40:37.246 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.246 21943 21998 I Unity   : 
+04-30 14:40:37.247 21943 21998 I Unity   : RegisterHandler replacing 35 
+04-30 14:40:37.247 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.247 21943 21998 I Unity   : 
+04-30 14:40:37.249 21943 21998 I Unity   : RegisterHandler id:35 handler:OnServerReadyMessageInternal 
+04-30 14:40:37.249 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.249 21943 21998 I Unity   : 
+04-30 14:40:37.249 21943 21998 I Unity   : RegisterHandler id:37 handler:OnServerAddPlayerMessageInternal 
+04-30 14:40:37.249 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.249 21943 21998 I Unity   : 
+04-30 14:40:37.249 21943 21998 I Unity   : RegisterHandler replacing 38 
+04-30 14:40:37.249 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.249 21943 21998 I Unity   : 
+04-30 14:40:37.249 21943 21998 I Unity   : RegisterHandler id:38 handler:OnServerRemovePlayerMessageInternal 
+04-30 14:40:37.249 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.249 21943 21998 I Unity   : 
+04-30 14:40:37.249 21943 21998 I Unity   : RegisterHandler id:34 handler:OnServerErrorInternal 
+04-30 14:40:37.249 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.249 21943 21998 I Unity   : 
+04-30 14:40:37.249 21943 21998 I Unity   : NetworkManager StartServer port:7777 
+04-30 14:40:37.249 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.249 21943 21998 I Unity   : 
+04-30 14:40:37.260 21943 21998 I Unity   : NetworkManager StartHost port:7777 
+04-30 14:40:37.260 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.260 21943 21998 I Unity   : 
+04-30 14:40:37.269 21943 21998 I Unity   : Client created version Current 
+04-30 14:40:37.269 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.269 21943 21998 I Unity   : 
+04-30 14:40:37.296 21943 21998 I Unity   : NetworkManager:OnServerConnectInternal 
+04-30 14:40:37.296 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.296 21943 21998 I Unity   : 
+04-30 14:40:37.303 21943 21998 I Unity   : RegisterHandlerSafe id:1 handler:OnLocalClientObjectDestroy 
+04-30 14:40:37.303 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.303 21943 21998 I Unity   : 
+04-30 14:40:37.303 21943 21998 I Unity   : RegisterHandlerSafe id:13 handler:OnLocalClientObjectHide 
+04-30 14:40:37.303 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.303 21943 21998 I Unity   : 
+04-30 14:40:37.303 21943 21998 I Unity   : RegisterHandlerSafe id:3 handler:OnLocalClientObjectSpawn 
+04-30 14:40:37.303 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.303 21943 21998 I Unity   : 
+04-30 14:40:37.303 21943 21998 I Unity   : RegisterHandlerSafe id:10 handler:OnLocalClientObjectSpawnScene 
+04-30 14:40:37.303 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.303 21943 21998 I Unity   : 
+04-30 14:40:37.303 21943 21998 I Unity   : RegisterHandlerSafe id:15 handler:OnClientAuthority 
+04-30 14:40:37.303 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.303 21943 21998 I Unity   : 
+04-30 14:40:37.303 21943 21998 I Unity   : RegisterHandlerSafe id:2 handler:OnRPCMessage 
+04-30 14:40:37.303 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.303 21943 21998 I Unity   : 
+04-30 14:40:37.303 21943 21998 I Unity   : RegisterHandlerSafe id:7 handler:OnSyncEventMessage 
+04-30 14:40:37.303 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.303 21943 21998 I Unity   : 
+04-30 14:40:37.303 21943 21998 I Unity   : RegisterHandlerSafe id:42 handler:OnAnimationTriggerClientMessage 
+04-30 14:40:37.303 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.303 21943 21998 I Unity   : 
+04-30 14:40:37.303 21943 21998 I Unity   : RegisterHandlerSafe id:14 handler:OnCRC 
+04-30 14:40:37.303 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.303 21943 21998 I Unity   : 
+04-30 14:40:37.304 21943 21998 I Unity   : RegisterHandlerSafe id:17 handler:OnFragment 
+04-30 14:40:37.304 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.304 21943 21998 I Unity   : 
+04-30 14:40:37.315 21943 21998 I Unity   : RegisterHandler id:32 handler:OnClientConnectInternal 
+04-30 14:40:37.315 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.315 21943 21998 I Unity   : 
+04-30 14:40:37.315 21943 21998 I Unity   : RegisterHandler id:33 handler:OnClientDisconnectInternal 
+04-30 14:40:37.315 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.315 21943 21998 I Unity   : 
+04-30 14:40:37.315 21943 21998 I Unity   : RegisterHandler id:36 handler:OnClientNotReadyMessageInternal 
+04-30 14:40:37.315 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.315 21943 21998 I Unity   : 
+04-30 14:40:37.316 21943 21998 I Unity   : RegisterHandler id:34 handler:OnClientErrorInternal 
+04-30 14:40:37.316 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.316 21943 21998 I Unity   : 
+04-30 14:40:37.316 21943 21998 I Unity   : RegisterHandler id:39 handler:OnClientSceneInternal 
+04-30 14:40:37.316 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.316 21943 21998 I Unity   : 
+04-30 14:40:37.322 21943 21998 I Unity   : Registering prefab 'Player' as asset:9d4ec7a0b0d514d24a21e1590418a679 
+04-30 14:40:37.322 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.322 21943 21998 I Unity   : 
+04-30 14:40:37.329 21943 21998 I Unity   : Registering prefab 'Star' as asset:c162c528b139240d0881c95be8c04f2b 
+04-30 14:40:37.329 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.329 21943 21998 I Unity   : 
+04-30 14:40:37.329 21943 21998 I Unity   : Registering prefab 'Anchor' as asset:d7e51cffc46904f65957fa3aeb255467 
+04-30 14:40:37.329 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.329 21943 21998 I Unity   : 
+04-30 14:40:37.404 21943 21998 I Unity   : NetGroup event:ConnectEvent 
+04-30 14:40:37.404 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.404 21943 21998 I Unity   : 
+04-30 14:40:37.404 21943 21998 I Unity   : NetGroup server connected 
+04-30 14:40:37.404 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.404 21943 21998 I Unity   : 
+04-30 14:40:37.415 21943 21998 I Unity   : NetworkManager:OnClientConnectInternal 
+04-30 14:40:37.415 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.415 21943 21998 I Unity   : 
+04-30 14:40:37.419 21943 21998 I Unity   : ClientScene::Ready() called with connection [hostId: -1 connectionId: 0 isReady: False channel count: 0] 
+04-30 14:40:37.419 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.419 21943 21998 I Unity   : 
+04-30 14:40:37.421 21943 21998 I Unity   : NetworkManager:OnServerReadyMessageInternal 
+04-30 14:40:37.421 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.421 21943 21998 I Unity   : 
+04-30 14:40:37.422 21943 21998 I Unity   : Ready with no player object 
+04-30 14:40:37.422 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.422 21943 21998 I Unity   : 
+04-30 14:40:37.426 21943 21998 I Unity   : SetClientReadyInternal for conn:0 
+04-30 14:40:37.426 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.426 21943 21998 I Unity   : 
+04-30 14:40:37.426 21943 21998 W Unity   : Ready with no player object 
+04-30 14:40:37.426 21943 21998 W Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.426 21943 21998 W Unity   : 
+04-30 14:40:37.426 21943 21998 I Unity   : NetworkServer Ready handling ULocalConnectionToClient 
+04-30 14:40:37.426 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.426 21943 21998 I Unity   : 
+04-30 14:40:37.431 21943 21998 I Unity   : ClientScene::AddPlayer() for ID 0 called with connection [hostId: -1 connectionId: 0 isReady: True channel count: 0] 
+04-30 14:40:37.431 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.431 21943 21998 I Unity   : 
+04-30 14:40:37.433 21943 21998 I Unity   : NetworkManager:OnServerAddPlayerMessageInternal 
+04-30 14:40:37.433 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.433 21943 21998 I Unity   : 
+04-30 14:40:37.445 21943 21998 I Unity   : SetClientReadyInternal for conn:0 
+04-30 14:40:37.445 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.445 21943 21998 I Unity   : 
+04-30 14:40:37.445 21943 21998 I Unity   : SetClientReady conn 0 already ready 
+04-30 14:40:37.445 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.445 21943 21998 I Unity   : 
+04-30 14:40:37.447 21943 21998 I Unity   : NetworkServer SetupLocalPlayerForConnection netID:0 
+04-30 14:40:37.447 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.447 21943 21998 I Unity   : 
+04-30 14:40:37.447 21943 21998 I Unity   : NetworkServer AddPlayer handling ULocalConnectionToClient 
+04-30 14:40:37.447 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.447 21943 21998 I Unity   : 
+04-30 14:40:37.451 21943 21998 I Unity   : OnStartServer Player(Clone) (UnityEngine.GameObject) GUID:1 
+04-30 14:40:37.451 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.451 21943 21998 I Unity   : 
+04-30 14:40:37.452 21943 21998 I Unity   : SetLocalObjectOnServer 1 Player(Clone) (UnityEngine.GameObject) 
+04-30 14:40:37.452 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.452 21943 21998 I Unity   : 
+04-30 14:40:37.453 21943 21998 I Unity   : SetLocalObject 1 Player(Clone) (UnityEngine.GameObject) 
+04-30 14:40:37.453 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.453 21943 21998 I Unity   : 
+04-30 14:40:37.459 21943 21998 I Unity   : SetLocalObject 1 Player(Clone) (UnityEngine.GameObject) 
+04-30 14:40:37.459 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.459 21943 21998 I Unity   : 
+04-30 14:40:37.460 21943 21998 I Unity   : OnStartClient Player(Clone) (UnityEngine.GameObject) GUID:1 localPlayerAuthority:True 
+04-30 14:40:37.460 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.460 21943 21998 I Unity   : 
+04-30 14:40:37.472 21943 21998 I Unity   : Added observer localClient added for Player(Clone) (UnityEngine.GameObject) 
+04-30 14:40:37.472 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.472 21943 21998 I Unity   : 
+04-30 14:40:37.485 21943 21998 I Unity   : Duplicate observer localClient added for Player(Clone) (UnityEngine.GameObject) 
+04-30 14:40:37.485 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.485 21943 21998 I Unity   : 
+04-30 14:40:37.487 21943 21998 I Unity   : Server.SendToReady id:3 
+04-30 14:40:37.487 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.487 21943 21998 I Unity   : 
+04-30 14:40:37.488 21943 21998 I Unity   : Local client AddLocalPlayer Player(Clone) conn=0 
+04-30 14:40:37.488 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.488 21943 21998 I Unity   : 
+04-30 14:40:37.488 21943 21998 I Unity   : SetLocalObject 1 Player(Clone) (UnityEngine.GameObject) 
+04-30 14:40:37.488 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.488 21943 21998 I Unity   : 
+04-30 14:40:37.490 21943 21998 W Unity   : ClientScene::InternalAddPlayer: playerControllerId : 0 
+04-30 14:40:37.490 21943 21998 W Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.490 21943 21998 W Unity   : 
+04-30 14:40:37.496 21943 21998 I Unity   : Successfully connected to server. 
+04-30 14:40:37.496 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:37.496 21943 21998 I Unity   : 
+04-30 14:40:38.363 21943 21998 E Unity   : Unable to find _burst_generated
+04-30 14:40:44.810 21943 21998 I Unity   : OnStartServer Anchor(Clone) (UnityEngine.GameObject) GUID:2 
+04-30 14:40:44.810 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:44.810 21943 21998 I Unity   : 
+04-30 14:40:44.811 21943 21998 I Unity   : SetLocalObjectOnServer 2 Anchor(Clone) (UnityEngine.GameObject) 
+04-30 14:40:44.811 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:44.811 21943 21998 I Unity   : 
+04-30 14:40:44.811 21943 21998 I Unity   : SetLocalObject 2 Anchor(Clone) (UnityEngine.GameObject) 
+04-30 14:40:44.811 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:44.811 21943 21998 I Unity   : 
+04-30 14:40:44.811 21943 21998 I Unity   : SetLocalObject 2 Anchor(Clone) (UnityEngine.GameObject) 
+04-30 14:40:44.811 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:44.811 21943 21998 I Unity   : 
+04-30 14:40:44.811 21943 21998 I Unity   : OnStartClient Anchor(Clone) (UnityEngine.GameObject) GUID:2 localPlayerAuthority:True 
+04-30 14:40:44.811 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:44.811 21943 21998 I Unity   : 
+04-30 14:40:44.812 21943 21998 I Unity   : SpawnObject instance ID 2 asset ID d7e51cffc46904f65957fa3aeb255467 
+04-30 14:40:44.812 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:44.812 21943 21998 I Unity   : 
+04-30 14:40:44.812 21943 21998 I Unity   : Added observer localClient added for Anchor(Clone) (UnityEngine.GameObject) 
+04-30 14:40:44.812 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:44.812 21943 21998 I Unity   : 
+04-30 14:40:44.823 21943 21998 I Unity   : Duplicate observer localClient added for Anchor(Clone) (UnityEngine.GameObject) 
+04-30 14:40:44.823 21943 21998 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:40:44.823 21943 21998 I Unity   : 
+04-30 14:41:08.114 21943 21998 I Unity   : Network layer will still work after application suspends 
+04-30 14:41:08.114 21943 21998 I Unity   : (Filename:  Line: 148)
+04-30 14:41:08.114 21943 21998 I Unity   : 
+04-30 14:41:12.494 22767 22820 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+04-30 14:41:12.522 22767 22820 I Unity   : SystemInfo CPU = ARM64 FP ASIMD AES, Cores = 8, Memory = 3679mb
+04-30 14:41:12.522 22767 22820 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf0), 4 little (mask: 0xf)
+04-30 14:41:12.524 22767 22820 I Unity   : ApplicationInfo com.dnsoft.Anchortest2 version 0.1 build 51be4705-93ce-484d-9b09-06af34751b39
+04-30 14:41:12.524 22767 22820 I Unity   : Built from '2019.4/release' branch, Version '2019.4.20f1 (6dd1c08eedfa)', Build type 'Release', Scripting Backend 'mono', CPU 'armeabi-v7a', Stripping 'Disabled'
+04-30 14:41:12.664 22767 22820 D Unity   :  GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_texture_compression_astc_sliced_3d GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_
+04-30 14:41:12.664 22767 22820 D Unity   : to_texture GL_EXT_multisampled_render_to_texture2 GL_OES_surfaceless_context GL_OES_texture_stencil8 GL_EXT_shader_pixel_local_storage GL_ARM_shader_framebuffer_fetch GL_ARM_shader_framebuffer_fetch_depth_stencil GL_ARM_mali_program_binary GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_texture_sRGB_decode GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OES_texture_storage_multisample_2d_array GL_OES_shader_image_atomic GL_EXT_robustness GL_EXT_draw_buffers_indexed GL_OES_draw_buffers_indexed GL_EXT_texture_border_clamp GL_OES_texture_border_clamp GL_EXT_texture_cube_map_array GL_OES_texture_cube_map_array GL_OES_sample_variables GL_OES_sample_shading GL_OES_shader_multisample_interpolation GL_EXT_shader_io_blocks GL_OES_shader_io_blocks GL_EXT_tessellation_shader GL_OES_tessellation_shader GL_EXT_primitive_bounding_box GL_OES_primitive_bounding_box GL_EXT_geometry_shader GL_OES_geometry_shader GL_ANDROID_extension_pack_es31a GL_EXT_gpu_sh
+04-30 14:41:12.664 22767 22820 D Unity   : ader5 GL_OES_gpu_shader5 GL_EXT_texture_buffer GL_OES_texture_buffer GL_EXT_copy_image GL_OES_copy_image GL_EXT_shader_non_constant_global_initializers GL_EXT_color_buffer_half_float GL_EXT_color_buffer_float GL_EXT_YUV_target GL_OVR_multiview GL_OVR_multiview2 GL_OVR_multiview_multisampled_render_to_texture GL_KHR_robustness GL_KHR_robust_buffer_access_behavior GL_EXT_draw_elements_base_vertex GL_OES_draw_elements_base_vertex GL_EXT_protected_textures GL_EXT_buffer_storage GL_EXT_external_buffer GL_EXT_EGL_image_array
+04-30 14:41:13.294 22767 22820 I Unity   : XRGeneral Settings awakening... 
+04-30 14:41:13.294 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:13.294 22767 22820 I Unity   : 
+04-30 14:41:15.884 22767 22820 I Unity   : NetworkManager created singleton (ForScene) 
+04-30 14:41:15.884 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:15.884 22767 22820 I Unity   : 
+04-30 14:41:15.902 22767 22820 I Unity   : NetworkManager StartMatchMaker 
+04-30 14:41:15.902 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:15.902 22767 22820 I Unity   : 
+04-30 14:41:15.965 22767 22820 I Unity   : SetMatchHost:https://mm.unet.unity3d.com:443 
+04-30 14:41:15.965 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:15.965 22767 22820 I Unity   : 
+04-30 14:41:16.012 22767 22820 I Unity   : MatchMakingClient ListMatches :https://mm.unet.unity3d.com/json/reply/ListMatchRequest 
+04-30 14:41:16.012 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:16.012 22767 22820 I Unity   : 
+04-30 14:41:17.018 22767 22820 I Unity   : NetworkManager OnMatchList Success:True, ExtendedInfo:, matchList.Count:1 
+04-30 14:41:17.018 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:17.018 22767 22820 I Unity   : 
+04-30 14:41:18.428 22767 22820 I Unity   : MatchMakingClient Create :https://mm.unet.unity3d.com/json/reply/CreateMatchRequest 
+04-30 14:41:18.428 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.428 22767 22820 I Unity   : 
+04-30 14:41:18.648 22767 22820 I Unity   : NetworkManager OnMatchCreate Success:True, ExtendedInfo:, matchInfo:900719925505122723 @ 18.139.108.212:9999 [8783,True] 
+04-30 14:41:18.648 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.648 22767 22820 I Unity   : 
+04-30 14:41:18.673 22767 22820 I Unity   : NetworkServer Created version Current 
+04-30 14:41:18.673 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.673 22767 22820 I Unity   : 
+04-30 14:41:18.733 22767 22820 I Unity   : NetworkServerSimple initialize. 
+04-30 14:41:18.733 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.733 22767 22820 I Unity   : 
+04-30 14:41:18.763 22767 22820 I Unity   : Server Host Slot Id: 0 
+04-30 14:41:18.763 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.763 22767 22820 I Unity   : 
+04-30 14:41:18.770 22767 22820 I Unity   : Relay Slot Id: 0 
+04-30 14:41:18.770 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.770 22767 22820 I Unity   : 
+04-30 14:41:18.778 22767 22820 I Unity   : RegisterHandlerSafe id:35 handler:OnClientReadyMessage 
+04-30 14:41:18.778 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.778 22767 22820 I Unity   : 
+04-30 14:41:18.786 22767 22820 I Unity   : RegisterHandlerSafe id:5 handler:OnCommandMessage 
+04-30 14:41:18.786 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.786 22767 22820 I Unity   : 
+04-30 14:41:18.786 22767 22820 I Unity   : RegisterHandlerSafe id:6 handler:HandleTransform 
+04-30 14:41:18.786 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.786 22767 22820 I Unity   : 
+04-30 14:41:18.786 22767 22820 I Unity   : RegisterHandlerSafe id:16 handler:HandleChildTransform 
+04-30 14:41:18.786 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.786 22767 22820 I Unity   : 
+04-30 14:41:18.789 22767 22820 I Unity   : RegisterHandlerSafe id:38 handler:OnRemovePlayerMessage 
+04-30 14:41:18.789 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.789 22767 22820 I Unity   : 
+04-30 14:41:18.789 22767 22820 I Unity   : RegisterHandlerSafe id:40 handler:OnAnimationServerMessage 
+04-30 14:41:18.789 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.789 22767 22820 I Unity   : 
+04-30 14:41:18.789 22767 22820 I Unity   : RegisterHandlerSafe id:41 handler:OnAnimationParametersServerMessage 
+04-30 14:41:18.789 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.789 22767 22820 I Unity   : 
+04-30 14:41:18.789 22767 22820 I Unity   : RegisterHandlerSafe id:42 handler:OnAnimationTriggerServerMessage 
+04-30 14:41:18.789 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.789 22767 22820 I Unity   : 
+04-30 14:41:18.789 22767 22820 I Unity   : RegisterHandlerSafe id:17 handler:OnFragment 
+04-30 14:41:18.789 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.789 22767 22820 I Unity   : 
+04-30 14:41:18.795 22767 22820 I Unity   : RegisterHandler id:32 handler:OnServerConnectInternal 
+04-30 14:41:18.795 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.795 22767 22820 I Unity   : 
+04-30 14:41:18.795 22767 22820 I Unity   : RegisterHandler id:33 handler:OnServerDisconnectInternal 
+04-30 14:41:18.795 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.795 22767 22820 I Unity   : 
+04-30 14:41:18.795 22767 22820 I Unity   : RegisterHandler replacing 35 
+04-30 14:41:18.795 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.795 22767 22820 I Unity   : 
+04-30 14:41:18.797 22767 22820 I Unity   : RegisterHandler id:35 handler:OnServerReadyMessageInternal 
+04-30 14:41:18.797 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.797 22767 22820 I Unity   : 
+04-30 14:41:18.797 22767 22820 I Unity   : RegisterHandler id:37 handler:OnServerAddPlayerMessageInternal 
+04-30 14:41:18.797 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.797 22767 22820 I Unity   : 
+04-30 14:41:18.797 22767 22820 I Unity   : RegisterHandler replacing 38 
+04-30 14:41:18.797 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.797 22767 22820 I Unity   : 
+04-30 14:41:18.798 22767 22820 I Unity   : RegisterHandler id:38 handler:OnServerRemovePlayerMessageInternal 
+04-30 14:41:18.798 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.798 22767 22820 I Unity   : 
+04-30 14:41:18.798 22767 22820 I Unity   : RegisterHandler id:34 handler:OnServerErrorInternal 
+04-30 14:41:18.798 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.798 22767 22820 I Unity   : 
+04-30 14:41:18.798 22767 22820 I Unity   : NetworkManager StartServer port:7777 
+04-30 14:41:18.798 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.798 22767 22820 I Unity   : 
+04-30 14:41:18.806 22767 22820 I Unity   : NetworkManager StartHost port:7777 
+04-30 14:41:18.806 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.806 22767 22820 I Unity   : 
+04-30 14:41:18.813 22767 22820 I Unity   : Client created version Current 
+04-30 14:41:18.813 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.813 22767 22820 I Unity   : 
+04-30 14:41:18.832 22767 22820 I Unity   : NetworkManager:OnServerConnectInternal 
+04-30 14:41:18.832 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.832 22767 22820 I Unity   : 
+04-30 14:41:18.837 22767 22820 I Unity   : RegisterHandlerSafe id:1 handler:OnLocalClientObjectDestroy 
+04-30 14:41:18.837 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.837 22767 22820 I Unity   : 
+04-30 14:41:18.837 22767 22820 I Unity   : RegisterHandlerSafe id:13 handler:OnLocalClientObjectHide 
+04-30 14:41:18.837 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.837 22767 22820 I Unity   : 
+04-30 14:41:18.837 22767 22820 I Unity   : RegisterHandlerSafe id:3 handler:OnLocalClientObjectSpawn 
+04-30 14:41:18.837 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.837 22767 22820 I Unity   : 
+04-30 14:41:18.837 22767 22820 I Unity   : RegisterHandlerSafe id:10 handler:OnLocalClientObjectSpawnScene 
+04-30 14:41:18.837 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.837 22767 22820 I Unity   : 
+04-30 14:41:18.837 22767 22820 I Unity   : RegisterHandlerSafe id:15 handler:OnClientAuthority 
+04-30 14:41:18.837 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.837 22767 22820 I Unity   : 
+04-30 14:41:18.837 22767 22820 I Unity   : RegisterHandlerSafe id:2 handler:OnRPCMessage 
+04-30 14:41:18.837 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.837 22767 22820 I Unity   : 
+04-30 14:41:18.837 22767 22820 I Unity   : RegisterHandlerSafe id:7 handler:OnSyncEventMessage 
+04-30 14:41:18.837 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.837 22767 22820 I Unity   : 
+04-30 14:41:18.837 22767 22820 I Unity   : RegisterHandlerSafe id:42 handler:OnAnimationTriggerClientMessage 
+04-30 14:41:18.837 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.837 22767 22820 I Unity   : 
+04-30 14:41:18.837 22767 22820 I Unity   : RegisterHandlerSafe id:14 handler:OnCRC 
+04-30 14:41:18.837 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.837 22767 22820 I Unity   : 
+04-30 14:41:18.837 22767 22820 I Unity   : RegisterHandlerSafe id:17 handler:OnFragment 
+04-30 14:41:18.837 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.837 22767 22820 I Unity   : 
+04-30 14:41:18.847 22767 22820 I Unity   : RegisterHandler id:32 handler:OnClientConnectInternal 
+04-30 14:41:18.847 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.847 22767 22820 I Unity   : 
+04-30 14:41:18.847 22767 22820 I Unity   : RegisterHandler id:33 handler:OnClientDisconnectInternal 
+04-30 14:41:18.847 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.847 22767 22820 I Unity   : 
+04-30 14:41:18.847 22767 22820 I Unity   : RegisterHandler id:36 handler:OnClientNotReadyMessageInternal 
+04-30 14:41:18.847 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.847 22767 22820 I Unity   : 
+04-30 14:41:18.847 22767 22820 I Unity   : RegisterHandler id:34 handler:OnClientErrorInternal 
+04-30 14:41:18.847 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.847 22767 22820 I Unity   : 
+04-30 14:41:18.848 22767 22820 I Unity   : RegisterHandler id:39 handler:OnClientSceneInternal 
+04-30 14:41:18.848 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.848 22767 22820 I Unity   : 
+04-30 14:41:18.853 22767 22820 I Unity   : Registering prefab 'Player' as asset:9d4ec7a0b0d514d24a21e1590418a679 
+04-30 14:41:18.853 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.853 22767 22820 I Unity   : 
+04-30 14:41:18.859 22767 22820 I Unity   : Registering prefab 'Star' as asset:c162c528b139240d0881c95be8c04f2b 
+04-30 14:41:18.859 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.859 22767 22820 I Unity   : 
+04-30 14:41:18.859 22767 22820 I Unity   : Registering prefab 'Anchor' as asset:d7e51cffc46904f65957fa3aeb255467 
+04-30 14:41:18.859 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.859 22767 22820 I Unity   : 
+04-30 14:41:18.920 22767 22820 I Unity   : NetGroup event:ConnectEvent 
+04-30 14:41:18.920 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.920 22767 22820 I Unity   : 
+04-30 14:41:18.921 22767 22820 I Unity   : NetGroup server connected 
+04-30 14:41:18.921 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.921 22767 22820 I Unity   : 
+04-30 14:41:18.931 22767 22820 I Unity   : NetworkManager:OnClientConnectInternal 
+04-30 14:41:18.931 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.931 22767 22820 I Unity   : 
+04-30 14:41:18.934 22767 22820 I Unity   : ClientScene::Ready() called with connection [hostId: -1 connectionId: 0 isReady: False channel count: 0] 
+04-30 14:41:18.934 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.934 22767 22820 I Unity   : 
+04-30 14:41:18.937 22767 22820 I Unity   : NetworkManager:OnServerReadyMessageInternal 
+04-30 14:41:18.937 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.937 22767 22820 I Unity   : 
+04-30 14:41:18.937 22767 22820 I Unity   : Ready with no player object 
+04-30 14:41:18.937 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.937 22767 22820 I Unity   : 
+04-30 14:41:18.941 22767 22820 I Unity   : SetClientReadyInternal for conn:0 
+04-30 14:41:18.941 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.941 22767 22820 I Unity   : 
+04-30 14:41:18.942 22767 22820 W Unity   : Ready with no player object 
+04-30 14:41:18.942 22767 22820 W Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.942 22767 22820 W Unity   : 
+04-30 14:41:18.942 22767 22820 I Unity   : NetworkServer Ready handling ULocalConnectionToClient 
+04-30 14:41:18.942 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.942 22767 22820 I Unity   : 
+04-30 14:41:18.946 22767 22820 I Unity   : ClientScene::AddPlayer() for ID 0 called with connection [hostId: -1 connectionId: 0 isReady: True channel count: 0] 
+04-30 14:41:18.946 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.946 22767 22820 I Unity   : 
+04-30 14:41:18.948 22767 22820 I Unity   : NetworkManager:OnServerAddPlayerMessageInternal 
+04-30 14:41:18.948 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.948 22767 22820 I Unity   : 
+04-30 14:41:18.960 22767 22820 I Unity   : SetClientReadyInternal for conn:0 
+04-30 14:41:18.960 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.960 22767 22820 I Unity   : 
+04-30 14:41:18.961 22767 22820 I Unity   : SetClientReady conn 0 already ready 
+04-30 14:41:18.961 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.961 22767 22820 I Unity   : 
+04-30 14:41:18.962 22767 22820 I Unity   : NetworkServer SetupLocalPlayerForConnection netID:0 
+04-30 14:41:18.962 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.962 22767 22820 I Unity   : 
+04-30 14:41:18.962 22767 22820 I Unity   : NetworkServer AddPlayer handling ULocalConnectionToClient 
+04-30 14:41:18.962 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.962 22767 22820 I Unity   : 
+04-30 14:41:18.966 22767 22820 I Unity   : OnStartServer Player(Clone) (UnityEngine.GameObject) GUID:1 
+04-30 14:41:18.966 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.966 22767 22820 I Unity   : 
+04-30 14:41:18.966 22767 22820 I Unity   : SetLocalObjectOnServer 1 Player(Clone) (UnityEngine.GameObject) 
+04-30 14:41:18.966 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.966 22767 22820 I Unity   : 
+04-30 14:41:18.968 22767 22820 I Unity   : SetLocalObject 1 Player(Clone) (UnityEngine.GameObject) 
+04-30 14:41:18.968 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.968 22767 22820 I Unity   : 
+04-30 14:41:18.973 22767 22820 I Unity   : SetLocalObject 1 Player(Clone) (UnityEngine.GameObject) 
+04-30 14:41:18.973 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.973 22767 22820 I Unity   : 
+04-30 14:41:18.975 22767 22820 I Unity   : OnStartClient Player(Clone) (UnityEngine.GameObject) GUID:1 localPlayerAuthority:True 
+04-30 14:41:18.975 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.975 22767 22820 I Unity   : 
+04-30 14:41:18.986 22767 22820 I Unity   : Added observer localClient added for Player(Clone) (UnityEngine.GameObject) 
+04-30 14:41:18.986 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.986 22767 22820 I Unity   : 
+04-30 14:41:18.999 22767 22820 I Unity   : Duplicate observer localClient added for Player(Clone) (UnityEngine.GameObject) 
+04-30 14:41:18.999 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:18.999 22767 22820 I Unity   : 
+04-30 14:41:19.000 22767 22820 I Unity   : Server.SendToReady id:3 
+04-30 14:41:19.000 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:19.000 22767 22820 I Unity   : 
+04-30 14:41:19.002 22767 22820 I Unity   : Local client AddLocalPlayer Player(Clone) conn=0 
+04-30 14:41:19.002 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:19.002 22767 22820 I Unity   : 
+04-30 14:41:19.002 22767 22820 I Unity   : SetLocalObject 1 Player(Clone) (UnityEngine.GameObject) 
+04-30 14:41:19.002 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:19.002 22767 22820 I Unity   : 
+04-30 14:41:19.004 22767 22820 W Unity   : ClientScene::InternalAddPlayer: playerControllerId : 0 
+04-30 14:41:19.004 22767 22820 W Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:19.004 22767 22820 W Unity   : 
+04-30 14:41:19.009 22767 22820 I Unity   : Successfully connected to server. 
+04-30 14:41:19.009 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:19.009 22767 22820 I Unity   : 
+04-30 14:41:19.699 22767 22820 E Unity   : Unable to find _burst_generated
+04-30 14:41:40.384 22767 22820 I Unity   : OnStartServer Anchor(Clone) (UnityEngine.GameObject) GUID:2 
+04-30 14:41:40.384 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:40.384 22767 22820 I Unity   : 
+04-30 14:41:40.384 22767 22820 I Unity   : SetLocalObjectOnServer 2 Anchor(Clone) (UnityEngine.GameObject) 
+04-30 14:41:40.384 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:40.384 22767 22820 I Unity   : 
+04-30 14:41:40.384 22767 22820 I Unity   : SetLocalObject 2 Anchor(Clone) (UnityEngine.GameObject) 
+04-30 14:41:40.384 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:40.384 22767 22820 I Unity   : 
+04-30 14:41:40.384 22767 22820 I Unity   : SetLocalObject 2 Anchor(Clone) (UnityEngine.GameObject) 
+04-30 14:41:40.384 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:40.384 22767 22820 I Unity   : 
+04-30 14:41:40.384 22767 22820 I Unity   : OnStartClient Anchor(Clone) (UnityEngine.GameObject) GUID:2 localPlayerAuthority:True 
+04-30 14:41:40.384 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:40.384 22767 22820 I Unity   : 
+04-30 14:41:40.385 22767 22820 I Unity   : SpawnObject instance ID 2 asset ID d7e51cffc46904f65957fa3aeb255467 
+04-30 14:41:40.385 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:40.385 22767 22820 I Unity   : 
+04-30 14:41:40.385 22767 22820 I Unity   : Added observer localClient added for Anchor(Clone) (UnityEngine.GameObject) 
+04-30 14:41:40.385 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:40.385 22767 22820 I Unity   : 
+04-30 14:41:40.391 22767 22820 I Unity   : Duplicate observer localClient added for Anchor(Clone) (UnityEngine.GameObject) 
+04-30 14:41:40.391 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:40.391 22767 22820 I Unity   : 
+04-30 14:41:44.944 22767 22820 I Unity   : Update Cloud Anchor Id with: ua-987b40191da04f1edd9ad877c4ec16f8 
+04-30 14:41:44.944 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:44.944 22767 22820 I Unity   : 
+04-30 14:41:44.949 22767 22820 I Unity   : SetSyncVar AnchorController bit [1] ->ua-987b40191da04f1edd9ad877c4ec16f8 
+04-30 14:41:44.949 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:44.949 22767 22820 I Unity   : 
+04-30 14:41:44.976 22767 22820 I Unity   : 앵커는 만들어짐. state : None 
+04-30 14:41:44.976 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:44.976 22767 22820 I Unity   : 
+04-30 14:41:45.107 22767 22820 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+04-30 14:41:45.107 22767 22820 E Unity   :   at Google.XR.ARCoreExtensions.Internal.ARCoreHandleExtensions.AnchorHandle (UnityEngine.XR.ARFoundation.ARAnchor anchor) [0x00015] in <c1429f71773f4270817c98e23ae08193>:0 
+04-30 14:41:45.107 22767 22820 E Unity   :   at Google.XR.ARCoreExtensions.ARAnchorManagerExtensions.HostCloudAnchor (UnityEngine.XR.ARFoundation.ARAnchorManager anchorManager, UnityEngine.XR.ARFoundation.ARAnchor anchor) [0x0000a] in <c1429f71773f4270817c98e23ae08193>:0 
+04-30 14:41:45.107 22767 22820 E Unity   :   at MakeCloudAnchor+<ParasiteCloud>d__10.MoveNext () [0x0004e] in <6b3c94c13aee434c8d27dce89e9bec6e>:0 
+04-30 14:41:45.107 22767 22820 E Unity   :   at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00026] in <a6a3193c4c7344129a662cbeab0871b8>:0 
+04-30 14:41:45.107 22767 22820 E Unity   :  
+04-30 14:41:45.107 22767 22820 E Unity   : (Filename: <c1429f71773f4270817c98e23ae08193> Line: 0)
+04-30 14:41:45.107 22767 22820 E Unity   : 
+04-30 14:41:51.166 22767 22820 I Unity   : OnStartServer Star(Clone) (UnityEngine.GameObject) GUID:3 
+04-30 14:41:51.166 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:51.166 22767 22820 I Unity   : 
+04-30 14:41:51.167 22767 22820 I Unity   : SetLocalObjectOnServer 3 Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:51.167 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:51.167 22767 22820 I Unity   : 
+04-30 14:41:51.167 22767 22820 I Unity   : SetLocalObject 3 Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:51.167 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:51.167 22767 22820 I Unity   : 
+04-30 14:41:51.167 22767 22820 I Unity   : SetLocalObject 3 Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:51.167 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:51.167 22767 22820 I Unity   : 
+04-30 14:41:51.167 22767 22820 I Unity   : OnStartClient Star(Clone) (UnityEngine.GameObject) GUID:3 localPlayerAuthority:False 
+04-30 14:41:51.167 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:51.167 22767 22820 I Unity   : 
+04-30 14:41:51.167 22767 22820 I Unity   : SpawnObject instance ID 3 asset ID c162c528b139240d0881c95be8c04f2b 
+04-30 14:41:51.167 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:51.167 22767 22820 I Unity   : 
+04-30 14:41:51.167 22767 22820 I Unity   : Added observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:51.167 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:51.167 22767 22820 I Unity   : 
+04-30 14:41:51.167 22767 22820 I Unity   : Duplicate observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:51.167 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:51.167 22767 22820 I Unity   : 
+04-30 14:41:52.149 22767 22820 I Unity   : OnStartServer Star(Clone) (UnityEngine.GameObject) GUID:4 
+04-30 14:41:52.149 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:52.149 22767 22820 I Unity   : 
+04-30 14:41:52.149 22767 22820 I Unity   : SetLocalObjectOnServer 4 Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:52.149 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:52.149 22767 22820 I Unity   : 
+04-30 14:41:52.149 22767 22820 I Unity   : SetLocalObject 4 Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:52.149 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:52.149 22767 22820 I Unity   : 
+04-30 14:41:52.153 22767 22820 I Unity   : SetLocalObject 4 Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:52.153 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:52.153 22767 22820 I Unity   : 
+04-30 14:41:52.153 22767 22820 I Unity   : OnStartClient Star(Clone) (UnityEngine.GameObject) GUID:4 localPlayerAuthority:False 
+04-30 14:41:52.153 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:52.153 22767 22820 I Unity   : 
+04-30 14:41:52.153 22767 22820 I Unity   : SpawnObject instance ID 4 asset ID c162c528b139240d0881c95be8c04f2b 
+04-30 14:41:52.153 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:52.153 22767 22820 I Unity   : 
+04-30 14:41:52.153 22767 22820 I Unity   : Added observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:52.153 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:52.153 22767 22820 I Unity   : 
+04-30 14:41:52.153 22767 22820 I Unity   : Duplicate observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:52.153 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:52.153 22767 22820 I Unity   : 
+04-30 14:41:52.883 22767 22820 I Unity   : OnStartServer Star(Clone) (UnityEngine.GameObject) GUID:5 
+04-30 14:41:52.883 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:52.883 22767 22820 I Unity   : 
+04-30 14:41:52.883 22767 22820 I Unity   : SetLocalObjectOnServer 5 Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:52.883 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:52.883 22767 22820 I Unity   : 
+04-30 14:41:52.883 22767 22820 I Unity   : SetLocalObject 5 Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:52.883 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:52.883 22767 22820 I Unity   : 
+04-30 14:41:52.883 22767 22820 I Unity   : SetLocalObject 5 Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:52.883 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:52.883 22767 22820 I Unity   : 
+04-30 14:41:52.883 22767 22820 I Unity   : OnStartClient Star(Clone) (UnityEngine.GameObject) GUID:5 localPlayerAuthority:False 
+04-30 14:41:52.883 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:52.883 22767 22820 I Unity   : 
+04-30 14:41:52.884 22767 22820 I Unity   : SpawnObject instance ID 5 asset ID c162c528b139240d0881c95be8c04f2b 
+04-30 14:41:52.884 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:52.884 22767 22820 I Unity   : 
+04-30 14:41:52.884 22767 22820 I Unity   : Added observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:52.884 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:52.884 22767 22820 I Unity   : 
+04-30 14:41:52.884 22767 22820 I Unity   : Duplicate observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:52.884 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:52.884 22767 22820 I Unity   : 
+04-30 14:41:53.546 22767 22820 I Unity   : OnStartServer Star(Clone) (UnityEngine.GameObject) GUID:6 
+04-30 14:41:53.546 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:53.546 22767 22820 I Unity   : 
+04-30 14:41:53.546 22767 22820 I Unity   : SetLocalObjectOnServer 6 Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:53.546 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:53.546 22767 22820 I Unity   : 
+04-30 14:41:53.546 22767 22820 I Unity   : SetLocalObject 6 Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:53.546 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:53.546 22767 22820 I Unity   : 
+04-30 14:41:53.546 22767 22820 I Unity   : SetLocalObject 6 Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:53.546 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:53.546 22767 22820 I Unity   : 
+04-30 14:41:53.546 22767 22820 I Unity   : OnStartClient Star(Clone) (UnityEngine.GameObject) GUID:6 localPlayerAuthority:False 
+04-30 14:41:53.546 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:53.546 22767 22820 I Unity   : 
+04-30 14:41:53.547 22767 22820 I Unity   : SpawnObject instance ID 6 asset ID c162c528b139240d0881c95be8c04f2b 
+04-30 14:41:53.547 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:53.547 22767 22820 I Unity   : 
+04-30 14:41:53.547 22767 22820 I Unity   : Added observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:53.547 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:53.547 22767 22820 I Unity   : 
+04-30 14:41:53.547 22767 22820 I Unity   : Duplicate observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:53.547 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:53.547 22767 22820 I Unity   : 
+04-30 14:41:54.298 22767 22820 I Unity   : OnStartServer Star(Clone) (UnityEngine.GameObject) GUID:7 
+04-30 14:41:54.298 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:54.298 22767 22820 I Unity   : 
+04-30 14:41:54.298 22767 22820 I Unity   : SetLocalObjectOnServer 7 Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:54.298 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:54.298 22767 22820 I Unity   : 
+04-30 14:41:54.298 22767 22820 I Unity   : SetLocalObject 7 Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:54.298 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:54.298 22767 22820 I Unity   : 
+04-30 14:41:54.298 22767 22820 I Unity   : SetLocalObject 7 Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:54.298 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:54.298 22767 22820 I Unity   : 
+04-30 14:41:54.298 22767 22820 I Unity   : OnStartClient Star(Clone) (UnityEngine.GameObject) GUID:7 localPlayerAuthority:False 
+04-30 14:41:54.298 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:54.298 22767 22820 I Unity   : 
+04-30 14:41:54.299 22767 22820 I Unity   : SpawnObject instance ID 7 asset ID c162c528b139240d0881c95be8c04f2b 
+04-30 14:41:54.299 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:54.299 22767 22820 I Unity   : 
+04-30 14:41:54.299 22767 22820 I Unity   : Added observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:54.299 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:54.299 22767 22820 I Unity   : 
+04-30 14:41:54.299 22767 22820 I Unity   : Duplicate observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:54.299 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:54.299 22767 22820 I Unity   : 
+04-30 14:41:54.955 22767 22820 I Unity   : OnStartServer Star(Clone) (UnityEngine.GameObject) GUID:8 
+04-30 14:41:54.955 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:54.955 22767 22820 I Unity   : 
+04-30 14:41:54.956 22767 22820 I Unity   : SetLocalObjectOnServer 8 Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:54.956 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:54.956 22767 22820 I Unity   : 
+04-30 14:41:54.956 22767 22820 I Unity   : SetLocalObject 8 Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:54.956 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:54.956 22767 22820 I Unity   : 
+04-30 14:41:54.956 22767 22820 I Unity   : SetLocalObject 8 Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:54.956 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:54.956 22767 22820 I Unity   : 
+04-30 14:41:54.956 22767 22820 I Unity   : OnStartClient Star(Clone) (UnityEngine.GameObject) GUID:8 localPlayerAuthority:False 
+04-30 14:41:54.956 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:54.956 22767 22820 I Unity   : 
+04-30 14:41:54.956 22767 22820 I Unity   : SpawnObject instance ID 8 asset ID c162c528b139240d0881c95be8c04f2b 
+04-30 14:41:54.956 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:54.956 22767 22820 I Unity   : 
+04-30 14:41:54.956 22767 22820 I Unity   : Added observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:54.956 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:54.956 22767 22820 I Unity   : 
+04-30 14:41:54.956 22767 22820 I Unity   : Duplicate observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 14:41:54.956 22767 22820 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 14:41:54.956 22767 22820 I Unity   : 
+04-30 14:42:03.127 22767 22820 I Unity   : Network layer will still work after application suspends 
+04-30 14:42:03.127 22767 22820 I Unity   : (Filename:  Line: 148)
+04-30 14:42:03.127 22767 22820 I Unity   : 
+04-30 15:44:27.005 25647 25668 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+04-30 15:44:27.028 25647 25668 I Unity   : SystemInfo CPU = ARM64 FP ASIMD AES, Cores = 8, Memory = 3679mb
+04-30 15:44:27.028 25647 25668 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf0), 4 little (mask: 0xf)
+04-30 15:44:27.028 25647 25668 I Unity   : ApplicationInfo com.dnsoft.Anchortest2 version 0.1 build 51be4705-93ce-484d-9b09-06af34751b39
+04-30 15:44:27.028 25647 25668 I Unity   : Built from '2019.4/release' branch, Version '2019.4.20f1 (6dd1c08eedfa)', Build type 'Release', Scripting Backend 'mono', CPU 'armeabi-v7a', Stripping 'Disabled'
+04-30 15:44:27.182 25647 25668 D Unity   :  GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_texture_compression_astc_sliced_3d GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_
+04-30 15:44:27.182 25647 25668 D Unity   : to_texture GL_EXT_multisampled_render_to_texture2 GL_OES_surfaceless_context GL_OES_texture_stencil8 GL_EXT_shader_pixel_local_storage GL_ARM_shader_framebuffer_fetch GL_ARM_shader_framebuffer_fetch_depth_stencil GL_ARM_mali_program_binary GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_texture_sRGB_decode GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OES_texture_storage_multisample_2d_array GL_OES_shader_image_atomic GL_EXT_robustness GL_EXT_draw_buffers_indexed GL_OES_draw_buffers_indexed GL_EXT_texture_border_clamp GL_OES_texture_border_clamp GL_EXT_texture_cube_map_array GL_OES_texture_cube_map_array GL_OES_sample_variables GL_OES_sample_shading GL_OES_shader_multisample_interpolation GL_EXT_shader_io_blocks GL_OES_shader_io_blocks GL_EXT_tessellation_shader GL_OES_tessellation_shader GL_EXT_primitive_bounding_box GL_OES_primitive_bounding_box GL_EXT_geometry_shader GL_OES_geometry_shader GL_ANDROID_extension_pack_es31a GL_EXT_gpu_sh
+04-30 15:44:27.182 25647 25668 D Unity   : ader5 GL_OES_gpu_shader5 GL_EXT_texture_buffer GL_OES_texture_buffer GL_EXT_copy_image GL_OES_copy_image GL_EXT_shader_non_constant_global_initializers GL_EXT_color_buffer_half_float GL_EXT_color_buffer_float GL_EXT_YUV_target GL_OVR_multiview GL_OVR_multiview2 GL_OVR_multiview_multisampled_render_to_texture GL_KHR_robustness GL_KHR_robust_buffer_access_behavior GL_EXT_draw_elements_base_vertex GL_OES_draw_elements_base_vertex GL_EXT_protected_textures GL_EXT_buffer_storage GL_EXT_external_buffer GL_EXT_EGL_image_array
+04-30 15:44:27.800 25647 25668 I Unity   : XRGeneral Settings awakening... 
+04-30 15:44:27.800 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:27.800 25647 25668 I Unity   : 
+04-30 15:44:30.397 25647 25668 I Unity   : NetworkManager created singleton (ForScene) 
+04-30 15:44:30.397 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:30.397 25647 25668 I Unity   : 
+04-30 15:44:30.417 25647 25668 I Unity   : NetworkManager StartMatchMaker 
+04-30 15:44:30.417 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:30.417 25647 25668 I Unity   : 
+04-30 15:44:30.480 25647 25668 I Unity   : SetMatchHost:https://mm.unet.unity3d.com:443 
+04-30 15:44:30.480 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:30.480 25647 25668 I Unity   : 
+04-30 15:44:30.527 25647 25668 I Unity   : MatchMakingClient ListMatches :https://mm.unet.unity3d.com/json/reply/ListMatchRequest 
+04-30 15:44:30.527 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:30.527 25647 25668 I Unity   : 
+04-30 15:44:31.616 25647 25668 I Unity   : NetworkManager OnMatchList Success:True, ExtendedInfo:, matchList.Count:0 
+04-30 15:44:31.616 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:31.616 25647 25668 I Unity   : 
+04-30 15:44:32.449 25647 25668 I Unity   : MatchMakingClient Create :https://mm.unet.unity3d.com/json/reply/CreateMatchRequest 
+04-30 15:44:32.449 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.449 25647 25668 I Unity   : 
+04-30 15:44:32.625 25647 25668 I Unity   : NetworkManager OnMatchCreate Success:True, ExtendedInfo:, matchInfo:900719925505124465 @ 18.139.108.212:9999 [10059,True] 
+04-30 15:44:32.625 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.625 25647 25668 I Unity   : 
+04-30 15:44:32.651 25647 25668 I Unity   : NetworkServer Created version Current 
+04-30 15:44:32.651 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.651 25647 25668 I Unity   : 
+04-30 15:44:32.713 25647 25668 I Unity   : NetworkServerSimple initialize. 
+04-30 15:44:32.713 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.713 25647 25668 I Unity   : 
+04-30 15:44:32.747 25647 25668 I Unity   : Server Host Slot Id: 0 
+04-30 15:44:32.747 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.747 25647 25668 I Unity   : 
+04-30 15:44:32.755 25647 25668 I Unity   : Relay Slot Id: 0 
+04-30 15:44:32.755 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.755 25647 25668 I Unity   : 
+04-30 15:44:32.763 25647 25668 I Unity   : RegisterHandlerSafe id:35 handler:OnClientReadyMessage 
+04-30 15:44:32.763 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.763 25647 25668 I Unity   : 
+04-30 15:44:32.769 25647 25668 I Unity   : RegisterHandlerSafe id:5 handler:OnCommandMessage 
+04-30 15:44:32.769 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.769 25647 25668 I Unity   : 
+04-30 15:44:32.769 25647 25668 I Unity   : RegisterHandlerSafe id:6 handler:HandleTransform 
+04-30 15:44:32.769 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.769 25647 25668 I Unity   : 
+04-30 15:44:32.769 25647 25668 I Unity   : RegisterHandlerSafe id:16 handler:HandleChildTransform 
+04-30 15:44:32.769 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.769 25647 25668 I Unity   : 
+04-30 15:44:32.771 25647 25668 I Unity   : RegisterHandlerSafe id:38 handler:OnRemovePlayerMessage 
+04-30 15:44:32.771 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.771 25647 25668 I Unity   : 
+04-30 15:44:32.771 25647 25668 I Unity   : RegisterHandlerSafe id:40 handler:OnAnimationServerMessage 
+04-30 15:44:32.771 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.771 25647 25668 I Unity   : 
+04-30 15:44:32.771 25647 25668 I Unity   : RegisterHandlerSafe id:41 handler:OnAnimationParametersServerMessage 
+04-30 15:44:32.771 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.771 25647 25668 I Unity   : 
+04-30 15:44:32.771 25647 25668 I Unity   : RegisterHandlerSafe id:42 handler:OnAnimationTriggerServerMessage 
+04-30 15:44:32.771 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.771 25647 25668 I Unity   : 
+04-30 15:44:32.771 25647 25668 I Unity   : RegisterHandlerSafe id:17 handler:OnFragment 
+04-30 15:44:32.771 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.771 25647 25668 I Unity   : 
+04-30 15:44:32.776 25647 25668 I Unity   : RegisterHandler id:32 handler:OnServerConnectInternal 
+04-30 15:44:32.776 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.776 25647 25668 I Unity   : 
+04-30 15:44:32.776 25647 25668 I Unity   : RegisterHandler id:33 handler:OnServerDisconnectInternal 
+04-30 15:44:32.776 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.776 25647 25668 I Unity   : 
+04-30 15:44:32.777 25647 25668 I Unity   : RegisterHandler replacing 35 
+04-30 15:44:32.777 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.777 25647 25668 I Unity   : 
+04-30 15:44:32.779 25647 25668 I Unity   : RegisterHandler id:35 handler:OnServerReadyMessageInternal 
+04-30 15:44:32.779 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.779 25647 25668 I Unity   : 
+04-30 15:44:32.779 25647 25668 I Unity   : RegisterHandler id:37 handler:OnServerAddPlayerMessageInternal 
+04-30 15:44:32.779 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.779 25647 25668 I Unity   : 
+04-30 15:44:32.779 25647 25668 I Unity   : RegisterHandler replacing 38 
+04-30 15:44:32.779 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.779 25647 25668 I Unity   : 
+04-30 15:44:32.779 25647 25668 I Unity   : RegisterHandler id:38 handler:OnServerRemovePlayerMessageInternal 
+04-30 15:44:32.779 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.779 25647 25668 I Unity   : 
+04-30 15:44:32.779 25647 25668 I Unity   : RegisterHandler id:34 handler:OnServerErrorInternal 
+04-30 15:44:32.779 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.779 25647 25668 I Unity   : 
+04-30 15:44:32.779 25647 25668 I Unity   : NetworkManager StartServer port:7777 
+04-30 15:44:32.779 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.779 25647 25668 I Unity   : 
+04-30 15:44:32.787 25647 25668 I Unity   : NetworkManager StartHost port:7777 
+04-30 15:44:32.787 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.787 25647 25668 I Unity   : 
+04-30 15:44:32.793 25647 25668 I Unity   : Client created version Current 
+04-30 15:44:32.793 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.793 25647 25668 I Unity   : 
+04-30 15:44:32.811 25647 25668 I Unity   : NetworkManager:OnServerConnectInternal 
+04-30 15:44:32.811 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.811 25647 25668 I Unity   : 
+04-30 15:44:32.816 25647 25668 I Unity   : RegisterHandlerSafe id:1 handler:OnLocalClientObjectDestroy 
+04-30 15:44:32.816 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.816 25647 25668 I Unity   : 
+04-30 15:44:32.816 25647 25668 I Unity   : RegisterHandlerSafe id:13 handler:OnLocalClientObjectHide 
+04-30 15:44:32.816 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.816 25647 25668 I Unity   : 
+04-30 15:44:32.816 25647 25668 I Unity   : RegisterHandlerSafe id:3 handler:OnLocalClientObjectSpawn 
+04-30 15:44:32.816 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.816 25647 25668 I Unity   : 
+04-30 15:44:32.816 25647 25668 I Unity   : RegisterHandlerSafe id:10 handler:OnLocalClientObjectSpawnScene 
+04-30 15:44:32.816 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.816 25647 25668 I Unity   : 
+04-30 15:44:32.816 25647 25668 I Unity   : RegisterHandlerSafe id:15 handler:OnClientAuthority 
+04-30 15:44:32.816 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.816 25647 25668 I Unity   : 
+04-30 15:44:32.816 25647 25668 I Unity   : RegisterHandlerSafe id:2 handler:OnRPCMessage 
+04-30 15:44:32.816 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.816 25647 25668 I Unity   : 
+04-30 15:44:32.816 25647 25668 I Unity   : RegisterHandlerSafe id:7 handler:OnSyncEventMessage 
+04-30 15:44:32.816 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.816 25647 25668 I Unity   : 
+04-30 15:44:32.816 25647 25668 I Unity   : RegisterHandlerSafe id:42 handler:OnAnimationTriggerClientMessage 
+04-30 15:44:32.816 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.816 25647 25668 I Unity   : 
+04-30 15:44:32.816 25647 25668 I Unity   : RegisterHandlerSafe id:14 handler:OnCRC 
+04-30 15:44:32.816 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.816 25647 25668 I Unity   : 
+04-30 15:44:32.816 25647 25668 I Unity   : RegisterHandlerSafe id:17 handler:OnFragment 
+04-30 15:44:32.816 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.816 25647 25668 I Unity   : 
+04-30 15:44:32.826 25647 25668 I Unity   : RegisterHandler id:32 handler:OnClientConnectInternal 
+04-30 15:44:32.826 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.826 25647 25668 I Unity   : 
+04-30 15:44:32.826 25647 25668 I Unity   : RegisterHandler id:33 handler:OnClientDisconnectInternal 
+04-30 15:44:32.826 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.826 25647 25668 I Unity   : 
+04-30 15:44:32.826 25647 25668 I Unity   : RegisterHandler id:36 handler:OnClientNotReadyMessageInternal 
+04-30 15:44:32.826 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.826 25647 25668 I Unity   : 
+04-30 15:44:32.826 25647 25668 I Unity   : RegisterHandler id:34 handler:OnClientErrorInternal 
+04-30 15:44:32.826 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.826 25647 25668 I Unity   : 
+04-30 15:44:32.826 25647 25668 I Unity   : RegisterHandler id:39 handler:OnClientSceneInternal 
+04-30 15:44:32.826 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.826 25647 25668 I Unity   : 
+04-30 15:44:32.831 25647 25668 I Unity   : Registering prefab 'Player' as asset:9d4ec7a0b0d514d24a21e1590418a679 
+04-30 15:44:32.831 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.831 25647 25668 I Unity   : 
+04-30 15:44:32.837 25647 25668 I Unity   : Registering prefab 'Star' as asset:c162c528b139240d0881c95be8c04f2b 
+04-30 15:44:32.837 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.837 25647 25668 I Unity   : 
+04-30 15:44:32.837 25647 25668 I Unity   : Registering prefab 'Anchor' as asset:d7e51cffc46904f65957fa3aeb255467 
+04-30 15:44:32.837 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:32.837 25647 25668 I Unity   : 
+04-30 15:44:33.049 25647 25668 I Unity   : NetGroup event:ConnectEvent 
+04-30 15:44:33.049 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.049 25647 25668 I Unity   : 
+04-30 15:44:33.050 25647 25668 I Unity   : NetGroup server connected 
+04-30 15:44:33.050 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.050 25647 25668 I Unity   : 
+04-30 15:44:33.060 25647 25668 I Unity   : NetworkManager:OnClientConnectInternal 
+04-30 15:44:33.060 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.060 25647 25668 I Unity   : 
+04-30 15:44:33.064 25647 25668 I Unity   : ClientScene::Ready() called with connection [hostId: -1 connectionId: 0 isReady: False channel count: 0] 
+04-30 15:44:33.064 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.064 25647 25668 I Unity   : 
+04-30 15:44:33.066 25647 25668 I Unity   : NetworkManager:OnServerReadyMessageInternal 
+04-30 15:44:33.066 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.066 25647 25668 I Unity   : 
+04-30 15:44:33.067 25647 25668 I Unity   : Ready with no player object 
+04-30 15:44:33.067 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.067 25647 25668 I Unity   : 
+04-30 15:44:33.071 25647 25668 I Unity   : SetClientReadyInternal for conn:0 
+04-30 15:44:33.071 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.071 25647 25668 I Unity   : 
+04-30 15:44:33.071 25647 25668 W Unity   : Ready with no player object 
+04-30 15:44:33.071 25647 25668 W Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.071 25647 25668 W Unity   : 
+04-30 15:44:33.071 25647 25668 I Unity   : NetworkServer Ready handling ULocalConnectionToClient 
+04-30 15:44:33.071 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.071 25647 25668 I Unity   : 
+04-30 15:44:33.076 25647 25668 I Unity   : ClientScene::AddPlayer() for ID 0 called with connection [hostId: -1 connectionId: 0 isReady: True channel count: 0] 
+04-30 15:44:33.076 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.076 25647 25668 I Unity   : 
+04-30 15:44:33.077 25647 25668 I Unity   : NetworkManager:OnServerAddPlayerMessageInternal 
+04-30 15:44:33.077 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.077 25647 25668 I Unity   : 
+04-30 15:44:33.090 25647 25668 I Unity   : SetClientReadyInternal for conn:0 
+04-30 15:44:33.090 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.090 25647 25668 I Unity   : 
+04-30 15:44:33.090 25647 25668 I Unity   : SetClientReady conn 0 already ready 
+04-30 15:44:33.090 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.090 25647 25668 I Unity   : 
+04-30 15:44:33.091 25647 25668 I Unity   : NetworkServer SetupLocalPlayerForConnection netID:0 
+04-30 15:44:33.091 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.091 25647 25668 I Unity   : 
+04-30 15:44:33.091 25647 25668 I Unity   : NetworkServer AddPlayer handling ULocalConnectionToClient 
+04-30 15:44:33.091 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.091 25647 25668 I Unity   : 
+04-30 15:44:33.095 25647 25668 I Unity   : OnStartServer Player(Clone) (UnityEngine.GameObject) GUID:1 
+04-30 15:44:33.095 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.095 25647 25668 I Unity   : 
+04-30 15:44:33.096 25647 25668 I Unity   : SetLocalObjectOnServer 1 Player(Clone) (UnityEngine.GameObject) 
+04-30 15:44:33.096 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.096 25647 25668 I Unity   : 
+04-30 15:44:33.097 25647 25668 I Unity   : SetLocalObject 1 Player(Clone) (UnityEngine.GameObject) 
+04-30 15:44:33.097 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.097 25647 25668 I Unity   : 
+04-30 15:44:33.103 25647 25668 I Unity   : SetLocalObject 1 Player(Clone) (UnityEngine.GameObject) 
+04-30 15:44:33.103 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.103 25647 25668 I Unity   : 
+04-30 15:44:33.105 25647 25668 I Unity   : OnStartClient Player(Clone) (UnityEngine.GameObject) GUID:1 localPlayerAuthority:True 
+04-30 15:44:33.105 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.105 25647 25668 I Unity   : 
+04-30 15:44:33.116 25647 25668 I Unity   : Added observer localClient added for Player(Clone) (UnityEngine.GameObject) 
+04-30 15:44:33.116 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.116 25647 25668 I Unity   : 
+04-30 15:44:33.129 25647 25668 I Unity   : Duplicate observer localClient added for Player(Clone) (UnityEngine.GameObject) 
+04-30 15:44:33.129 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.129 25647 25668 I Unity   : 
+04-30 15:44:33.130 25647 25668 I Unity   : Server.SendToReady id:3 
+04-30 15:44:33.130 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.130 25647 25668 I Unity   : 
+04-30 15:44:33.132 25647 25668 I Unity   : Local client AddLocalPlayer Player(Clone) conn=0 
+04-30 15:44:33.132 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.132 25647 25668 I Unity   : 
+04-30 15:44:33.132 25647 25668 I Unity   : SetLocalObject 1 Player(Clone) (UnityEngine.GameObject) 
+04-30 15:44:33.132 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.132 25647 25668 I Unity   : 
+04-30 15:44:33.134 25647 25668 W Unity   : ClientScene::InternalAddPlayer: playerControllerId : 0 
+04-30 15:44:33.134 25647 25668 W Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.134 25647 25668 W Unity   : 
+04-30 15:44:33.139 25647 25668 I Unity   : Successfully connected to server. 
+04-30 15:44:33.139 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:33.139 25647 25668 I Unity   : 
+04-30 15:44:33.794 25647 25668 E Unity   : Unable to find _burst_generated
+04-30 15:44:53.154 25647 25668 I Unity   : OnStartServer Anchor(Clone) (UnityEngine.GameObject) GUID:2 
+04-30 15:44:53.154 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:53.154 25647 25668 I Unity   : 
+04-30 15:44:53.155 25647 25668 I Unity   : SetLocalObjectOnServer 2 Anchor(Clone) (UnityEngine.GameObject) 
+04-30 15:44:53.155 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:53.155 25647 25668 I Unity   : 
+04-30 15:44:53.155 25647 25668 I Unity   : SetLocalObject 2 Anchor(Clone) (UnityEngine.GameObject) 
+04-30 15:44:53.155 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:53.155 25647 25668 I Unity   : 
+04-30 15:44:53.155 25647 25668 I Unity   : SetLocalObject 2 Anchor(Clone) (UnityEngine.GameObject) 
+04-30 15:44:53.155 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:53.155 25647 25668 I Unity   : 
+04-30 15:44:53.155 25647 25668 I Unity   : OnStartClient Anchor(Clone) (UnityEngine.GameObject) GUID:2 localPlayerAuthority:True 
+04-30 15:44:53.155 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:53.155 25647 25668 I Unity   : 
+04-30 15:44:53.156 25647 25668 I Unity   : SpawnObject instance ID 2 asset ID d7e51cffc46904f65957fa3aeb255467 
+04-30 15:44:53.156 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:53.156 25647 25668 I Unity   : 
+04-30 15:44:53.157 25647 25668 I Unity   : Added observer localClient added for Anchor(Clone) (UnityEngine.GameObject) 
+04-30 15:44:53.157 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:53.157 25647 25668 I Unity   : 
+04-30 15:44:53.163 25647 25668 I Unity   : Duplicate observer localClient added for Anchor(Clone) (UnityEngine.GameObject) 
+04-30 15:44:53.163 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:53.163 25647 25668 I Unity   : 
+04-30 15:44:58.915 25647 25668 I Unity   : Update Cloud Anchor Id with: ua-840c9f55d7dc28ce9f1121268aa8df3e 
+04-30 15:44:58.915 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:58.915 25647 25668 I Unity   : 
+04-30 15:44:58.921 25647 25668 I Unity   : SetSyncVar AnchorController bit [1] ->ua-840c9f55d7dc28ce9f1121268aa8df3e 
+04-30 15:44:58.921 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:58.921 25647 25668 I Unity   : 
+04-30 15:44:58.944 25647 25668 I Unity   : 앵커는 만들어짐. state : None 
+04-30 15:44:58.944 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:44:58.944 25647 25668 I Unity   : 
+04-30 15:44:59.047 25647 25668 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+04-30 15:44:59.047 25647 25668 E Unity   :   at Google.XR.ARCoreExtensions.Internal.ARCoreHandleExtensions.AnchorHandle (UnityEngine.XR.ARFoundation.ARAnchor anchor) [0x00015] in <c1429f71773f4270817c98e23ae08193>:0 
+04-30 15:44:59.047 25647 25668 E Unity   :   at Google.XR.ARCoreExtensions.ARAnchorManagerExtensions.HostCloudAnchor (UnityEngine.XR.ARFoundation.ARAnchorManager anchorManager, UnityEngine.XR.ARFoundation.ARAnchor anchor) [0x0000a] in <c1429f71773f4270817c98e23ae08193>:0 
+04-30 15:44:59.047 25647 25668 E Unity   :   at MakeCloudAnchor+<ParasiteCloud>d__10.MoveNext () [0x0004e] in <6b3c94c13aee434c8d27dce89e9bec6e>:0 
+04-30 15:44:59.047 25647 25668 E Unity   :   at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00026] in <a6a3193c4c7344129a662cbeab0871b8>:0 
+04-30 15:44:59.047 25647 25668 E Unity   :  
+04-30 15:44:59.047 25647 25668 E Unity   : (Filename: <c1429f71773f4270817c98e23ae08193> Line: 0)
+04-30 15:44:59.047 25647 25668 E Unity   : 
+04-30 15:45:07.144 25647 25668 I Unity   : OnStartServer Star(Clone) (UnityEngine.GameObject) GUID:3 
+04-30 15:45:07.144 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:07.144 25647 25668 I Unity   : 
+04-30 15:45:07.144 25647 25668 I Unity   : SetLocalObjectOnServer 3 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:07.144 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:07.144 25647 25668 I Unity   : 
+04-30 15:45:07.144 25647 25668 I Unity   : SetLocalObject 3 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:07.144 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:07.144 25647 25668 I Unity   : 
+04-30 15:45:07.144 25647 25668 I Unity   : SetLocalObject 3 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:07.144 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:07.144 25647 25668 I Unity   : 
+04-30 15:45:07.144 25647 25668 I Unity   : OnStartClient Star(Clone) (UnityEngine.GameObject) GUID:3 localPlayerAuthority:False 
+04-30 15:45:07.144 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:07.144 25647 25668 I Unity   : 
+04-30 15:45:07.144 25647 25668 I Unity   : SpawnObject instance ID 3 asset ID c162c528b139240d0881c95be8c04f2b 
+04-30 15:45:07.144 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:07.144 25647 25668 I Unity   : 
+04-30 15:45:07.144 25647 25668 I Unity   : Added observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:07.144 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:07.144 25647 25668 I Unity   : 
+04-30 15:45:07.144 25647 25668 I Unity   : Duplicate observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:07.144 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:07.144 25647 25668 I Unity   : 
+04-30 15:45:07.676 25647 25668 I Unity   : OnStartServer Star(Clone) (UnityEngine.GameObject) GUID:4 
+04-30 15:45:07.676 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:07.676 25647 25668 I Unity   : 
+04-30 15:45:07.676 25647 25668 I Unity   : SetLocalObjectOnServer 4 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:07.676 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:07.676 25647 25668 I Unity   : 
+04-30 15:45:07.677 25647 25668 I Unity   : SetLocalObject 4 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:07.677 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:07.677 25647 25668 I Unity   : 
+04-30 15:45:07.679 25647 25668 I Unity   : SetLocalObject 4 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:07.679 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:07.679 25647 25668 I Unity   : 
+04-30 15:45:07.679 25647 25668 I Unity   : OnStartClient Star(Clone) (UnityEngine.GameObject) GUID:4 localPlayerAuthority:False 
+04-30 15:45:07.679 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:07.679 25647 25668 I Unity   : 
+04-30 15:45:07.679 25647 25668 I Unity   : SpawnObject instance ID 4 asset ID c162c528b139240d0881c95be8c04f2b 
+04-30 15:45:07.679 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:07.679 25647 25668 I Unity   : 
+04-30 15:45:07.679 25647 25668 I Unity   : Added observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:07.679 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:07.679 25647 25668 I Unity   : 
+04-30 15:45:07.680 25647 25668 I Unity   : Duplicate observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:07.680 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:07.680 25647 25668 I Unity   : 
+04-30 15:45:08.301 25647 25668 I Unity   : OnStartServer Star(Clone) (UnityEngine.GameObject) GUID:5 
+04-30 15:45:08.301 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:08.301 25647 25668 I Unity   : 
+04-30 15:45:08.301 25647 25668 I Unity   : SetLocalObjectOnServer 5 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:08.301 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:08.301 25647 25668 I Unity   : 
+04-30 15:45:08.301 25647 25668 I Unity   : SetLocalObject 5 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:08.301 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:08.301 25647 25668 I Unity   : 
+04-30 15:45:08.301 25647 25668 I Unity   : SetLocalObject 5 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:08.301 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:08.301 25647 25668 I Unity   : 
+04-30 15:45:08.301 25647 25668 I Unity   : OnStartClient Star(Clone) (UnityEngine.GameObject) GUID:5 localPlayerAuthority:False 
+04-30 15:45:08.301 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:08.301 25647 25668 I Unity   : 
+04-30 15:45:08.301 25647 25668 I Unity   : SpawnObject instance ID 5 asset ID c162c528b139240d0881c95be8c04f2b 
+04-30 15:45:08.301 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:08.301 25647 25668 I Unity   : 
+04-30 15:45:08.301 25647 25668 I Unity   : Added observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:08.301 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:08.301 25647 25668 I Unity   : 
+04-30 15:45:08.301 25647 25668 I Unity   : Duplicate observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:08.301 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:08.301 25647 25668 I Unity   : 
+04-30 15:45:08.829 25647 25668 I Unity   : OnStartServer Star(Clone) (UnityEngine.GameObject) GUID:6 
+04-30 15:45:08.829 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:08.829 25647 25668 I Unity   : 
+04-30 15:45:08.829 25647 25668 I Unity   : SetLocalObjectOnServer 6 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:08.829 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:08.829 25647 25668 I Unity   : 
+04-30 15:45:08.829 25647 25668 I Unity   : SetLocalObject 6 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:08.829 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:08.829 25647 25668 I Unity   : 
+04-30 15:45:08.829 25647 25668 I Unity   : SetLocalObject 6 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:08.829 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:08.829 25647 25668 I Unity   : 
+04-30 15:45:08.829 25647 25668 I Unity   : OnStartClient Star(Clone) (UnityEngine.GameObject) GUID:6 localPlayerAuthority:False 
+04-30 15:45:08.829 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:08.829 25647 25668 I Unity   : 
+04-30 15:45:08.830 25647 25668 I Unity   : SpawnObject instance ID 6 asset ID c162c528b139240d0881c95be8c04f2b 
+04-30 15:45:08.830 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:08.830 25647 25668 I Unity   : 
+04-30 15:45:08.830 25647 25668 I Unity   : Added observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:08.830 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:08.830 25647 25668 I Unity   : 
+04-30 15:45:08.830 25647 25668 I Unity   : Duplicate observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:08.830 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:08.830 25647 25668 I Unity   : 
+04-30 15:45:09.264 25647 25668 I Unity   : OnStartServer Star(Clone) (UnityEngine.GameObject) GUID:7 
+04-30 15:45:09.264 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.264 25647 25668 I Unity   : 
+04-30 15:45:09.264 25647 25668 I Unity   : SetLocalObjectOnServer 7 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:09.264 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.264 25647 25668 I Unity   : 
+04-30 15:45:09.264 25647 25668 I Unity   : SetLocalObject 7 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:09.264 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.264 25647 25668 I Unity   : 
+04-30 15:45:09.264 25647 25668 I Unity   : SetLocalObject 7 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:09.264 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.264 25647 25668 I Unity   : 
+04-30 15:45:09.264 25647 25668 I Unity   : OnStartClient Star(Clone) (UnityEngine.GameObject) GUID:7 localPlayerAuthority:False 
+04-30 15:45:09.264 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.264 25647 25668 I Unity   : 
+04-30 15:45:09.266 25647 25668 I Unity   : SpawnObject instance ID 7 asset ID c162c528b139240d0881c95be8c04f2b 
+04-30 15:45:09.266 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.266 25647 25668 I Unity   : 
+04-30 15:45:09.266 25647 25668 I Unity   : Added observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:09.266 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.266 25647 25668 I Unity   : 
+04-30 15:45:09.266 25647 25668 I Unity   : Duplicate observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:09.266 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.266 25647 25668 I Unity   : 
+04-30 15:45:09.501 25647 25668 I Unity   : OnStartServer Star(Clone) (UnityEngine.GameObject) GUID:8 
+04-30 15:45:09.501 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.501 25647 25668 I Unity   : 
+04-30 15:45:09.501 25647 25668 I Unity   : SetLocalObjectOnServer 8 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:09.501 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.501 25647 25668 I Unity   : 
+04-30 15:45:09.501 25647 25668 I Unity   : SetLocalObject 8 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:09.501 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.501 25647 25668 I Unity   : 
+04-30 15:45:09.501 25647 25668 I Unity   : SetLocalObject 8 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:09.501 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.501 25647 25668 I Unity   : 
+04-30 15:45:09.502 25647 25668 I Unity   : OnStartClient Star(Clone) (UnityEngine.GameObject) GUID:8 localPlayerAuthority:False 
+04-30 15:45:09.502 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.502 25647 25668 I Unity   : 
+04-30 15:45:09.502 25647 25668 I Unity   : SpawnObject instance ID 8 asset ID c162c528b139240d0881c95be8c04f2b 
+04-30 15:45:09.502 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.502 25647 25668 I Unity   : 
+04-30 15:45:09.502 25647 25668 I Unity   : Added observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:09.502 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.502 25647 25668 I Unity   : 
+04-30 15:45:09.502 25647 25668 I Unity   : Duplicate observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:09.502 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.502 25647 25668 I Unity   : 
+04-30 15:45:09.774 25647 25668 I Unity   : OnStartServer Star(Clone) (UnityEngine.GameObject) GUID:9 
+04-30 15:45:09.774 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.774 25647 25668 I Unity   : 
+04-30 15:45:09.775 25647 25668 I Unity   : SetLocalObjectOnServer 9 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:09.775 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.775 25647 25668 I Unity   : 
+04-30 15:45:09.775 25647 25668 I Unity   : SetLocalObject 9 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:09.775 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.775 25647 25668 I Unity   : 
+04-30 15:45:09.775 25647 25668 I Unity   : SetLocalObject 9 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:09.775 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.775 25647 25668 I Unity   : 
+04-30 15:45:09.775 25647 25668 I Unity   : OnStartClient Star(Clone) (UnityEngine.GameObject) GUID:9 localPlayerAuthority:False 
+04-30 15:45:09.775 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.775 25647 25668 I Unity   : 
+04-30 15:45:09.775 25647 25668 I Unity   : SpawnObject instance ID 9 asset ID c162c528b139240d0881c95be8c04f2b 
+04-30 15:45:09.775 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.775 25647 25668 I Unity   : 
+04-30 15:45:09.775 25647 25668 I Unity   : Added observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:09.775 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.775 25647 25668 I Unity   : 
+04-30 15:45:09.775 25647 25668 I Unity   : Duplicate observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:09.775 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.775 25647 25668 I Unity   : 
+04-30 15:45:09.936 25647 25668 I Unity   : OnStartServer Star(Clone) (UnityEngine.GameObject) GUID:10 
+04-30 15:45:09.936 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.936 25647 25668 I Unity   : 
+04-30 15:45:09.936 25647 25668 I Unity   : SetLocalObjectOnServer 10 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:09.936 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.936 25647 25668 I Unity   : 
+04-30 15:45:09.936 25647 25668 I Unity   : SetLocalObject 10 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:09.936 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.936 25647 25668 I Unity   : 
+04-30 15:45:09.936 25647 25668 I Unity   : SetLocalObject 10 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:09.936 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.936 25647 25668 I Unity   : 
+04-30 15:45:09.936 25647 25668 I Unity   : OnStartClient Star(Clone) (UnityEngine.GameObject) GUID:10 localPlayerAuthority:False 
+04-30 15:45:09.936 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.936 25647 25668 I Unity   : 
+04-30 15:45:09.940 25647 25668 I Unity   : SpawnObject instance ID 10 asset ID c162c528b139240d0881c95be8c04f2b 
+04-30 15:45:09.940 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.940 25647 25668 I Unity   : 
+04-30 15:45:09.940 25647 25668 I Unity   : Added observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:09.940 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.940 25647 25668 I Unity   : 
+04-30 15:45:09.941 25647 25668 I Unity   : Duplicate observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:09.941 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:09.941 25647 25668 I Unity   : 
+04-30 15:45:10.135 25647 25668 I Unity   : OnStartServer Star(Clone) (UnityEngine.GameObject) GUID:11 
+04-30 15:45:10.135 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.135 25647 25668 I Unity   : 
+04-30 15:45:10.135 25647 25668 I Unity   : SetLocalObjectOnServer 11 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:10.135 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.135 25647 25668 I Unity   : 
+04-30 15:45:10.135 25647 25668 I Unity   : SetLocalObject 11 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:10.135 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.135 25647 25668 I Unity   : 
+04-30 15:45:10.136 25647 25668 I Unity   : SetLocalObject 11 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:10.136 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.136 25647 25668 I Unity   : 
+04-30 15:45:10.136 25647 25668 I Unity   : OnStartClient Star(Clone) (UnityEngine.GameObject) GUID:11 localPlayerAuthority:False 
+04-30 15:45:10.136 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.136 25647 25668 I Unity   : 
+04-30 15:45:10.143 25647 25668 I Unity   : SpawnObject instance ID 11 asset ID c162c528b139240d0881c95be8c04f2b 
+04-30 15:45:10.143 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.143 25647 25668 I Unity   : 
+04-30 15:45:10.143 25647 25668 I Unity   : Added observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:10.143 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.143 25647 25668 I Unity   : 
+04-30 15:45:10.143 25647 25668 I Unity   : Duplicate observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:10.143 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.143 25647 25668 I Unity   : 
+04-30 15:45:10.532 25647 25668 I Unity   : OnStartServer Star(Clone) (UnityEngine.GameObject) GUID:12 
+04-30 15:45:10.532 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.532 25647 25668 I Unity   : 
+04-30 15:45:10.532 25647 25668 I Unity   : SetLocalObjectOnServer 12 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:10.532 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.532 25647 25668 I Unity   : 
+04-30 15:45:10.532 25647 25668 I Unity   : SetLocalObject 12 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:10.532 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.532 25647 25668 I Unity   : 
+04-30 15:45:10.532 25647 25668 I Unity   : SetLocalObject 12 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:10.532 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.532 25647 25668 I Unity   : 
+04-30 15:45:10.533 25647 25668 I Unity   : OnStartClient Star(Clone) (UnityEngine.GameObject) GUID:12 localPlayerAuthority:False 
+04-30 15:45:10.533 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.533 25647 25668 I Unity   : 
+04-30 15:45:10.533 25647 25668 I Unity   : SpawnObject instance ID 12 asset ID c162c528b139240d0881c95be8c04f2b 
+04-30 15:45:10.533 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.533 25647 25668 I Unity   : 
+04-30 15:45:10.533 25647 25668 I Unity   : Added observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:10.533 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.533 25647 25668 I Unity   : 
+04-30 15:45:10.533 25647 25668 I Unity   : Duplicate observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:10.533 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.533 25647 25668 I Unity   : 
+04-30 15:45:10.666 25647 25668 I Unity   : OnStartServer Star(Clone) (UnityEngine.GameObject) GUID:13 
+04-30 15:45:10.666 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.666 25647 25668 I Unity   : 
+04-30 15:45:10.666 25647 25668 I Unity   : SetLocalObjectOnServer 13 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:10.666 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.666 25647 25668 I Unity   : 
+04-30 15:45:10.667 25647 25668 I Unity   : SetLocalObject 13 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:10.667 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.667 25647 25668 I Unity   : 
+04-30 15:45:10.667 25647 25668 I Unity   : SetLocalObject 13 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:10.667 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.667 25647 25668 I Unity   : 
+04-30 15:45:10.667 25647 25668 I Unity   : OnStartClient Star(Clone) (UnityEngine.GameObject) GUID:13 localPlayerAuthority:False 
+04-30 15:45:10.667 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.667 25647 25668 I Unity   : 
+04-30 15:45:10.667 25647 25668 I Unity   : SpawnObject instance ID 13 asset ID c162c528b139240d0881c95be8c04f2b 
+04-30 15:45:10.667 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.667 25647 25668 I Unity   : 
+04-30 15:45:10.667 25647 25668 I Unity   : Added observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:10.667 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.667 25647 25668 I Unity   : 
+04-30 15:45:10.667 25647 25668 I Unity   : Duplicate observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:10.667 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.667 25647 25668 I Unity   : 
+04-30 15:45:10.830 25647 25668 I Unity   : OnStartServer Star(Clone) (UnityEngine.GameObject) GUID:14 
+04-30 15:45:10.830 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.830 25647 25668 I Unity   : 
+04-30 15:45:10.830 25647 25668 I Unity   : SetLocalObjectOnServer 14 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:10.830 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.830 25647 25668 I Unity   : 
+04-30 15:45:10.830 25647 25668 I Unity   : SetLocalObject 14 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:10.830 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.830 25647 25668 I Unity   : 
+04-30 15:45:10.830 25647 25668 I Unity   : SetLocalObject 14 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:10.830 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.830 25647 25668 I Unity   : 
+04-30 15:45:10.830 25647 25668 I Unity   : OnStartClient Star(Clone) (UnityEngine.GameObject) GUID:14 localPlayerAuthority:False 
+04-30 15:45:10.830 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.830 25647 25668 I Unity   : 
+04-30 15:45:10.830 25647 25668 I Unity   : SpawnObject instance ID 14 asset ID c162c528b139240d0881c95be8c04f2b 
+04-30 15:45:10.830 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.830 25647 25668 I Unity   : 
+04-30 15:45:10.830 25647 25668 I Unity   : Added observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:10.830 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.830 25647 25668 I Unity   : 
+04-30 15:45:10.830 25647 25668 I Unity   : Duplicate observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:10.830 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:10.830 25647 25668 I Unity   : 
+04-30 15:45:11.005 25647 25668 I Unity   : OnStartServer Star(Clone) (UnityEngine.GameObject) GUID:15 
+04-30 15:45:11.005 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:11.005 25647 25668 I Unity   : 
+04-30 15:45:11.005 25647 25668 I Unity   : SetLocalObjectOnServer 15 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:11.005 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:11.005 25647 25668 I Unity   : 
+04-30 15:45:11.006 25647 25668 I Unity   : SetLocalObject 15 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:11.006 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:11.006 25647 25668 I Unity   : 
+04-30 15:45:11.006 25647 25668 I Unity   : SetLocalObject 15 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:11.006 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:11.006 25647 25668 I Unity   : 
+04-30 15:45:11.006 25647 25668 I Unity   : OnStartClient Star(Clone) (UnityEngine.GameObject) GUID:15 localPlayerAuthority:False 
+04-30 15:45:11.006 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:11.006 25647 25668 I Unity   : 
+04-30 15:45:11.006 25647 25668 I Unity   : SpawnObject instance ID 15 asset ID c162c528b139240d0881c95be8c04f2b 
+04-30 15:45:11.006 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:11.006 25647 25668 I Unity   : 
+04-30 15:45:11.007 25647 25668 I Unity   : Added observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:11.007 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:11.007 25647 25668 I Unity   : 
+04-30 15:45:11.007 25647 25668 I Unity   : Duplicate observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:45:11.007 25647 25668 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:45:11.007 25647 25668 I Unity   : 
+04-30 15:45:13.176 25647 25668 I Unity   : Network layer will still work after application suspends 
+04-30 15:45:13.176 25647 25668 I Unity   : (Filename:  Line: 148)
+04-30 15:45:13.176 25647 25668 I Unity   : 
+04-30 15:47:48.380 27349 27388 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+04-30 15:47:48.400 27349 27388 I Unity   : SystemInfo CPU = ARM64 FP ASIMD AES, Cores = 8, Memory = 3679mb
+04-30 15:47:48.400 27349 27388 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf0), 4 little (mask: 0xf)
+04-30 15:47:48.400 27349 27388 I Unity   : ApplicationInfo com.dnsoft.Anchortest2 version 0.1 build f46be7b5-3857-4093-925d-b8745d91a160
+04-30 15:47:48.401 27349 27388 I Unity   : Built from '2019.4/release' branch, Version '2019.4.20f1 (6dd1c08eedfa)', Build type 'Release', Scripting Backend 'mono', CPU 'armeabi-v7a', Stripping 'Disabled'
+04-30 15:47:48.585 27349 27388 D Unity   :  GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_texture_compression_astc_sliced_3d GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_
+04-30 15:47:48.585 27349 27388 D Unity   : to_texture GL_EXT_multisampled_render_to_texture2 GL_OES_surfaceless_context GL_OES_texture_stencil8 GL_EXT_shader_pixel_local_storage GL_ARM_shader_framebuffer_fetch GL_ARM_shader_framebuffer_fetch_depth_stencil GL_ARM_mali_program_binary GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_texture_sRGB_decode GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OES_texture_storage_multisample_2d_array GL_OES_shader_image_atomic GL_EXT_robustness GL_EXT_draw_buffers_indexed GL_OES_draw_buffers_indexed GL_EXT_texture_border_clamp GL_OES_texture_border_clamp GL_EXT_texture_cube_map_array GL_OES_texture_cube_map_array GL_OES_sample_variables GL_OES_sample_shading GL_OES_shader_multisample_interpolation GL_EXT_shader_io_blocks GL_OES_shader_io_blocks GL_EXT_tessellation_shader GL_OES_tessellation_shader GL_EXT_primitive_bounding_box GL_OES_primitive_bounding_box GL_EXT_geometry_shader GL_OES_geometry_shader GL_ANDROID_extension_pack_es31a GL_EXT_gpu_sh
+04-30 15:47:48.585 27349 27388 D Unity   : ader5 GL_OES_gpu_shader5 GL_EXT_texture_buffer GL_OES_texture_buffer GL_EXT_copy_image GL_OES_copy_image GL_EXT_shader_non_constant_global_initializers GL_EXT_color_buffer_half_float GL_EXT_color_buffer_float GL_EXT_YUV_target GL_OVR_multiview GL_OVR_multiview2 GL_OVR_multiview_multisampled_render_to_texture GL_KHR_robustness GL_KHR_robust_buffer_access_behavior GL_EXT_draw_elements_base_vertex GL_OES_draw_elements_base_vertex GL_EXT_protected_textures GL_EXT_buffer_storage GL_EXT_external_buffer GL_EXT_EGL_image_array
+04-30 15:47:49.200 27349 27388 I Unity   : XRGeneral Settings awakening... 
+04-30 15:47:49.200 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:47:49.200 27349 27388 I Unity   : 
+04-30 15:47:51.709 27349 27388 I Unity   : NetworkManager created singleton (ForScene) 
+04-30 15:47:51.709 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:47:51.709 27349 27388 I Unity   : 
+04-30 15:47:51.728 27349 27388 I Unity   : NetworkManager StartMatchMaker 
+04-30 15:47:51.728 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:47:51.728 27349 27388 I Unity   : 
+04-30 15:47:51.793 27349 27388 I Unity   : SetMatchHost:https://mm.unet.unity3d.com:443 
+04-30 15:47:51.793 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:47:51.793 27349 27388 I Unity   : 
+04-30 15:47:51.842 27349 27388 I Unity   : MatchMakingClient ListMatches :https://mm.unet.unity3d.com/json/reply/ListMatchRequest 
+04-30 15:47:51.842 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:47:51.842 27349 27388 I Unity   : 
+04-30 15:47:53.035 27349 27388 I Unity   : NetworkManager OnMatchList Success:True, ExtendedInfo:, matchList.Count:0 
+04-30 15:47:53.035 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:47:53.035 27349 27388 I Unity   : 
+04-30 15:48:08.876 27349 27388 I Unity   : MatchMakingClient Create :https://mm.unet.unity3d.com/json/reply/CreateMatchRequest 
+04-30 15:48:08.876 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:08.876 27349 27388 I Unity   : 
+04-30 15:48:09.060 27349 27388 I Unity   : NetworkManager OnMatchCreate Success:True, ExtendedInfo:, matchInfo:900719925505124581 @ 18.139.108.212:9999 [8598,True] 
+04-30 15:48:09.060 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.060 27349 27388 I Unity   : 
+04-30 15:48:09.079 27349 27388 I Unity   : NetworkServer Created version Current 
+04-30 15:48:09.079 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.079 27349 27388 I Unity   : 
+04-30 15:48:09.121 27349 27388 I Unity   : NetworkServerSimple initialize. 
+04-30 15:48:09.121 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.121 27349 27388 I Unity   : 
+04-30 15:48:09.140 27349 27388 I Unity   : Server Host Slot Id: 0 
+04-30 15:48:09.140 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.140 27349 27388 I Unity   : 
+04-30 15:48:09.145 27349 27388 I Unity   : Relay Slot Id: 0 
+04-30 15:48:09.145 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.145 27349 27388 I Unity   : 
+04-30 15:48:09.149 27349 27388 I Unity   : RegisterHandlerSafe id:35 handler:OnClientReadyMessage 
+04-30 15:48:09.149 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.149 27349 27388 I Unity   : 
+04-30 15:48:09.154 27349 27388 I Unity   : RegisterHandlerSafe id:5 handler:OnCommandMessage 
+04-30 15:48:09.154 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.154 27349 27388 I Unity   : 
+04-30 15:48:09.155 27349 27388 I Unity   : RegisterHandlerSafe id:6 handler:HandleTransform 
+04-30 15:48:09.155 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.155 27349 27388 I Unity   : 
+04-30 15:48:09.155 27349 27388 I Unity   : RegisterHandlerSafe id:16 handler:HandleChildTransform 
+04-30 15:48:09.155 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.155 27349 27388 I Unity   : 
+04-30 15:48:09.156 27349 27388 I Unity   : RegisterHandlerSafe id:38 handler:OnRemovePlayerMessage 
+04-30 15:48:09.156 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.156 27349 27388 I Unity   : 
+04-30 15:48:09.156 27349 27388 I Unity   : RegisterHandlerSafe id:40 handler:OnAnimationServerMessage 
+04-30 15:48:09.156 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.156 27349 27388 I Unity   : 
+04-30 15:48:09.156 27349 27388 I Unity   : RegisterHandlerSafe id:41 handler:OnAnimationParametersServerMessage 
+04-30 15:48:09.156 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.156 27349 27388 I Unity   : 
+04-30 15:48:09.156 27349 27388 I Unity   : RegisterHandlerSafe id:42 handler:OnAnimationTriggerServerMessage 
+04-30 15:48:09.156 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.156 27349 27388 I Unity   : 
+04-30 15:48:09.156 27349 27388 I Unity   : RegisterHandlerSafe id:17 handler:OnFragment 
+04-30 15:48:09.156 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.156 27349 27388 I Unity   : 
+04-30 15:48:09.159 27349 27388 I Unity   : RegisterHandler id:32 handler:OnServerConnectInternal 
+04-30 15:48:09.159 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.159 27349 27388 I Unity   : 
+04-30 15:48:09.159 27349 27388 I Unity   : RegisterHandler id:33 handler:OnServerDisconnectInternal 
+04-30 15:48:09.159 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.159 27349 27388 I Unity   : 
+04-30 15:48:09.160 27349 27388 I Unity   : RegisterHandler replacing 35 
+04-30 15:48:09.160 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.160 27349 27388 I Unity   : 
+04-30 15:48:09.161 27349 27388 I Unity   : RegisterHandler id:35 handler:OnServerReadyMessageInternal 
+04-30 15:48:09.161 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.161 27349 27388 I Unity   : 
+04-30 15:48:09.161 27349 27388 I Unity   : RegisterHandler id:37 handler:OnServerAddPlayerMessageInternal 
+04-30 15:48:09.161 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.161 27349 27388 I Unity   : 
+04-30 15:48:09.161 27349 27388 I Unity   : RegisterHandler replacing 38 
+04-30 15:48:09.161 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.161 27349 27388 I Unity   : 
+04-30 15:48:09.161 27349 27388 I Unity   : RegisterHandler id:38 handler:OnServerRemovePlayerMessageInternal 
+04-30 15:48:09.161 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.161 27349 27388 I Unity   : 
+04-30 15:48:09.161 27349 27388 I Unity   : RegisterHandler id:34 handler:OnServerErrorInternal 
+04-30 15:48:09.161 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.161 27349 27388 I Unity   : 
+04-30 15:48:09.161 27349 27388 I Unity   : NetworkManager StartServer port:7777 
+04-30 15:48:09.161 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.161 27349 27388 I Unity   : 
+04-30 15:48:09.168 27349 27388 I Unity   : NetworkManager StartHost port:7777 
+04-30 15:48:09.168 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.168 27349 27388 I Unity   : 
+04-30 15:48:09.173 27349 27388 I Unity   : Client created version Current 
+04-30 15:48:09.173 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.173 27349 27388 I Unity   : 
+04-30 15:48:09.189 27349 27388 I Unity   : NetworkManager:OnServerConnectInternal 
+04-30 15:48:09.189 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.189 27349 27388 I Unity   : 
+04-30 15:48:09.193 27349 27388 I Unity   : RegisterHandlerSafe id:1 handler:OnLocalClientObjectDestroy 
+04-30 15:48:09.193 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.193 27349 27388 I Unity   : 
+04-30 15:48:09.193 27349 27388 I Unity   : RegisterHandlerSafe id:13 handler:OnLocalClientObjectHide 
+04-30 15:48:09.193 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.193 27349 27388 I Unity   : 
+04-30 15:48:09.194 27349 27388 I Unity   : RegisterHandlerSafe id:3 handler:OnLocalClientObjectSpawn 
+04-30 15:48:09.194 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.194 27349 27388 I Unity   : 
+04-30 15:48:09.194 27349 27388 I Unity   : RegisterHandlerSafe id:10 handler:OnLocalClientObjectSpawnScene 
+04-30 15:48:09.194 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.194 27349 27388 I Unity   : 
+04-30 15:48:09.194 27349 27388 I Unity   : RegisterHandlerSafe id:15 handler:OnClientAuthority 
+04-30 15:48:09.194 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.194 27349 27388 I Unity   : 
+04-30 15:48:09.194 27349 27388 I Unity   : RegisterHandlerSafe id:2 handler:OnRPCMessage 
+04-30 15:48:09.194 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.194 27349 27388 I Unity   : 
+04-30 15:48:09.194 27349 27388 I Unity   : RegisterHandlerSafe id:7 handler:OnSyncEventMessage 
+04-30 15:48:09.194 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.194 27349 27388 I Unity   : 
+04-30 15:48:09.194 27349 27388 I Unity   : RegisterHandlerSafe id:42 handler:OnAnimationTriggerClientMessage 
+04-30 15:48:09.194 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.194 27349 27388 I Unity   : 
+04-30 15:48:09.194 27349 27388 I Unity   : RegisterHandlerSafe id:14 handler:OnCRC 
+04-30 15:48:09.194 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.194 27349 27388 I Unity   : 
+04-30 15:48:09.194 27349 27388 I Unity   : RegisterHandlerSafe id:17 handler:OnFragment 
+04-30 15:48:09.194 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.194 27349 27388 I Unity   : 
+04-30 15:48:09.203 27349 27388 I Unity   : RegisterHandler id:32 handler:OnClientConnectInternal 
+04-30 15:48:09.203 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.203 27349 27388 I Unity   : 
+04-30 15:48:09.204 27349 27388 I Unity   : RegisterHandler id:33 handler:OnClientDisconnectInternal 
+04-30 15:48:09.204 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.204 27349 27388 I Unity   : 
+04-30 15:48:09.204 27349 27388 I Unity   : RegisterHandler id:36 handler:OnClientNotReadyMessageInternal 
+04-30 15:48:09.204 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.204 27349 27388 I Unity   : 
+04-30 15:48:09.204 27349 27388 I Unity   : RegisterHandler id:34 handler:OnClientErrorInternal 
+04-30 15:48:09.204 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.204 27349 27388 I Unity   : 
+04-30 15:48:09.204 27349 27388 I Unity   : RegisterHandler id:39 handler:OnClientSceneInternal 
+04-30 15:48:09.204 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.204 27349 27388 I Unity   : 
+04-30 15:48:09.209 27349 27388 I Unity   : Registering prefab 'Player' as asset:9d4ec7a0b0d514d24a21e1590418a679 
+04-30 15:48:09.209 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.209 27349 27388 I Unity   : 
+04-30 15:48:09.215 27349 27388 I Unity   : Registering prefab 'Star' as asset:c162c528b139240d0881c95be8c04f2b 
+04-30 15:48:09.215 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.215 27349 27388 I Unity   : 
+04-30 15:48:09.215 27349 27388 I Unity   : Registering prefab 'Anchor' as asset:d7e51cffc46904f65957fa3aeb255467 
+04-30 15:48:09.215 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.215 27349 27388 I Unity   : 
+04-30 15:48:09.287 27349 27388 I Unity   : NetGroup event:ConnectEvent 
+04-30 15:48:09.287 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.287 27349 27388 I Unity   : 
+04-30 15:48:09.288 27349 27388 I Unity   : NetGroup server connected 
+04-30 15:48:09.288 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.288 27349 27388 I Unity   : 
+04-30 15:48:09.299 27349 27388 I Unity   : NetworkManager:OnClientConnectInternal 
+04-30 15:48:09.299 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.299 27349 27388 I Unity   : 
+04-30 15:48:09.302 27349 27388 I Unity   : ClientScene::Ready() called with connection [hostId: -1 connectionId: 0 isReady: False channel count: 0] 
+04-30 15:48:09.302 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.302 27349 27388 I Unity   : 
+04-30 15:48:09.305 27349 27388 I Unity   : NetworkManager:OnServerReadyMessageInternal 
+04-30 15:48:09.305 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.305 27349 27388 I Unity   : 
+04-30 15:48:09.306 27349 27388 I Unity   : Ready with no player object 
+04-30 15:48:09.306 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.306 27349 27388 I Unity   : 
+04-30 15:48:09.310 27349 27388 I Unity   : SetClientReadyInternal for conn:0 
+04-30 15:48:09.310 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.310 27349 27388 I Unity   : 
+04-30 15:48:09.310 27349 27388 W Unity   : Ready with no player object 
+04-30 15:48:09.310 27349 27388 W Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.310 27349 27388 W Unity   : 
+04-30 15:48:09.310 27349 27388 I Unity   : NetworkServer Ready handling ULocalConnectionToClient 
+04-30 15:48:09.310 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.310 27349 27388 I Unity   : 
+04-30 15:48:09.315 27349 27388 I Unity   : ClientScene::AddPlayer() for ID 0 called with connection [hostId: -1 connectionId: 0 isReady: True channel count: 0] 
+04-30 15:48:09.315 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.315 27349 27388 I Unity   : 
+04-30 15:48:09.318 27349 27388 I Unity   : NetworkManager:OnServerAddPlayerMessageInternal 
+04-30 15:48:09.318 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.318 27349 27388 I Unity   : 
+04-30 15:48:09.330 27349 27388 I Unity   : SetClientReadyInternal for conn:0 
+04-30 15:48:09.330 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.330 27349 27388 I Unity   : 
+04-30 15:48:09.330 27349 27388 I Unity   : SetClientReady conn 0 already ready 
+04-30 15:48:09.330 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.330 27349 27388 I Unity   : 
+04-30 15:48:09.332 27349 27388 I Unity   : NetworkServer SetupLocalPlayerForConnection netID:0 
+04-30 15:48:09.332 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.332 27349 27388 I Unity   : 
+04-30 15:48:09.332 27349 27388 I Unity   : NetworkServer AddPlayer handling ULocalConnectionToClient 
+04-30 15:48:09.332 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.332 27349 27388 I Unity   : 
+04-30 15:48:09.336 27349 27388 I Unity   : OnStartServer Player(Clone) (UnityEngine.GameObject) GUID:1 
+04-30 15:48:09.336 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.336 27349 27388 I Unity   : 
+04-30 15:48:09.337 27349 27388 I Unity   : SetLocalObjectOnServer 1 Player(Clone) (UnityEngine.GameObject) 
+04-30 15:48:09.337 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.337 27349 27388 I Unity   : 
+04-30 15:48:09.338 27349 27388 I Unity   : SetLocalObject 1 Player(Clone) (UnityEngine.GameObject) 
+04-30 15:48:09.338 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.338 27349 27388 I Unity   : 
+04-30 15:48:09.344 27349 27388 I Unity   : SetLocalObject 1 Player(Clone) (UnityEngine.GameObject) 
+04-30 15:48:09.344 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.344 27349 27388 I Unity   : 
+04-30 15:48:09.346 27349 27388 I Unity   : OnStartClient Player(Clone) (UnityEngine.GameObject) GUID:1 localPlayerAuthority:True 
+04-30 15:48:09.346 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.346 27349 27388 I Unity   : 
+04-30 15:48:09.358 27349 27388 I Unity   : Added observer localClient added for Player(Clone) (UnityEngine.GameObject) 
+04-30 15:48:09.358 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.358 27349 27388 I Unity   : 
+04-30 15:48:09.371 27349 27388 I Unity   : Duplicate observer localClient added for Player(Clone) (UnityEngine.GameObject) 
+04-30 15:48:09.371 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.371 27349 27388 I Unity   : 
+04-30 15:48:09.373 27349 27388 I Unity   : Server.SendToReady id:3 
+04-30 15:48:09.373 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.373 27349 27388 I Unity   : 
+04-30 15:48:09.374 27349 27388 I Unity   : Local client AddLocalPlayer Player(Clone) conn=0 
+04-30 15:48:09.374 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.374 27349 27388 I Unity   : 
+04-30 15:48:09.375 27349 27388 I Unity   : SetLocalObject 1 Player(Clone) (UnityEngine.GameObject) 
+04-30 15:48:09.375 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.375 27349 27388 I Unity   : 
+04-30 15:48:09.377 27349 27388 W Unity   : ClientScene::InternalAddPlayer: playerControllerId : 0 
+04-30 15:48:09.377 27349 27388 W Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.377 27349 27388 W Unity   : 
+04-30 15:48:09.382 27349 27388 I Unity   : Successfully connected to server. 
+04-30 15:48:09.382 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:09.382 27349 27388 I Unity   : 
+04-30 15:48:10.076 27349 27388 E Unity   : Unable to find _burst_generated
+04-30 15:48:11.354 27349 27388 I Unity   : 앵커 없음 
+04-30 15:48:11.354 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:11.354 27349 27388 I Unity   : 
+04-30 15:48:16.316 27349 27388 I Unity   : parasite success 
+04-30 15:48:16.316 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:16.316 27349 27388 I Unity   : 
+04-30 15:48:16.338 27349 27388 I Unity   : 앵커 없음 
+04-30 15:48:16.338 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:16.338 27349 27388 I Unity   : 
+04-30 15:48:21.339 27349 27388 I Unity   : parasite success 
+04-30 15:48:21.339 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:21.339 27349 27388 I Unity   : 
+04-30 15:48:21.375 27349 27388 I Unity   : 앵커 없음 
+04-30 15:48:21.375 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:21.375 27349 27388 I Unity   : 
+04-30 15:48:26.374 27349 27388 I Unity   : parasite success 
+04-30 15:48:26.374 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:26.374 27349 27388 I Unity   : 
+04-30 15:48:26.408 27349 27388 I Unity   : 앵커 없음 
+04-30 15:48:26.408 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:26.408 27349 27388 I Unity   : 
+04-30 15:48:30.942 27349 27388 I Unity   : OnStartServer Anchor(Clone) (UnityEngine.GameObject) GUID:2 
+04-30 15:48:30.942 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:30.942 27349 27388 I Unity   : 
+04-30 15:48:30.942 27349 27388 I Unity   : SetLocalObjectOnServer 2 Anchor(Clone) (UnityEngine.GameObject) 
+04-30 15:48:30.942 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:30.942 27349 27388 I Unity   : 
+04-30 15:48:30.942 27349 27388 I Unity   : SetLocalObject 2 Anchor(Clone) (UnityEngine.GameObject) 
+04-30 15:48:30.942 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:30.942 27349 27388 I Unity   : 
+04-30 15:48:30.942 27349 27388 I Unity   : SetLocalObject 2 Anchor(Clone) (UnityEngine.GameObject) 
+04-30 15:48:30.942 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:30.942 27349 27388 I Unity   : 
+04-30 15:48:30.943 27349 27388 I Unity   : OnStartClient Anchor(Clone) (UnityEngine.GameObject) GUID:2 localPlayerAuthority:True 
+04-30 15:48:30.943 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:30.943 27349 27388 I Unity   : 
+04-30 15:48:30.944 27349 27388 I Unity   : SpawnObject instance ID 2 asset ID d7e51cffc46904f65957fa3aeb255467 
+04-30 15:48:30.944 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:30.944 27349 27388 I Unity   : 
+04-30 15:48:30.944 27349 27388 I Unity   : Added observer localClient added for Anchor(Clone) (UnityEngine.GameObject) 
+04-30 15:48:30.944 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:30.944 27349 27388 I Unity   : 
+04-30 15:48:30.950 27349 27388 I Unity   : Duplicate observer localClient added for Anchor(Clone) (UnityEngine.GameObject) 
+04-30 15:48:30.950 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:30.950 27349 27388 I Unity   : 
+04-30 15:48:31.401 27349 27388 I Unity   : parasite success 
+04-30 15:48:31.401 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:31.401 27349 27388 I Unity   : 
+04-30 15:48:31.435 27349 27388 I Unity   : 앵커 없음 
+04-30 15:48:31.435 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:31.435 27349 27388 I Unity   : 
+04-30 15:48:34.916 27349 27388 I Unity   : Update Cloud Anchor Id with: ua-b4e5bf3e3f9a37ae97c98ad096c11b57 
+04-30 15:48:34.916 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:34.916 27349 27388 I Unity   : 
+04-30 15:48:34.922 27349 27388 I Unity   : SetSyncVar AnchorController bit [1] ->ua-b4e5bf3e3f9a37ae97c98ad096c11b57 
+04-30 15:48:34.922 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:34.922 27349 27388 I Unity   : 
+04-30 15:48:36.448 27349 27388 I Unity   : parasite success 
+04-30 15:48:36.448 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:36.448 27349 27388 I Unity   : 
+04-30 15:48:36.484 27349 27388 I Unity   : 앵커 없음 
+04-30 15:48:36.484 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:36.484 27349 27388 I Unity   : 
+04-30 15:48:39.469 27349 27388 I Unity   : OnStartServer Star(Clone) (UnityEngine.GameObject) GUID:3 
+04-30 15:48:39.469 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:39.469 27349 27388 I Unity   : 
+04-30 15:48:39.470 27349 27388 I Unity   : SetLocalObjectOnServer 3 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:48:39.470 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:39.470 27349 27388 I Unity   : 
+04-30 15:48:39.470 27349 27388 I Unity   : SetLocalObject 3 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:48:39.470 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:39.470 27349 27388 I Unity   : 
+04-30 15:48:39.470 27349 27388 I Unity   : SetLocalObject 3 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:48:39.470 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:39.470 27349 27388 I Unity   : 
+04-30 15:48:39.470 27349 27388 I Unity   : OnStartClient Star(Clone) (UnityEngine.GameObject) GUID:3 localPlayerAuthority:False 
+04-30 15:48:39.470 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:39.470 27349 27388 I Unity   : 
+04-30 15:48:39.470 27349 27388 I Unity   : SpawnObject instance ID 3 asset ID c162c528b139240d0881c95be8c04f2b 
+04-30 15:48:39.470 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:39.470 27349 27388 I Unity   : 
+04-30 15:48:39.470 27349 27388 I Unity   : Added observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:48:39.470 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:39.470 27349 27388 I Unity   : 
+04-30 15:48:39.470 27349 27388 I Unity   : Duplicate observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:48:39.470 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:39.470 27349 27388 I Unity   : 
+04-30 15:48:41.008 27349 27388 I Unity   : OnStartServer Star(Clone) (UnityEngine.GameObject) GUID:4 
+04-30 15:48:41.008 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:41.008 27349 27388 I Unity   : 
+04-30 15:48:41.008 27349 27388 I Unity   : SetLocalObjectOnServer 4 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:48:41.008 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:41.008 27349 27388 I Unity   : 
+04-30 15:48:41.008 27349 27388 I Unity   : SetLocalObject 4 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:48:41.008 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:41.008 27349 27388 I Unity   : 
+04-30 15:48:41.011 27349 27388 I Unity   : SetLocalObject 4 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:48:41.011 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:41.011 27349 27388 I Unity   : 
+04-30 15:48:41.011 27349 27388 I Unity   : OnStartClient Star(Clone) (UnityEngine.GameObject) GUID:4 localPlayerAuthority:False 
+04-30 15:48:41.011 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:41.011 27349 27388 I Unity   : 
+04-30 15:48:41.012 27349 27388 I Unity   : SpawnObject instance ID 4 asset ID c162c528b139240d0881c95be8c04f2b 
+04-30 15:48:41.012 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:41.012 27349 27388 I Unity   : 
+04-30 15:48:41.012 27349 27388 I Unity   : Added observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:48:41.012 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:41.012 27349 27388 I Unity   : 
+04-30 15:48:41.012 27349 27388 I Unity   : Duplicate observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:48:41.012 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:41.012 27349 27388 I Unity   : 
+04-30 15:48:41.472 27349 27388 I Unity   : parasite success 
+04-30 15:48:41.472 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:41.472 27349 27388 I Unity   : 
+04-30 15:48:41.509 27349 27388 I Unity   : 앵커 없음 
+04-30 15:48:41.509 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:41.509 27349 27388 I Unity   : 
+04-30 15:48:41.739 27349 27388 I Unity   : OnStartServer Star(Clone) (UnityEngine.GameObject) GUID:5 
+04-30 15:48:41.739 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:41.739 27349 27388 I Unity   : 
+04-30 15:48:41.739 27349 27388 I Unity   : SetLocalObjectOnServer 5 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:48:41.739 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:41.739 27349 27388 I Unity   : 
+04-30 15:48:41.739 27349 27388 I Unity   : SetLocalObject 5 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:48:41.739 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:41.739 27349 27388 I Unity   : 
+04-30 15:48:41.740 27349 27388 I Unity   : SetLocalObject 5 Star(Clone) (UnityEngine.GameObject) 
+04-30 15:48:41.740 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:41.740 27349 27388 I Unity   : 
+04-30 15:48:41.740 27349 27388 I Unity   : OnStartClient Star(Clone) (UnityEngine.GameObject) GUID:5 localPlayerAuthority:False 
+04-30 15:48:41.740 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:41.740 27349 27388 I Unity   : 
+04-30 15:48:41.740 27349 27388 I Unity   : SpawnObject instance ID 5 asset ID c162c528b139240d0881c95be8c04f2b 
+04-30 15:48:41.740 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:41.740 27349 27388 I Unity   : 
+04-30 15:48:41.740 27349 27388 I Unity   : Added observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:48:41.740 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:41.740 27349 27388 I Unity   : 
+04-30 15:48:41.740 27349 27388 I Unity   : Duplicate observer localClient added for Star(Clone) (UnityEngine.GameObject) 
+04-30 15:48:41.740 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:41.740 27349 27388 I Unity   : 
+04-30 15:48:46.504 27349 27388 I Unity   : parasite success 
+04-30 15:48:46.504 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:46.504 27349 27388 I Unity   : 
+04-30 15:48:46.538 27349 27388 I Unity   : 앵커 없음 
+04-30 15:48:46.538 27349 27388 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+04-30 15:48:46.538 27349 27388 I Unity   : 
+04-30 15:48:47.086 27349 27388 I Unity   : Network layer will still work after application suspends 
+04-30 15:48:47.086 27349 27388 I Unity   : (Filename:  Line: 148)
+04-30 15:48:47.086 27349 27388 I Unity   : 
