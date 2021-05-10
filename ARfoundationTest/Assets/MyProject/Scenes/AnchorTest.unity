@@ -663,15 +663,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbeb4e54b77b5f142ad4f12919da3f15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkstate: 2
   sessionOrigin: {fileID: 493612333}
   raycastManager: {fileID: 493612334}
   anchorManager: {fileID: 493612337}
-  cloudid: ua-d65003aac424eab3ecbdb40fcb70725c
+  cloudid: ua-848a0a22b10d43a164323daa7e3aa05e
   anchorprefeb: {fileID: 100000, guid: 669ee420d8ea8449f91df60d461f6e3d, type: 3}
-  Mapindicatorprefeb: {fileID: 0}
   checktext: {fileID: 40919616}
-  count: 0
-  checkstate: 2
+  MappingPrefeb: {fileID: 1627662587363780, guid: 91e902992b96240738192b547cbbed35,
+    type: 3}
 --- !u!4 &776352307
 Transform:
   m_ObjectHideFlags: 0
@@ -844,6 +844,7 @@ GameObject:
   - component: {fileID: 1092493620}
   - component: {fileID: 1092493618}
   - component: {fileID: 1092493619}
+  - component: {fileID: 1092493623}
   m_Layer: 0
   m_Name: AR Camera
   m_TagString: Untagged
@@ -951,6 +952,22 @@ Transform:
   m_Father: {fileID: 493612332}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1092493623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092493617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b15f82cc229284894964d2d30806969d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HumanSegmentationStencilMode: 0
+  m_HumanSegmentationDepthMode: 0
+  m_EnvironmentDepthMode: 2
+  m_OcclusionPreferenceMode: 0
 --- !u!1 &1295583994
 GameObject:
   m_ObjectHideFlags: 0

@@ -94,6 +94,7 @@
     <Compile Include="Assets\Samples\ARCore Extensions\1.23.0\Persistent Cloud Anchor Sample\Scripts\PersistentCloudAnchorsController.cs" />
     <Compile Include="Assets\Samples\ARCore Extensions\1.23.0\Persistent Cloud Anchor Sample\Scripts\ResolveMenuManager.cs" />
     <Compile Include="Assets\Samples\ARCore Extensions\1.23.0\Persistent Cloud Anchor Sample\Scripts\SafeAreaScaler.cs" />
+    <None Include="Assets\hello_world.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

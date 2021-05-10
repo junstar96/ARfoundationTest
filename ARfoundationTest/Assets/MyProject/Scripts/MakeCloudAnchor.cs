@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 using Google.XR.ARCoreExtensions;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
+using System.IO;
 using Google.XR.ARCoreExtensions.Samples.PersistentCloudAnchors;
 
 public class MakeCloudAnchor : MonoBehaviour
@@ -17,31 +18,97 @@ public class MakeCloudAnchor : MonoBehaviour
         none
     }
 
+    public MakeState checkstate = MakeState.none;
+
     [Header("ARfoundation")]
     public ARSessionOrigin sessionOrigin;
     public ARRaycastManager raycastManager;
     public ARAnchorManager anchorManager;
-    public string cloudid = "ua-4b1baaa4cf2e631af4471299bb5bd1b6";
+    public string cloudid = string.Empty;
 
     [Space(4)]
     [Header("Prefeb")]
     public GameObject anchorprefeb;
-    public GameObject Mapindicatorprefeb;
     public UnityEngine.UI.Text checktext;
+    public GameObject MappingPrefeb;
 
 
     private ARAnchor anchor;
     private List<ARCloudAnchor> pendingcloudanchor = new List<ARCloudAnchor>();
     private bool check = false;
-    public int count = 0;
-    public MakeState checkstate = MakeState.none;
+    private MapQualityIndicator _qualityIndicator = null;
+
+
+    private int count = 0;
+    
+    
+
 
     private ARCloudAnchor cloudanchor = null;
 
+
     // Start is called before the first frame update
+    private void Start()
+    {
+        //Debug.Log("Application.persistentDataPath :" + Application.persistentDataPath);
+        //Debug.Log("Application.dataPath" + Application.dataPath);
+        //Debug.Log("Application.streamingAssetsPath"+Application.streamingAssetsPath);
+        //fileinfo = new FileInfo(Application.dataPath + "//" + "test.txt");
+    }
+
+    public void MakeFile()
+    {
+
+        var filepath = Application.persistentDataPath + "/hello_world.txt";
+        if(!File.Exists(filepath))
+        {
+            Debug.Log("now make");
+            using(File.Create(filepath))
+            {
+                
+                
+            }
+            using (StreamWriter sw = new StreamWriter(filepath))
+            {
+                Debug.Log(cloudid);
+                sw.WriteLine(cloudid);
+                sw.Close();
+            }
+        }
+        else
+        {
+            Debug.Log("already make");
+            using (StreamWriter sw = new StreamWriter(filepath))
+            {
+                Debug.Log(cloudid);
+                sw.WriteLine(cloudid);
+                sw.Close();
+            }
+        }
+        
+
+        
+
+    }
+
+    public void ReadFile()
+    {
+        var filepath = Application.persistentDataPath + "/hello_world.txt";
+        string line = string.Empty;
+        using(StreamReader sr = new StreamReader(filepath))
+        {
+            while((line = sr.ReadLine()) != null)
+            {
+                cloudid = line;
+                
+            }
+        }
+    }
+
 
     private void Update()
     {
+     
         if (!sessionOrigin.gameObject.activeSelf)
         {
             return;
@@ -76,7 +143,7 @@ public class MakeCloudAnchor : MonoBehaviour
                         {
                             return;
                         }
-
+                        var planeType = PlaneAlignment.HorizontalUp;
                         // Ignore the touch if it's pointing on UI objects.
                         if (EventSystem.current.IsPointerOverGameObject(touch.fingerId))
                         {
@@ -91,6 +158,21 @@ public class MakeCloudAnchor : MonoBehaviour
                         var hitpose = hits[0].pose;
 
                         anchor = anchorManager.AddAnchor(hitpose);
+
+                        if(anchor != null)
+                        {
+                            Instantiate(anchorprefeb, anchor.transform);
+
+                            // Attach map quality indicator to this anchor.
+                            var indicatorGO =
+                                Instantiate(MappingPrefeb, anchor.transform);
+                            _qualityIndicator = indicatorGO.GetComponent<MapQualityIndicator>();
+                            _qualityIndicator.DrawIndicator(planeType, sessionOrigin.camera);
+                            
+
+ 
+                        }
+                        
 
 
                     }
@@ -114,6 +196,7 @@ public class MakeCloudAnchor : MonoBehaviour
     {
         
         check = true;
+        ReadFile();
         cloudanchor = anchorManager.ResolveCloudAnchorId(cloudid);
        
         
@@ -150,6 +233,7 @@ public class MakeCloudAnchor : MonoBehaviour
         check = true;
        
         yield return new WaitForSeconds(5);
+
         cloudanchor = anchorManager.HostCloudAnchor(anchor);
 
 
@@ -180,7 +264,9 @@ public class MakeCloudAnchor : MonoBehaviour
             {
                 
                 checktext.text = "cloud id : " + cloudanchor.cloudAnchorId + " \n" + "count : " + count;
-                Debug.Log("cloud id : " + cloudanchor.cloudAnchorId);
+                cloudid = cloudanchor.cloudAnchorId;
+                //Debug.Log("cloud id : " + cloudanchor.cloudAnchorId);
+                MakeFile();
                 break;
             }
             yield return null;
@@ -198,4 +284,7 @@ public class MakeCloudAnchor : MonoBehaviour
     {
         checkstate = MakeState.Resolve;
     }
+
+
+   
 }

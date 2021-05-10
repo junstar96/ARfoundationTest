@@ -2,9 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
+using System.Net;
+using System.IO;
+using System.Xml;
 public class OauthTest : MonoBehaviour
 {
     private static string loopbackURL = "http://localhost/7000";
+    public XmlDocument IDcontainer = new XmlDocument();
+    public XmlDeclaration xmldeco;
 
     public static string LoopBackURL
     {
@@ -41,6 +46,22 @@ public class OauthTest : MonoBehaviour
     {
         
 
+
         return true;
+    }
+
+    private void MakeXmlFile()
+    {
+        xmldeco = IDcontainer.CreateXmlDeclaration("1.0", "UTF-8", null);
+        IDcontainer.AppendChild(xmldeco);
+        XmlElement root = IDcontainer.CreateElement("inventory");
+        IDcontainer.AppendChild(root);
+
+        XmlElement item = (XmlElement)root.AppendChild(IDcontainer.CreateElement("Field"));
+
+        item.SetAttribute("maxvalue", "20");
+        item.SetAttribute("minvalue", "10");
+        item.SetAttribute("name", "elan");
+       
     }
 }
